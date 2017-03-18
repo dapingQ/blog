@@ -1,0 +1,54 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+    <!--grid css-->
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/grid/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/grid/css/component.css" />
+    <script src="{{ site.url }}/assets/grid/js/modernizr.custom.js"></script>
+
+</head>
+<body>
+    {% include nav.html %}
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title">
+                    <h1>{{ page.title }}</h1>
+                    {{% if page.title %}}
+                    <h4>{{ page.date }}</h4>
+                    {{% endif %}}
+                    <a class="btn zoombtn" href="{{ site.url }}">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </div>
+                
+                {{ content }}
+                
+    
+            </div>
+        </div>
+        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
+    </header>
+    
+    <!--grid js-->
+    <script src="{{ site.url }}/assets/grid/js/imagesloaded.pkgd.min.js"></script>
+    <script src="{{ site.url }}/assets/grid/js/masonry.pkgd.min.js"></script>
+    <script src="{{ site.url }}/assets/grid/js/classie.js"></script>
+    <script src="{{ site.url }}/assets/grid/js/cbpGridGallery.js"></script>
+    <script>
+      new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+    </script>
+
+    {% include scripts.html %}
+    <script src="{{ site.url }}/assets/js/wow.min.js"></script>
+    <script type="text/javascript">(new WOW).init();</script>
+</body>
+</html>
