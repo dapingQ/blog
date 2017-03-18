@@ -7,7 +7,7 @@ words_per_minute:   200
 logo:               'assets/img/logo.JPG'
 background:         'assets/img/background.jpg'
 locale:             en_US
-url:                "http://fibomat.github.io/blog"
+url:                'https://fibomat.github.io/blog'
 
 
 # Jekyll
