@@ -5,18 +5,28 @@ date: 2016-03-21
 comment: true
 ---
 
-## Zhenghao Zehnhoff Yin
+## Zehnhoff Yin
 
 ### Education
-- Nanjing University
+- Kyoto University
+- Nanjing University (Sept. 2013 - Jun. 2017)
 
 ### Reaserch Interests
-- Integrated Photonics
-- Quantum Information
+- Quantum Information Processing
+- Intergrated Photonics Devices
 
-### Non-academic Interests
-- Linux Development
+### Skills 
+- Web Development
+  - Front-end (*ES2015*, React/Antd)
+  - Back-end (*RESTful*, Flask)
+  - Vitualization 
 - History of Science
+
+### Hobbies
+- Cycling 
+  - [Strava](https://www.strava.com/athletes/12094067) 
+  - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
+- Music ([Netease Music](http://music.163.com/#/user/home?id=34072848))
 
 ### Contact
 - E-mail: fibomat@gmail.com; dpcao@smail.nju.edu.cn
