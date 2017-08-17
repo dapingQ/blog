@@ -5,31 +5,38 @@ date: 2016-03-21
 comment: true
 ---
 
-## Zehnhoff Yin
+## Zhenghao Yin
 
 ### Education
-- Kyoto University
-- Nanjing University (Sept. 2013 - Jun. 2017)
+  - Kyoto University
+  - Nanjing University (Sept. 2013 - Jun. 2017)
 
 ### Reaserch Interests
-- Quantum Information Processing
-- Intergrated Photonics Devices
+  - Quantum Information Processing
+    - Optical Quantum Computation
+    - Bell States Measurement
+    - Practical Quantum Key Distribution
+  - Intergrated Photonics Devices
 
-### Skills 
-- Web Development
-  - Front-end (*ES2015*, React/Antd)
-  - Back-end (*RESTful*, Flask)
-  - Vitualization 
-- History of Science
+### Skills
+  - EDA
+    - Cadence SKILL (IC/Virtuoso)
+    - Layout Editor
+    - Other Free paltforms
+  - Web Development
+    - Front-end
+    - Back-end
+    - Vitualization 
 
 ### Hobbies
-- Cycling 
-  - [Strava](https://www.strava.com/athletes/12094067) 
-  - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
-- Music ([Netease Music](http://music.163.com/#/user/home?id=34072848))
+  - Cycling 
+    - [Strava](https://www.strava.com/athletes/12094067) 
+    - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
+  - Music 
+    -[Netease Music](http://music.163.com/#/user/home?id=34072848)
 
 ### Contact
-- E-mail: fibomat@gmail.com; dpcao@smail.nju.edu.cn
-- Address: 22 Hankou, Nanjing, Jiangsu, China
+  - E-mail: fibomat@gmail.com; dpcao@smail.nju.edu.cn
+  - Address: 22 Hankou, Nanjing, Jiangsu, China
 
 <a href="{{ site.url }}/about/zh" class="btn">Chinese About</a>
