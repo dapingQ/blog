@@ -1,7 +1,7 @@
 # Site
-title:              
-bio:                'Scio me nihil scire.'
-description:        "Dwell in possibility"
+# title:            'Scio me nihil scire.'
+# bio:                'Scio me nihil scire.'
+# description:        "Dwell in possibility"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.JPG'
