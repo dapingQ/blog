@@ -32,4 +32,4 @@ comment: true
 - E-mail: fibomat@gmail.com; dpcao@smail.nju.edu.cn
 - Address: 22 Hankou, Nanjing, Jiangsu, China
 
-<a href="/about/zh" class="btn">Chinese About</a>
+<a href="{{ site.url }}/about/zh" class="btn">Chinese About</a>
