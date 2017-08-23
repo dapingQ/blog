@@ -6,6 +6,7 @@ comment: true
 ---
 
 ## Zhenghao Yin
+## 殷 政浩
 
 ### Education
   - Kyoto University
