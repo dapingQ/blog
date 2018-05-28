@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=6.3.0">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=6.3.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Mist',
+    version: '6.3.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="//声明全局变量，科学常数     var c = 2.99792458e8;     var e = 1.6021892e-19;     var h = 6.626176e-34;      var TWMFlag = new Array(-1, -1); //两个元素分别记录最近点击嘅两个文本框。     var etalonFlag1 = -1;     var etalon">
+<meta name="keywords" content="Quantum Information,Physics,Photonics,Electronics">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Scio me nihil scire">
+<meta property="og:url" content="http://fibomat.github.io/blog/optical/index.html">
+<meta property="og:site_name" content="Scio me nihil scire">
+<meta property="og:description" content="//声明全局变量，科学常数     var c = 2.99792458e8;     var e = 1.6021892e-19;     var h = 6.626176e-34;      var TWMFlag = new Array(-1, -1); //两个元素分别记录最近点击嘅两个文本框。     var etalonFlag1 = -1;     var etalon">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-05-28T09:19:12.910Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Scio me nihil scire">
+<meta name="twitter:description" content="//声明全局变量，科学常数     var c = 2.99792458e8;     var e = 1.6021892e-19;     var h = 6.626176e-34;      var TWMFlag = new Array(-1, -1); //两个元素分别记录最近点击嘅两个文本框。     var etalonFlag1 = -1;     var etalon">
+
+
+
+
+
+
+  <link rel="canonical" href="http://fibomat.github.io/blog/optical/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title> | Scio me nihil scire</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Scio me nihil scire</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">zur QuantenPhysik</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/blog/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Home</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/blog/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/blog/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />About</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/blog/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-sitemap">
+    <a href="/blog/sitemap.xml" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />Sitemap</a>
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline"></h1>
+
+<div class="post-meta">
+  
+  
+
+
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+        
+          <!-- <style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "微软雅黑";
+    }
+    
+    body {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .box table tr td {
+        text-indent: 0.5em;
+    }
+    
+    .etalon {
+        width: 90px;
+    }
+    
+    .main {
+        width: 480px;
+        margin: 0 auto;
+        text-align: left;
+        padding: 10px;
+        border-left: #cccccc 1px solid;
+        border-right: #cccccc 1px solid;
+        box-shadow: 0 1px 5px #cccccc;
+        -moz-box-shadow: 0 1px 5px #cccccc;
+        -webkit-box-shadow: 0 1px 5px #cccccc;
+        margin-top: auto;
+    }
+    
+    .box {
+        clear: both;
+        width: 980px;
+        padding: 10px 0 10px 0;
+        vertical-align: baseline;
+    }
+    
+    .box .title {
+        border: #eeeeee 1px solid;
+        background-color: #fafafa;
+        border-left: #e45836 4px solid;
+        margin-bottom: 10px;
+        color: #444444;
+        font-size: 17px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    .band {
+        width: 110px;
+    }
+    
+    .resonator {
+        width: 110px;
+    }
+    
+    .largeTitle {
+        font-size: 22px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .footer {
+        width: 501.6px;
+        font-size: 14px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        border-top: #e45836 thick solid;
+        margin: 0 auto;
+    }
+    
+    .footer a {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        text-decoration: underline;
+    }
+</style> -->
+<!--<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>-->
+<script type="text/javascript">
+    //声明全局变量，科学常数
+    var c = 2.99792458e8;
+    var e = 1.6021892e-19;
+    var h = 6.626176e-34;
+
+    var TWMFlag = new Array(-1, -1); //两个元素分别记录最近点击嘅两个文本框。
+    var etalonFlag1 = -1;
+    var etalonFlag2 = -1;
+
+
+    function energyCal(i) {
+        var inputs = document.getElementsByName("energy");
+        var nm; //无论输入单位系咩，都转换到nm先。
+        var input = parseFloat(inputs[i].value); //强制转换为数值
+        var num = 9; //有效数字嘅位数
+        if (input != NaN) {
+            for (var j = 0; j < inputs.length; j++)
+                inputs[j].style.color = "black";
+            inputs[i].style.color = "#e45836"; //基准输入显示蓝色。
+            switch (i) {
+                case 0:
+                    nm = input;
+                    break;
+                case 1:
+                    nm = input * 1000.0;
+                    break;
+                case 2:
+                    nm = 1.0e9 / (input * e / h / c);
+                    break;
+                case 3:
+                    nm = 1.0e7 / input;
+                    break;
+                case 4:
+                    nm = c / (input * 1e12) * 1e9;
+                    break;
+                case 5:
+                    nm = c / (input * 1e9) * 1e9;
+                    break;
+            }
+            if (i != 0) inputs[0].value = parseFloat(nm).toPrecision(5); //因为文本框嘅长度唔够，保留5只有效数字。
+            if (i != 1) inputs[1].value = parseFloat(nm / 1000.0).toPrecision(num);
+            if (i != 2) inputs[2].value = parseFloat((1e9 / nm) * c * h / e).toPrecision(num);
+            if (i != 3) inputs[3].value = parseFloat(1.0e7 / nm).toPrecision(num);
+            if (i != 4) inputs[4].value = parseFloat(c / 1e12 / (nm * 1e-9)).toPrecision(num);
+            if (i != 5) inputs[5].value = parseFloat(c / 1e9 / (nm * 1e-9)).toPrecision(num);
+        }
+    }
+
+    function bandwidthCalc1() {
+        var inputs = document.getElementsByClassName("band");
+        var wavenumber = parseFloat(inputs[0].value);
+        var bandwidth = parseFloat(inputs[1].value);
+        for (var j = 0; j < inputs.length; j++)
+            inputs[j].style.color = "black";
+        inputs[0].style.color = "#e45836"; //基准输入显示蓝色。
+        inputs[1].style.color = "#e45836"; //基准输入显示蓝色。
+        inputs[2].value = wavenumber / 0.03335640951981521;
+        inputs[3].value = bandwidth / 0.03335640951981521 * 1000;
+        inputs[4].value = 1.0e7 / wavenumber;
+        inputs[5].value = bandwidth / wavenumber * inputs[4].value;
+        inputs[6].value = wavenumber * 0.000123985207;
+        inputs[7].value = bandwidth / wavenumber * inputs[6].value * 1000;
+        for (var j = 0; j < inputs.length; j++)
+            if (j != 0 && j != 1) inputs[j].value = parseFloat(inputs[j].value).toPrecision(7);
+            //有效数字转换
+    }
+
+    function bandwidthCalc2() {
+        var inputs = document.getElementsByClassName("band");
+        var freq = parseFloat(inputs[2].value);
+        var bandwidth = parseFloat(inputs[3].value);
+        for (var j = 0; j < inputs.length; j++)
+            inputs[j].style.color = "black";
+        inputs[2].style.color = "#e45836";
+        inputs[3].style.color = "#e45836";
+        inputs[0].value = freq * 0.03335640951981521;
+        inputs[1].value = bandwidth * 0.03335640951981521 / 1000;
+        inputs[4].value = 1.0e7 / inputs[0].value;
+        inputs[5].value = bandwidth / 1000 / freq * inputs[4].value;
+        inputs[6].value = parseFloat(inputs[0].value) * 0.000123985207;
+        inputs[7].value = bandwidth / freq * inputs[6].value;
+        for (var j = 0; j < inputs.length; j++)
+            if (j != 2 && j != 3) inputs[j].value = parseFloat(inputs[j].value).toPrecision(7);
+            //有效数字转换
+    }
+
+    function bandwidthCalc3() {
+        var inputs = document.getElementsByClassName("band");
+        var wavelength = parseFloat(inputs[4].value);
+        var bandwidth = parseFloat(inputs[5].value);
+        for (var j = 0; j < inputs.length; j++)
+            inputs[j].style.color = "black";
+        inputs[4].style.color = "#e45836";
+        inputs[5].style.color = "#e45836";
+        inputs[0].value = 1e7 / wavelength;
+        inputs[1].value = inputs[0].value * bandwidth / wavelength;
+        inputs[2].value = inputs[0].value / 0.03335640951981521;
+        inputs[3].value = inputs[1].value / 0.03335640951981521 * 1000;
+        inputs[6].value = parseFloat(inputs[0].value) * 0.000123985207;
+        inputs[7].value = bandwidth / wavelength * inputs[6].value * 1000;
+        for (var j = 0; j < inputs.length; j++)
+            if (j != 4 && j != 5) inputs[j].value = parseFloat(inputs[j].value).toPrecision(7);
+            //有效数字转换
+    }
+
+    function bandwidthCalc4() {
+        var inputs = document.getElementsByClassName("band");
+        var energy = parseFloat(inputs[6].value);
+        var deltaEnergy = parseFloat(inputs[7].value) / 1000;
+        for (var j = 0; j < inputs.length; j++)
+            inputs[j].style.color = "black";
+        inputs[6].style.color = "#e45836";
+        inputs[7].style.color = "#e45836";
+        inputs[0].value = energy * 8065.47835;
+        inputs[1].value = inputs[0].value * deltaEnergy / energy;
+        inputs[2].value = energy * 241796.958;
+        inputs[3].value = inputs[2].value * deltaEnergy / energy * 1000;
+        inputs[4].value = 1239.9 / energy;
+        inputs[5].value = inputs[4].value * deltaEnergy / energy;
+        for (var j = 0; j < inputs.length; j++)
+            if (j != 6 && j != 7) inputs[j].value = parseFloat(inputs[j].value).toPrecision(7);
+            //有效数字转换
+    }
+
+    function pressureCalc(i) {
+        var inputs = document.getElementsByClassName("pressure");
+        var input = parseFloat(inputs[i].value);
+        for (var j = 0; j < inputs.length; j++)
+            inputs[j].style.color = "black";
+        inputs[i].style.color = "#e45836";
+        switch (i) {
+            case 0:
+                inputs[1].value = input * 133.322;
+                break;
+            case 1:
+                break;
+            case 2:
+                inputs[1].value = input * 1e5;
+                break;
+            case 3:
+                inputs[1].value = input * 6894.757;
+                break;
+            case 4:
+                inputs[1].value = input * 101325;
+                break;
+            case 5:
+                inputs[1].value = input * 249.088908333;
+                break;
+        }
+        if (i != 0) inputs[0].value = inputs[1].value / 133.332;
+        if (i != 2) inputs[2].value = inputs[1].value / 1e5;
+        if (i != 3) inputs[3].value = inputs[1].value / 6894.757;
+        if (i != 4) inputs[4].value = inputs[1].value / 101325;
+        if (i != 5) inputs[5].value = inputs[1].value / 249.088908333;
+        for (var j = 0; j < inputs.length; j++)
+            if (j != i) inputs[j].value = parseFloat(inputs[j].value).toPrecision(7);
+    }
+
+    function TWMCalc(i) {
+        var j;
+        var inputData = document.getElementsByClassName("TWM");
+        var inputUnit = document.getElementsByClassName("TWMUnit");
+        if (i != TWMFlag[0]) //假如本次点击嘅对象唔同，改变旗标（计算基准）。
+        {
+            TWMFlag[1] = TWMFlag[0];
+            TWMFlag[0] = i;
+        }
+        for (j = 0; j < inputData.length; j++) {
+            inputData[j].style.color = "black";
+            inputUnit[j].style.color = "black";
+        }
+        //从Flag中揾到两个基准，改变颜色。保存基准数据。
+        var w = new Array(4);
+        for (j in TWMFlag) {
+            if (TWMFlag[j] != -1) {
+                inputData[TWMFlag[j]].style.color = "#e45836";
+                inputUnit[TWMFlag[j]].style.color = "#e45836";
+                w[TWMFlag[j]] = parseFloat(inputData[TWMFlag[j]].value);
+            }
+        }
+        //以波数储存
+
+        for (j = 0; j < 4; j++) {
+            switch (inputUnit[j].selectedIndex) {
+                case 0:
+                    w[j] = 1.0e7 / w[j];
+                    break;
+                case 1:
+                    w[j] = w[j] * 1e7 / c;
+                    break;
+                case 2:
+                    w[j] = w[j] * 1e4 / c;
+                    break;
+                case 3:
+                    break;
+            }
+        }
+        //求解
+        if (TWMFlag[0] != -1 && TWMFlag[1] != -1) {
+            var flagSort = new Array();
+            for (j in TWMFlag) flagSort[j] = TWMFlag[j];
+            if (flagSort[0] > flagSort[1]) //对Flag从小到大排。
+            {
+                var temp = flagSort[0];
+                flagSort[0] = flagSort[1];
+                flagSort[1] = temp;
+            }
+            //下面每一种情况单独列出，共有6个函数。
+            if (flagSort[0] == 0 && flagSort[1] == 1) {
+                var resultIndex = new Array(2, 3);
+                w[2] = w[0] + w[1];
+                w[3] = w[2] + w[0];
+            }
+            if (flagSort[0] == 0 && flagSort[1] == 2) {
+                var resultIndex = new Array(1, 3);
+                w[1] = w[2] - w[0];
+                w[3] = w[2] + w[0];
+            }
+            if (flagSort[0] == 0 && flagSort[1] == 3) {
+                var resultIndex = new Array(1, 2);
+                w[2] = w[3] - w[0];
+                w[1] = w[2] - w[0];
+            }
+            if (flagSort[0] == 1 && flagSort[1] == 2) {
+                var resultIndex = new Array(0, 3);
+                w[0] = w[2] - w[1];
+                w[3] = w[2] + w[0];
+            }
+            if (flagSort[0] == 1 && flagSort[1] == 3) {
+                var resultIndex = new Array(0, 2);
+                w[0] = (w[3] - w[1]) / 2.0;
+                w[2] = w[1] + w[0];
+            }
+            if (flagSort[0] == 2 && flagSort[1] == 3) {
+                var resultIndex = new Array(0, 1);
+                w[0] = w[3] - w[2];
+                w[1] = w[2] - w[0];
+            }
+            //验证答案嘅合理性
+            if (!(w[3] > w[2] && w[2] > w[1] && w[2] > w[0] && w[0] > 0 && w[1] > 0)) {
+                for (j in resultIndex)
+                    w[resultIndex[j]] = NaN;
+            }
+            //显示每个答案
+            for (j in resultIndex) {
+                var index = resultIndex[j];
+                var result; //转换单位嘅结果。
+                switch (inputUnit[index].selectedIndex) {
+                    case 0:
+                        result = 1.0e7 / w[index];
+                        break;
+                    case 1:
+                        result = w[index] * c / 1e7;
+                        break;
+                    case 2:
+                        result = w[index] * c / 1e4;
+                        break;
+                    case 3:
+                        result = w[index];
+                        break;
+                }
+                inputData[index].value = result.toPrecision(8);
+            }
+        }
+    }
+
+
+    function TWMCalc2(i) {
+        //总体策略：在输入部分改变单位，重新计算；在结果部分，转换结果单位。
+        if (i == TWMFlag[0] || i == TWMFlag[1])
+            TWMCalc(i);
+        else if (TWMFlag[0] != -1)
+            TWMCalc(TWMFlag[0]);
+    }
+
+    function FSRCalc(i) {
+        var inputs = document.getElementsByClassName("etalon");
+        var unit = document.getElementsByClassName("etalonUnit");
+        if (i == -1 && etalonFlag1 != -1) //etalonFlag记录咗上一次计算嘅基准。
+        {
+            FSRCalc(etalonFlag1);
+        } else if (i != -1) {
+            inputs[2].style.color = "black";
+            inputs[3].style.color = "black";
+            inputs[i].style.color = "#e45836";
+            etalonFlag1 = i;
+            var lambda = parseFloat(inputs[0].value);
+            var n = parseFloat(inputs[1].value);
+            var wavenumber = 1.0e7 / lambda;
+            var height = parseFloat(inputs[2].value);
+            var FSR = parseFloat(inputs[3].value);
+            var unitIndex = unit[0].selectedIndex;
+            if (i == 2) {
+                FSR = 5 / height / n;
+                switch (unitIndex) {
+                    case 0:
+                        break;
+                    case 1:
+                        FSR = FSR * 29.9792458;
+                        break;
+                    case 2:
+                        FSR = FSR * lambda / wavenumber;
+                }
+                inputs[3].value = FSR.toPrecision(5);
+            } else if (i == 3) {
+                switch (unitIndex) {
+                    case 0:
+                        break;
+                    case 1:
+                        FSR = FSR / 29.9792458;
+                        break;
+                    case 2:
+                        FSR = FSR * wavenumber / lambda;
+                }
+                height = 5 / FSR / n;
+                inputs[2].value = height.toPrecision(5);
+            }
+            resolutionCalc();
+        }
+    }
+
+
+
+    function finessCalc(i) {
+        var inputs = document.getElementsByClassName("etalon");
+        var unit = document.getElementsByClassName("etalonUnit");
+        if (i == -1 && etalonFlag2 != -1) //etalonFlag记录咗上一次计算嘅基准。
+        {
+            finessCalc(etalonFlag2);
+        } else if (i != -1) {
+            inputs[4].style.color = "black";
+            inputs[5].style.color = "black";
+            inputs[i].style.color = "#e45836";
+            etalonFlag2 = i;
+            r = parseFloat(inputs[4].value) / 100;
+            s = parseFloat(inputs[5].value);
+            if (i == 4) {
+                inputs[5].value = (Math.PI * Math.sqrt(r) / (1 - r)).toPrecision(5);
+            } else if (i == 5) {
+                inputs[4].value = ((s * s - s * Math.PI) / (s * s - Math.PI * Math.PI)).toPrecision(5) * 100;
+            }
+            resolutionCalc();
+        }
+    }
+
+    function resolutionCalc() {
+        var inputs = document.getElementsByClassName("etalon");
+        var unit = document.getElementsByClassName("etalonResolutionUnit");
+        var resultObject = document.getElementById("resolution");
+        var lambda = parseFloat(inputs[0].value);
+        var n = parseFloat(inputs[1].value);
+        var height = parseFloat(inputs[2].value);
+        var wavenumber = 1.0e7 / lambda;
+        var s = parseFloat(inputs[5].value);
+        var unitIndex = unit[0].selectedIndex;
+        var result = 1 / (2 / 20.7 * s * 2 * height * n)
+        switch (unitIndex) {
+            case 0:
+                break;
+            case 1:
+                result = result * 29.9792458;
+                break;
+            case 2:
+                result = lambda * result / wavenumber;
+        }
+        resultObject.innerHTML = result.toPrecision(3);
+    }
+
+    function resonatorCalc() {
+        var inputs = document.getElementsByClassName("resonator");
+        var r1 = parseFloat(inputs[0].value);
+        var r2 = parseFloat(inputs[1].value);
+        var l = parseFloat(inputs[2].value);
+        var lambda = parseFloat(inputs[3].value) / 1e6;
+        var g1 = 1 - l / r1;
+        var g2 = 1 - l / r2;
+        if (g1 * g2 > 0 && g1 * g2 < 1) {
+            var coeff = Math.pow((lambda / Math.PI), 2);
+            var waist = Math.pow((coeff * l * (r1 - l) * (r2 - l) * (r1 + r2 - l) / Math.pow((r1 + r2 - 2 * l), 2)), 1 / 4);
+            var theta = lambda * Math.PI / waist;
+            var w1 = Math.pow(coeff * l * l * g2 / g1 / (1 - g1 * g2), 1 / 4);
+            var w2 = Math.pow(coeff * l * l * g1 / g2 / (1 - g1 * g2), 1 / 4);
+            var z1 = l * (r2 - l) / (r1 + r2 - 2 * l);
+            var b = 2 * Math.pow(waist, 2) / lambda * Math.PI;
+            var deltaF = 10 / l / 2 //cm-1
+            var stableObject = document.getElementById("stable?");
+            stableObject.innerHTML = "此腔为稳定腔。"
+            var waistObject = document.getElementById("waist");
+            waistObject.innerHTML = waist.toPrecision(5) + "mm";
+            var thetaObject = document.getElementById("theta");
+            thetaObject.innerHTML = theta.toPrecision(5) + "Rad";
+            var w1Object = document.getElementById("w1");
+            w1Object.innerHTML = w1.toPrecision(5) + "mm";
+            var w2Object = document.getElementById("w2");
+            w2Object.innerHTML = w2.toPrecision(5) + "mm";
+            var z1Object = document.getElementById("z1");
+            z1Object.innerHTML = z1.toPrecision(5) + "mm";
+            var bObject = document.getElementById("b");
+            bObject.innerHTML = b.toPrecision(5) + "mm";
+            var fObject = document.getElementById("deltaF");
+            fObject.innerHTML = deltaF.toPrecision(5) + "cm<sup>-1<sub>";
+        } else if (g1 * g2 == 1) {
+            var stableObject = document.getElementById("stable?");
+            stableObject.innerHTML = "此腔为介稳腔。"
+            var results = document.getElementsByClassName("resonatorResult");
+            for (var j in results)
+                results[j].innerHTML = "";
+        } else if (g1 * g2 == 0) {
+            l = l + 0.000001;
+            g1 = 1 - l / r1;
+            g2 = 1 - l / r2
+            var coeff = Math.pow((lambda / Math.PI), 2);
+            var waist = Math.pow((coeff * l * (r1 - l) * (r2 - l) * (r1 + r2 - l) / Math.pow((r1 + r2 - 2 * l), 2)), 1 / 4);
+            var theta = lambda * Math.PI / waist;
+            var w1 = Math.pow(coeff * l * l * g2 / g1 / (1 - g1 * g2), 1 / 4);
+            var w2 = Math.pow(coeff * l * l * g1 / g2 / (1 - g1 * g2), 1 / 4);
+            var z1 = l * (r2 - l) / (r1 + r2 - 2 * l);
+            var b = 2 * Math.pow(waist, 2) / lambda * Math.PI;
+            var deltaF = 10 / l / 2 //cm-1
+            var stableObject = document.getElementById("stable?");
+            stableObject.innerHTML = "此腔为介稳腔。"
+            var waistObject = document.getElementById("waist");
+            waistObject.innerHTML = waist.toPrecision(5) + "mm";
+            var thetaObject = document.getElementById("theta");
+            thetaObject.innerHTML = theta.toPrecision(5) + "Rad";
+            var w1Object = document.getElementById("w1");
+            w1Object.innerHTML = w1.toPrecision(5) + "mm";
+            var w2Object = document.getElementById("w2");
+            w2Object.innerHTML = w2.toPrecision(5) + "mm";
+            var z1Object = document.getElementById("z1");
+            z1Object.innerHTML = z1.toPrecision(5) + "mm";
+            var bObject = document.getElementById("b");
+            bObject.innerHTML = b.toPrecision(5) + "mm";
+            var fObject = document.getElementById("deltaF");
+            fObject.innerHTML = deltaF.toPrecision(5) + "cm<sup>-1<sub>";
+        } else {
+            var stableObject = document.getElementById("stable?");
+            stableObject.innerHTML = "此腔为非稳腔。"
+            var results = document.getElementsByClassName("resonatorResult");
+            for (var j in results)
+                results[j].innerHTML = "";
+        }
+
+    }
+</script>
+
+
+<div class="main">
+
+    <div class="largeTitle">激光光学计算器</div>
+    <div class="box" style="width:100%">
+        <div class="title"> 能量换算 Energy Convertor</div>
+        <table width="100%" border="3" bordercolor="#FFFFFF" cellspacing="3">
+            <tbody>
+                <tr>
+                    <td><input type="text" onkeyup="energyCal(0)" id="nm" name="energy"> nm </td>
+                    <td><input type="text" onkeyup="energyCal(1)" id="mum" name="energy"> μm </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" onkeyup="energyCal(2)" id="ev" name="energy"> eV </td>
+                    <td><input type="text" onkeyup="energyCal(3)" id="wavenumber" name="energy"> cm<sup>-1</sup> </td>
+                </tr>
+                <tr>
+                    <td><input type="text" onkeyup="energyCal(4)" id="MHz" name="energy"> THz</td>
+                    <td><input type="text" onkeyup="energyCal(5)" id="ev" name="energy"> GHz</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box" style="width:100%">
+        <div class="title"> 线宽换算 Bandwidth Convertor</div>
+        <table width="100%" border="0" bordercolor="#FFFFFF" cellspacing="3">
+            <tbody>
+                <tr style="color:e45836;">
+                    <td>波长/频率</td>
+                    <td> 线宽 </td>
+                </tr>
+                <tr>
+                    <td>ṽ = <input type="text" class="band" onkeyup="bandwidthCalc1()" style="color: black;"> cm<sup>-1</sup></td>
+                    <td>Δṽ = <input type="text" class="band" onkeyup="bandwidthCalc1()" style="color: black;"> cm<sup>-1</sup> </td>
+                </tr>
+                <tr>
+                    <td>f =
+                        <input type="text" class="band" onkeyup="bandwidthCalc2()" style="color: rgb(228, 88, 54);"> GHz</td>
+                    <td>Δf =
+                        <input type="text" class="band" onkeyup="bandwidthCalc2()" style="color: rgb(228, 88, 54);"> MHz<sup></sup> </td>
+                </tr>
+                <tr>
+                    <td height="29">λ = <input type="text" class="band" onkeyup="bandwidthCalc3()" style="color: black;"> nm</td>
+                    <td>Δλ = <input type="text" class="band" onkeyup="bandwidthCalc3()" style="color: black;"> nm</td>
+                </tr>
+                <tr>
+                    <td height="29">E = <input type="text" class="band" onkeyup="bandwidthCalc4()" style="color: black;"> eV</td>
+                    <td>ΔE = <input type="text" class="band" onkeyup="bandwidthCalc4()" style="color: black;"> meV</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box" style="width:100%">
+        <div class="title"> 压力换算 Pressure Convertor</div>
+        <table width="100%" border="0" bordercolor="#FFFFFF" cellspacing="3">
+            <tbody>
+                <tr>
+                    <td> <input type="text" class="pressure" onkeyup="pressureCalc(0)"> torr(mmHg)</td>
+                    <td><input type="text" class="pressure" onkeyup="pressureCalc(1)"> Pa </td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="pressure" onkeyup="pressureCalc(2)"> bar</td>
+                    <td><input type="text" class="pressure" onkeyup="pressureCalc(3)"> psi </td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="pressure" onkeyup="pressureCalc(4)"> atm</td>
+                    <td><input type="text" class="pressure" onkeyup="pressureCalc(5)"> in-H<sub>2</sub>O </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box" style="width:100%">
+        <div class="title">
+            <p>非线性光学（和频、差频、喇曼、布里渊、CARS）</p>
+            <p>Nonlinear Optics（SFG, DFG, Raman, Brillioun, CARS)</p>
+        </div>
+        <table width="100%" border="3" bordercolor="#FFFFFF" cellspacing="3">
+            <tbody>
+                <tr style="color:e45836;">
+                    <td>和/差频</td>
+                    <td>CARS/SRS/SBS</td>
+                    <td>数值和单位</td>
+                </tr>
+                <tr>
+                    <td width="21%">
+                        光波1</td>
+                    <td width="25%">频移</td>
+                    <td width="54%">
+                        <input type="text" class="TWM" onkeyup="TWMCalc(0);">
+                        <select class="TWMUnit" onchange="TWMCalc2(0);">
+  			<option>nm</option>
+  			<option>GHz</option>
+  			<option>MHz</option>
+  			<option>cm-1</option>
+		</select></td>
+                </tr>
+                <tr>
+                    <td>
+                        光波2</td>
+                    <td>Stokes光</td>
+                    <td>
+                        <input type="text" class="TWM" onkeyup="TWMCalc(1);">
+                        <select class="TWMUnit" onchange="TWMCalc2(1);">
+  			<option>nm</option>
+  			<option>GHz</option>
+  			<option>MHz</option>
+  			<option>cm-1</option>
+		</select></td>
+                </tr>
+                <tr>
+                    <td>
+                        和频光</td>
+                    <td> 泵浦光</td>
+                    <td>
+                        <input type="text" class="TWM" onkeyup="TWMCalc(2);">
+                        <select class="TWMUnit" onchange="TWMCalc2(2);">
+  			<option>nm</option>
+  			<option>GHz</option>
+  			<option>MHz</option>
+  			<option>cm-1</option>
+		</select></td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td> 反Stokes光</td>
+                    <td>
+                        <input type="text" class="TWM" onkeyup="TWMCalc(3);">
+                        <select class="TWMUnit" onchange="TWMCalc2(3);">
+  			<option>nm</option>
+  			<option>GHz</option>
+  			<option>MHz</option>
+  			<option>cm-1</option>
+		</select></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box" style="width:100%">
+        <div class="title"> F-P标准具 F-P etalon</div>
+        <table width="100%" border="3" bordercolor="#FFFFFF" cellspacing="3">
+            <tbody>
+                <tr>
+                    <td> 使用波长 <input class="etalon" onkeyup="FSRCalc(-1);finessCalc(-1);" style="color:#e45836;"> nm </td>
+                    <td> 折 射 率 <input class="etalon" onkeyup="FSRCalc(-1);finessCalc(-1);" style="color:#e45836;"> </td>
+                </tr>
+                <tr>
+                    <td> 干涉厚度 <input class="etalon" onkeyup="FSRCalc(2);"> mm </td>
+                    <td> 自由光谱程 <input class="etalon" onkeyup="FSRCalc(3);">
+                        <select class="etalonUnit" onchange="FSRCalc(-1);">
+			<option> cm-1 </option>
+			<option> GHz </option>
+			<option> nm </option>
+		</select></td>
+                </tr>
+                <tr>
+                    <td>单面反射 <input class="etalon" onkeyup="finessCalc(4);"> % </td>
+                    <td>条纹精细度 <input class="etalon" onkeyup="finessCalc(5);">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>条纹最高分辨率：
+            <a id="resolution" style="width:60px;"></a>
+            <select class="etalonResolutionUnit" onchange="resolutionCalc(-1);">
+			<option> cm-1 </option>
+			<option> GHz </option>
+			<option> nm </option>
+		</select></div>
+    </div>
+
+    <!-- <div class="box" style="width:100%">
+        <div class="title"> 稳定腔模式 model of stable resonator</div>
+        <table width="100%" border="3" bordercolor="#FFFFFF" cellspacing="3">
+            <tbody>
+                <tr>
+                    <td> R<sub>1</sub>(mm) <input class="resonator" style="color:e45836;" onkeyup="resonatorCalc();"> </td>
+                    <td> R<sub>2</sub>(mm) <input class="resonator" style="color:e45836;" onkeyup="resonatorCalc();"></td>
+                    <td> 腔长(mm) <input class="resonator" style="color:e45836;" onkeyup="resonatorCalc();"></td>
+                    <td> 波长(nm) <input class="resonator" style="color:e45836;" onkeyup="resonatorCalc();"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="stable?" style="height:30px;"> </div>
+        <table width="100%" border="3" bordercolor="#FFFFFF" cellspacing="3">
+            <tbody>
+                <tr>
+                    <td>束腰半径：</td>
+                    <td id="waist" class="resonatorResult"></td>
+                </tr>
+                <tr>
+                    <td>束腰到第一面腔镜距离：</td>
+                    <td id="z1" class="resonatorResult"></td>
+                </tr>
+                <tr>
+                    <td>第一面反射镜上光斑半径：</td>
+                    <td id="w1" class="resonatorResult"></td>
+                </tr>
+                <tr>
+                    <td>第二面反射镜上光斑半径：</td>
+                    <td id="w2" class="resonatorResult"></td>
+                </tr>
+                <tr>
+                    <td>半发散角：</td>
+                    <td id="theta" class="resonatorResult"></td>
+                </tr>
+                <tr>
+                    <td>等价非稳腔腔长：</td>
+                    <td id="b" class="resonatorResult"></td>
+                </tr>
+                <tr>
+                    <td>真空纵模间隔：</td>
+                    <td id="deltaF" class="resonatorResult"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div> -->
+</div>
+        
+      </div>
+      
+      
+      
+    </div>
+    
+
+
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/blog/uploads/logo.JPG"
+                alt="Zehnhoff" />
+            
+              <p class="site-author-name" itemprop="name">Zehnhoff</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/blog/archives/">
+                
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/blog/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/fibomat" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:fibomat@gmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://weibo.com/cdp1995" target="_blank" title="weibo"><i class="fa fa-fw fa-weibo"></i>weibo</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Zehnhoff</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.7.1</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.3.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=6.3.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=6.3.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=6.3.0"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
