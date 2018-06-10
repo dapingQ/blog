@@ -108,18 +108,18 @@
 
 
 
-  <meta name="description" content="¶iPython  ?+cmd, just like help() %run python_cmd %paste &amp;amp; %cpaste shortcuts (like Emacs)">
+  <meta name="description" content="iPython ?+cmd, just like help() %run python_cmd %paste &amp;amp; %cpaste shortcuts (like Emacs)">
 <meta name="keywords" content="python,data">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Notes of Python Toolkits">
 <meta property="og:url" content="http://fibomat.github.io/blog/2017/11/20/python-tools-notes/index.html">
 <meta property="og:site_name" content="Scio me nihil scire">
-<meta property="og:description" content="¶iPython  ?+cmd, just like help() %run python_cmd %paste &amp;amp; %cpaste shortcuts (like Emacs)">
+<meta property="og:description" content="iPython ?+cmd, just like help() %run python_cmd %paste &amp;amp; %cpaste shortcuts (like Emacs)">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-10T13:23:46.263Z">
+<meta property="og:updated_time" content="2018-06-10T13:39:31.762Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Notes of Python Toolkits">
-<meta name="twitter:description" content="¶iPython  ?+cmd, just like help() %run python_cmd %paste &amp;amp; %cpaste shortcuts (like Emacs)">
+<meta name="twitter:description" content="iPython ?+cmd, just like help() %run python_cmd %paste &amp;amp; %cpaste shortcuts (like Emacs)">
 
 
 
@@ -360,7 +360,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-06-10 22:23:46" itemprop="dateModified" datetime="2018-06-10T22:23:46+09:00">2018-06-10</time>
+                <time title="Modified: 2018-06-10 22:39:31" itemprop="dateModified" datetime="2018-06-10T22:39:31+09:00">2018-06-10</time>
               
             
           </span>
@@ -393,69 +393,50 @@
       
 
       
-        <h2 id="ipython"><a class="header-anchor" href="#ipython">¶</a>iPython</h2>
-<ul>
+        <h2 id="iPython"><a href="#iPython" class="headerlink" title="iPython"></a>iPython</h2><ul>
 <li>?+cmd, just like help()</li>
 <li>%run python_cmd</li>
 <li>%paste &amp; %cpaste</li>
 <li>shortcuts (like Emacs)</li>
 </ul>
 <a id="more"></a>
-<h3 id="magic-commands"><a class="header-anchor" href="#magic-commands">¶</a>Magic commands</h3>
-<p>$\pi$</p>
+<h3 id="Magic-commands"><a href="#Magic-commands" class="headerlink" title="Magic commands"></a>Magic commands</h3><p>$\pi$</p>
 <ul>
-<li>%timeit</li>
+<li>%timeit </li>
 <li>%reset</li>
 <li>%quickref / %magic</li>
 <li>%hist</li>
 <li>%debug / %pdb</li>
-<li>%xdel: del objects</li>
+<li>%xdel: del objects    </li>
 <li>%logstart</li>
 </ul>
-<h3 id="qt-and-pylab"><a class="header-anchor" href="#qt-and-pylab">¶</a>Qt and Pylab</h3>
-<p><s>$ ipython qtconsole --pylab=inline # old feature</s></p>
+<h3 id="Qt-and-Pylab"><a href="#Qt-and-Pylab" class="headerlink" title="Qt and Pylab"></a>Qt and Pylab</h3><p>  <del>$ ipython qtconsole —pylab=inline # old feature</del></p>
 <pre><code>$ ipython --pylab
-</code></pre>
-<p>require matplotlib and PyQt for inline images ploting</p>
-<h3 id="command-history"><a class="header-anchor" href="#command-history">¶</a>Command History</h3>
-<ul>
-<li>
-<p><code>Ctrl + P</code> forward matching</p>
+</code></pre><p>require matplotlib and PyQt for inline images ploting</p>
+<h3 id="Command-History"><a href="#Command-History" class="headerlink" title="Command History"></a>Command History</h3><ul>
+<li><code>Ctrl + P</code> forward matching</li>
+<li><code>Ctrl + P</code> backward matching</li>
+<li><p><code>Ctrl + P</code> readline</p>
 </li>
-<li>
-<p><code>Ctrl + P</code> backward matching</p>
+<li><p><code>_iX</code>: input in line X</p>
 </li>
-<li>
-<p><code>Ctrl + P</code> readline</p>
-</li>
-<li>
-<p><code>_iX</code>: input in line X</p>
-</li>
-<li>
-<p><code>_X</code> : output in line X</p>
-</li>
+<li><code>_X</code> : output in line X</li>
 </ul>
-<h3 id="interacting"><a class="header-anchor" href="#interacting">¶</a>Interacting</h3>
-<ul>
+<h3 id="Interacting"><a href="#Interacting" class="headerlink" title="Interacting"></a>Interacting</h3><ul>
 <li>%cd / %pwd …</li>
 <li>%dirs / %alias</li>
 <li>!cmd</li>
 </ul>
-<h3 id="bookmarks"><a class="header-anchor" href="#bookmarks">¶</a>Bookmarks</h3>
-<ul>
+<h3 id="Bookmarks"><a href="#Bookmarks" class="headerlink" title="Bookmarks"></a>Bookmarks</h3><ul>
 <li>%bookmark markname DIRS</li>
 <li>%bookmark -l</li>
 </ul>
-<h3 id="debug"><a class="header-anchor" href="#debug">¶</a>Debug</h3>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">%debug</span><br><span class="line">u/d</span><br><span class="line">%pdb iX (X <span class="keyword">is</span> variable)</span><br></pre></td></tr></table></figure>
-<h3 id="tricks"><a class="header-anchor" href="#tricks">¶</a>Tricks</h3>
-<ul>
+<h3 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">%debug</span><br><span class="line">u/d</span><br><span class="line">%pdb iX (X <span class="keyword">is</span> variable)</span><br></pre></td></tr></table></figure>
+<h3 id="Tricks"><a href="#Tricks" class="headerlink" title="Tricks"></a>Tricks</h3><ul>
 <li>reload after import (dreload: deep reload)</li>
-<li>import this</li>
+<li>import this </li>
 </ul>
-<h2 id="numpy"><a class="header-anchor" href="#numpy">¶</a>Numpy</h2>
-<h3 id="object"><a class="header-anchor" href="#object">¶</a>Object</h3>
-<ol>
+<h2 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h2><h3 id="Object"><a href="#Object" class="headerlink" title="Object"></a>Object</h3><ol>
 <li>based on ndarrry</li>
 <li>basicly, type in np is float64</li>
 </ol>
@@ -466,67 +447,47 @@
 <li>eye/identity(n): diagonal matrix</li>
 <li>arange(length): new a number list</li>
 </ul>
-<h3 id="type"><a class="header-anchor" href="#type">¶</a>Type</h3>
-<p>dtype: variabel type</p>
+<h3 id="Type"><a href="#Type" class="headerlink" title="Type"></a>Type</h3><p>dtype: variabel type</p>
 <p><code>astype(np.newtype)</code> changing the type to <strong>newtype</strong></p>
-<h3 id="para"><a class="header-anchor" href="#para">¶</a>Para</h3>
-<ul>
+<h3 id="Para"><a href="#Para" class="headerlink" title="Para"></a>Para</h3><ul>
 <li>ndim: dimension of array</li>
 <li>shape</li>
 </ul>
-<h3 id="slice"><a class="header-anchor" href="#slice">¶</a>Slice</h3>
-<p>chaning of slice of an array will be <em>broadcast</em></p>
+<h3 id="Slice"><a href="#Slice" class="headerlink" title="Slice"></a>Slice</h3><p>chaning of slice of an array will be <em>broadcast</em> </p>
 <p>for copying, using <code>array[:].copy()</code></p>
 <p>index and slice, <code>array[:,:,:]</code></p>
-<p>x[1,2,…] is equivalent to x[1,2,:,:,:],<br>
-x[…,3] to x[:,:,:,:,3] and<br>
-x[4,…,5,:] to x[4,:,:,5,:]</p>
-<h4 id="boolean-index"><a class="header-anchor" href="#boolean-index">¶</a>Boolean index</h4>
-<ol>
-<li>
-<p>array ==/!=/ value giving a boolean list with the same length, here the express <code>array |/&amp; value</code> is used as boolean index.</p>
+<p>x[1,2,…] is equivalent to x[1,2,:,:,:],<br>x[…,3] to x[:,:,:,:,3] and<br>x[4,…,5,:] to x[4,:,:,5,:]</p>
+<h4 id="Boolean-index"><a href="#Boolean-index" class="headerlink" title="Boolean index"></a>Boolean index</h4><ol>
+<li><p>array ==/!=/ value giving a boolean list with the same length, here the express <code>array |/&amp; value</code> is used as boolean index.</p>
 </li>
-<li>
-<p>array(boolean_list) selecting the true element and broadcasting.</p>
+<li><p>array(boolean_list) selecting the true element and broadcasting.</p>
 </li>
 </ol>
 <p><code>data[data&lt;0] = 0</code> # changing the negative elements to 0s</p>
-<h4 id="fancy-index"><a class="header-anchor" href="#fancy-index">¶</a>Fancy index</h4>
-<p>a([i:],[j:],[]…)</p>
-<h3 id="function"><a class="header-anchor" href="#function">¶</a>Function</h3>
-<ul>
-<li>
-<p>.reshape</p>
+<h4 id="Fancy-index"><a href="#Fancy-index" class="headerlink" title="Fancy index"></a>Fancy index</h4><p>a([i:],[j:],[]…)</p>
+<h3 id="Function"><a href="#Function" class="headerlink" title="Function"></a>Function</h3><ul>
+<li>.reshape</li>
+<li><p>.T</p>
 </li>
-<li>
-<p>.T</p>
-</li>
-<li>
-<p>ufunc</p>
+<li><p>ufunc</p>
 <ul>
 <li>a</li>
 </ul>
 </li>
-<li>
-<p>2ufunc</p>
-</li>
+<li>2ufunc</li>
 </ul>
 <p><code>b = np.fromfunction(f,(5,4),dtype=int)</code></p>
-<h3 id="shape"><a class="header-anchor" href="#shape">¶</a>Shape</h3>
-<h4 id="stack"><a class="header-anchor" href="#stack">¶</a>Stack</h4>
-<ul>
+<h3 id="Shape"><a href="#Shape" class="headerlink" title="Shape"></a>Shape</h3><h4 id="Stack"><a href="#Stack" class="headerlink" title="Stack"></a>Stack</h4><ul>
 <li>np.vstack/hstack</li>
 <li>newaxis</li>
 <li>np.r_</li>
 </ul>
-<h4 id="split"><a class="header-anchor" href="#split">¶</a>Split</h4>
-<ol>
+<h4 id="Split"><a href="#Split" class="headerlink" title="Split"></a>Split</h4><ol>
 <li>No copy</li>
 <li>Swallow copy</li>
 <li>Deep copy</li>
 </ol>
-<h3 id="linear-algebra"><a class="header-anchor" href="#linear-algebra">¶</a>Linear Algebra</h3>
-
+<h3 id="Linear-Algebra"><a href="#Linear-Algebra" class="headerlink" title="Linear Algebra"></a>Linear Algebra</h3>
       
     </div>
 
@@ -647,7 +608,7 @@ x[4,…,5,:] to x[4,:,:,5,:]</p>
                 
                   <a href="/blog/archives/">
                 
-                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -698,7 +659,7 @@ x[4,…,5,:] to x[4,:,:,5,:]</p>
                     
                       
                     
-                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -753,7 +714,7 @@ x[4,…,5,:] to x[4,:,:,5,:]</p>
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ipython"><span class="nav-number">1.</span> <span class="nav-text">¶iPython</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#magic-commands"><span class="nav-number">1.1.</span> <span class="nav-text">¶Magic commands</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#qt-and-pylab"><span class="nav-number">1.2.</span> <span class="nav-text">¶Qt and Pylab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#command-history"><span class="nav-number">1.3.</span> <span class="nav-text">¶Command History</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#interacting"><span class="nav-number">1.4.</span> <span class="nav-text">¶Interacting</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bookmarks"><span class="nav-number">1.5.</span> <span class="nav-text">¶Bookmarks</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#debug"><span class="nav-number">1.6.</span> <span class="nav-text">¶Debug</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#tricks"><span class="nav-number">1.7.</span> <span class="nav-text">¶Tricks</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#numpy"><span class="nav-number">2.</span> <span class="nav-text">¶Numpy</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#object"><span class="nav-number">2.1.</span> <span class="nav-text">¶Object</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#type"><span class="nav-number">2.2.</span> <span class="nav-text">¶Type</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#para"><span class="nav-number">2.3.</span> <span class="nav-text">¶Para</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#slice"><span class="nav-number">2.4.</span> <span class="nav-text">¶Slice</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#boolean-index"><span class="nav-number">2.4.1.</span> <span class="nav-text">¶Boolean index</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#fancy-index"><span class="nav-number">2.4.2.</span> <span class="nav-text">¶Fancy index</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#function"><span class="nav-number">2.5.</span> <span class="nav-text">¶Function</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#shape"><span class="nav-number">2.6.</span> <span class="nav-text">¶Shape</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#stack"><span class="nav-number">2.6.1.</span> <span class="nav-text">¶Stack</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#split"><span class="nav-number">2.6.2.</span> <span class="nav-text">¶Split</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#linear-algebra"><span class="nav-number">2.7.</span> <span class="nav-text">¶Linear Algebra</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#iPython"><span class="nav-number">1.</span> <span class="nav-text">iPython</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Magic-commands"><span class="nav-number">1.1.</span> <span class="nav-text">Magic commands</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Qt-and-Pylab"><span class="nav-number">1.2.</span> <span class="nav-text">Qt and Pylab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Command-History"><span class="nav-number">1.3.</span> <span class="nav-text">Command History</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Interacting"><span class="nav-number">1.4.</span> <span class="nav-text">Interacting</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Bookmarks"><span class="nav-number">1.5.</span> <span class="nav-text">Bookmarks</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Debug"><span class="nav-number">1.6.</span> <span class="nav-text">Debug</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tricks"><span class="nav-number">1.7.</span> <span class="nav-text">Tricks</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Numpy"><span class="nav-number">2.</span> <span class="nav-text">Numpy</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Object"><span class="nav-number">2.1.</span> <span class="nav-text">Object</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Type"><span class="nav-number">2.2.</span> <span class="nav-text">Type</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Para"><span class="nav-number">2.3.</span> <span class="nav-text">Para</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Slice"><span class="nav-number">2.4.</span> <span class="nav-text">Slice</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Boolean-index"><span class="nav-number">2.4.1.</span> <span class="nav-text">Boolean index</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Fancy-index"><span class="nav-number">2.4.2.</span> <span class="nav-text">Fancy index</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Function"><span class="nav-number">2.5.</span> <span class="nav-text">Function</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Shape"><span class="nav-number">2.6.</span> <span class="nav-text">Shape</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Stack"><span class="nav-number">2.6.1.</span> <span class="nav-text">Stack</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Split"><span class="nav-number">2.6.2.</span> <span class="nav-text">Split</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Linear-Algebra"><span class="nav-number">2.7.</span> <span class="nav-text">Linear Algebra</span></a></li></ol></li></ol></div>
             
 
           </div>

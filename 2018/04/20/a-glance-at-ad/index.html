@@ -394,41 +394,31 @@
 
       
         <p>Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the recent years, both from the famous internet technology companies and correspondingly, the automobile companies. <a id="more"></a>The former team includes Google, Uber, Baidu and perhaps, Tesla. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.</p>
-<h2 id="perception"><a class="header-anchor" href="#perception">¶</a>Perception</h2>
-<p>Ahead of moving forward, absolutely, the vehicle is supposed to know the information about the other vehicles on the same road and to predict how they will move in the last fewer seconds. This is the main task for environment perception.</p>
+<h2 id="Perception"><a href="#Perception" class="headerlink" title="Perception"></a>Perception</h2><p>Ahead of moving forward, absolutely, the vehicle is supposed to know the information about the other vehicles on the same road and to predict how they will move in the last fewer seconds. This is the main task for environment perception. </p>
 <p>First key point is to recognize the moving objects nearby, then to determine the fronts, the sides, which is function realized by the Image-processing program. Subsequently, analyze the dynamical parameters, such as position, velocity and acceleration. Once the processor perceived they might appear the driving direction, the vehicle will update their path or just stop to avoid the collision. The solutions are more about computation science, like computer vision and deep learning, somehow is the advantages of technology companies.</p>
-<h2 id="sensor-fusion"><a class="header-anchor" href="#sensor-fusion">¶</a>Sensor Fusion</h2>
-<p>The sensors are composed of optical cameras, RADARs, and so-called LiDAR. Cameras are able to identify the near objects but cannot measure the distances, while RADARs are able to calculate the distances but without the ability to figure the outlines. However, the LiDAR is able to detect either the outlines or the distances. In result, almost all the prototype AV cars are equipped with such a system on the roof.</p>
-<p>Last November, the most famous LiDAR maker, Velodyne company introduced its latest LiDAR sensor for automated driving, the VLS-128. This palm-sized product integrates 128 channels with the longest range at 200 to 250 meters[^velo2]. In respect to the microelectronics industry, it is possible to realize a more compact LiDAR system.</p>
-<h2 id="localization-and-navigation"><a class="header-anchor" href="#localization-and-navigation">¶</a>Localization and Navigation</h2>
-<p>Nowadays, the common solution is GPS/IMU. Due to the space industry, now it is easy to master vehicles’ attitude, velocity, angular rate, specific force and sometimes the magnetic field around. By gathering accelerometers, gyroscopes and magnetometers, IMU (Inertial measurement unit) serves as a specific orientation sensor beyond those used for detection and perception.  As to navigation satellite system, besides the GPS, BeiDou (China), GLONASS (Russia), GALILEO (Europe) etc. are some of the alternatives.</p>
-<h2 id="motion-planning-and-trajectory-making"><a class="header-anchor" href="#motion-planning-and-trajectory-making">¶</a>Motion planning and trajectory making</h2>
-<p>Like perception of the around objectives, the planning subsystem is more about software engineering, including the components like path planners, behavioral planners, and route planners.  Two common algorithms are incremental search-based algorithm and sampling based planning algorithm, both serving for the university and industry research groups. To satisfy the urban autonomous driving challenge, lower source consumption and high accuracy algorithms will also make differences.</p>
-<h2 id="control-and-integration"><a class="header-anchor" href="#control-and-integration">¶</a>Control and integration</h2>
-<p>With help of complex computation algorithm, the autonomous driving is more like the interface between software infrastructure and vehicle controlling system including the throttle, the brake, the steering and the transmission. In respect to electricity consumption, the electoral motors are much preferred since the available voltage and intrinsic electricity supply. As to operation system, due to the public kernel and IoT (Internet of Things) communication, researchers prefer to choose Linux and its various releases as computer systems.</p>
+<h2 id="Sensor-Fusion"><a href="#Sensor-Fusion" class="headerlink" title="Sensor Fusion"></a>Sensor Fusion</h2><p>The sensors are composed of optical cameras, RADARs, and so-called LiDAR. Cameras are able to identify the near objects but cannot measure the distances, while RADARs are able to calculate the distances but without the ability to figure the outlines. However, the LiDAR is able to detect either the outlines or the distances. In result, almost all the prototype AV cars are equipped with such a system on the roof.</p>
+<p>Last November, the most famous LiDAR maker, Velodyne company introduced its latest LiDAR sensor for automated driving, the VLS-128. This palm-sized product integrates 128 channels with the longest range at 200 to 250 meters<sup><a href="#fn_velo2" id="reffn_velo2">velo2</a></sup>. In respect to the microelectronics industry, it is possible to realize a more compact LiDAR system.</p>
+<h2 id="Localization-and-Navigation"><a href="#Localization-and-Navigation" class="headerlink" title="Localization and Navigation"></a>Localization and Navigation</h2><p>Nowadays, the common solution is GPS/IMU. Due to the space industry, now it is easy to master vehicles’ attitude, velocity, angular rate, specific force and sometimes the magnetic field around. By gathering accelerometers, gyroscopes and magnetometers, IMU (Inertial measurement unit) serves as a specific orientation sensor beyond those used for detection and perception.  As to navigation satellite system, besides the GPS, BeiDou (China), GLONASS (Russia), GALILEO (Europe) etc. are some of the alternatives.</p>
+<h2 id="Motion-planning-and-trajectory-making"><a href="#Motion-planning-and-trajectory-making" class="headerlink" title="Motion planning and trajectory making"></a>Motion planning and trajectory making</h2><p>Like perception of the around objectives, the planning subsystem is more about software engineering, including the components like path planners, behavioral planners, and route planners.  Two common algorithms are incremental search-based algorithm and sampling based planning algorithm, both serving for the university and industry research groups. To satisfy the urban autonomous driving challenge, lower source consumption and high accuracy algorithms will also make differences.</p>
+<h2 id="Control-and-integration"><a href="#Control-and-integration" class="headerlink" title="Control and integration"></a>Control and integration</h2><p>With help of complex computation algorithm, the autonomous driving is more like the interface between software infrastructure and vehicle controlling system including the throttle, the brake, the steering and the transmission. In respect to electricity consumption, the electoral motors are much preferred since the available voltage and intrinsic electricity supply. As to operation system, due to the public kernel and IoT (Internet of Things) communication, researchers prefer to choose Linux and its various releases as computer systems.</p>
 <p>In the term of the interdisciplinary, urban autonomous driving is still challenging and demanding. By interface with IoT, V2V/V2X (Vehicle to Vehicle/ Vehicle to everything) is a future tendency to improve the scalability and enhance the communication with other intelligent tools in modern society. Since that, along with automobile industry and computer science, electronic and electrical subjects are about to contribute to realizing the most compact, reliable and energy-saving components.</p>
-<h3 id="bibliography"><a class="header-anchor" href="#bibliography">¶</a>Bibliography</h3>
-<ol start="2">
-<li>
-<p>Levinson, J., Askeland, J., Becker, J., Dolson, J., Held, D., Kammel, S., . . . Thrun, S. (2011). Towards fully autonomous driving: Systems and algorithms. 2011 IEEE Intelligent Vehicles Symposium (IV). doi:10.1109/ivs.2011.5940562</p>
+<h3 id="Bibliography"><a href="#Bibliography" class="headerlink" title="Bibliography"></a>Bibliography</h3><blockquote id="fn_1">
+<sup>1</sup>. Franke, U., Gavrila, D., Gorzig, S., Lindner, F., Puetzold, F., &amp; Wohler, C. (1998). Autonomous driving goes downtown. IEEE Intelligent Systems, 13(6), 40-48. doi:10.1109/5254.736001<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
+<ol>
+<li><p>Levinson, J., Askeland, J., Becker, J., Dolson, J., Held, D., Kammel, S., . . . Thrun, S. (2011). Towards fully autonomous driving: Systems and algorithms. 2011 IEEE Intelligent Vehicles Symposium (IV). doi:10.1109/ivs.2011.5940562</p>
 </li>
-<li>
-<p>Chris Urmson et al. (2008). Autonomous Driving in UrbanEnvironments: Boss and the Urban Challenge. Journal of Field Robotics 25(8), 425–466.</p>
+<li><p>Chris Urmson et al. (2008). Autonomous Driving in UrbanEnvironments: Boss and the Urban Challenge. Journal of Field Robotics 25(8), 425–466.</p>
 </li>
-<li>
-<p>Campbell, M., Egerstedt, M., How, J. P., &amp; Murray, R. M. (2010). Autonomous driving in urban environments: Approaches, lessons and challenges. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 368(1928), 4649-4672. doi:10.1098/rsta.2010.0110</p>
+<li><p>Campbell, M., Egerstedt, M., How, J. P., &amp; Murray, R. M. (2010). Autonomous driving in urban environments: Approaches, lessons and challenges. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 368(1928), 4649-4672. doi:10.1098/rsta.2010.0110</p>
 </li>
-<li>
-<p>Autonomous-vehicle technology is advancing ever faster. (2018, March 01). Retrieved April 19, 2018, from <a href="https://www.economist.com/news/special-report/21737420-making-vehicles-drive-themselves-hard-getting-easier-autonomous-vehicle-technology" target="_blank" rel="noopener">https://www.economist.com/news/special-report/21737420-making-vehicles-drive-themselves-hard-getting-easier-autonomous-vehicle-technology</a></p>
+<li><p>Autonomous-vehicle technology is advancing ever faster. (2018, March 01). Retrieved April 19, 2018, from <a href="https://www.economist.com/news/special-report/21737420-making-vehicles-drive-themselves-hard-getting-easier-autonomous-vehicle-technology" target="_blank" rel="noopener">https://www.economist.com/news/special-report/21737420-making-vehicles-drive-themselves-hard-getting-easier-autonomous-vehicle-technology</a></p>
 </li>
-<li>
-<p>Muoio, D. (2017, September 27). RANKED: The 18 companies most likely to get self-driving cars on the road first. Retrieved April 19, 2018, from <a href="http://www.businessinsider.com/the-companies-most-likely-to-get-driverless-cars-on-the-road-first-2017-4" target="_blank" rel="noopener">http://www.businessinsider.com/the-companies-most-likely-to-get-driverless-cars-on-the-road-first-2017-4</a></p>
+<li><p>Muoio, D. (2017, September 27). RANKED: The 18 companies most likely to get self-driving cars on the road first. Retrieved April 19, 2018, from <a href="http://www.businessinsider.com/the-companies-most-likely-to-get-driverless-cars-on-the-road-first-2017-4" target="_blank" rel="noopener">http://www.businessinsider.com/the-companies-most-likely-to-get-driverless-cars-on-the-road-first-2017-4</a></p>
 </li>
-<li>
-<p>Velodyne LiDAR Products. Retrieved April 19, 2018, from <a href="http://velodynelidar.com/products.html" target="_blank" rel="noopener">http://velodynelidar.com/products.html</a></p>
+<li><p>Velodyne LiDAR Products. Retrieved April 19, 2018, from <a href="http://velodynelidar.com/products.html" target="_blank" rel="noopener">http://velodynelidar.com/products.html</a></p>
 </li>
-<li>
-<p>Burke, K. (n.d.). Velodyne rolls out smaller, more powerful lidar sensor. Retrieved April 19, 2018, from <a href="http://www.autonews.com/article/20171129/MOBILITY/171129761/velodyne-rolls-out-smaller-more-powerful-lidar-sensor" target="_blank" rel="noopener">http://www.autonews.com/article/20171129/MOBILITY/171129761/velodyne-rolls-out-smaller-more-powerful-lidar-sensor</a></p>
+<li><p>Burke, K. (n.d.). Velodyne rolls out smaller, more powerful lidar sensor. Retrieved April 19, 2018, from <a href="http://www.autonews.com/article/20171129/MOBILITY/171129761/velodyne-rolls-out-smaller-more-powerful-lidar-sensor" target="_blank" rel="noopener">http://www.autonews.com/article/20171129/MOBILITY/171129761/velodyne-rolls-out-smaller-more-powerful-lidar-sensor</a></p>
 </li>
 </ol>
 
@@ -554,7 +544,7 @@
                 
                   <a href="/blog/archives/">
                 
-                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -605,7 +595,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -660,7 +650,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#perception"><span class="nav-number">1.</span> <span class="nav-text">¶Perception</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sensor-fusion"><span class="nav-number">2.</span> <span class="nav-text">¶Sensor Fusion</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#localization-and-navigation"><span class="nav-number">3.</span> <span class="nav-text">¶Localization and Navigation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#motion-planning-and-trajectory-making"><span class="nav-number">4.</span> <span class="nav-text">¶Motion planning and trajectory making</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#control-and-integration"><span class="nav-number">5.</span> <span class="nav-text">¶Control and integration</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#bibliography"><span class="nav-number">5.1.</span> <span class="nav-text">¶Bibliography</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Perception"><span class="nav-number">1.</span> <span class="nav-text">Perception</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sensor-Fusion"><span class="nav-number">2.</span> <span class="nav-text">Sensor Fusion</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Localization-and-Navigation"><span class="nav-number">3.</span> <span class="nav-text">Localization and Navigation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Motion-planning-and-trajectory-making"><span class="nav-number">4.</span> <span class="nav-text">Motion planning and trajectory making</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Control-and-integration"><span class="nav-number">5.</span> <span class="nav-text">Control and integration</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Bibliography"><span class="nav-number">5.1.</span> <span class="nav-text">Bibliography</span></a></li></ol></li></ol></div>
             
 
           </div>
