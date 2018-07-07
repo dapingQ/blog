@@ -7,6 +7,8 @@ comments: true
 date: 2018-06-25
 ---
 
+
+
 ## EMF propogation in homogeneous media
 
 In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,
@@ -17,7 +19,7 @@ where $ A(x,y) $ is field
 distribution on the propogation plane and $\exp{i \beta z}$ is propogation factor.
 
 Hence, all the components of EMF oscilate on the z direction at a wave vector $\beta$. 
-
+<script type="math/tex; mode=display">P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}</script>
 Then simple equations of EMF components can be derived from the Maxwell Equations in the homgeneous media.
 $$
 \begin{array}
