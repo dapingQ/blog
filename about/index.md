@@ -1,18 +1,21 @@
 ---
 layout: page
-title: About me
-date: 2016-03-21
-comment: true
+title: About
+tags: [about]
+date: 2017-08-11
+comments: false
 ---
+    
 
-## Zhenghao Yin
-## 殷 政浩
+## Zehnhoff Yin
 
 ### Education
-  - Kyoto University
+
+  - Kyoto University (Oct. 2017 - Present)
   - Nanjing University (Sept. 2013 - Jun. 2017)
 
 ### Reaserch Interests
+
   - Quantum Information Processing
     - Optical Quantum Computation
     - Bell States Measurement
@@ -20,24 +23,21 @@ comment: true
   - Intergrated Photonics Devices
 
 ### Skills
-  - EDA
-    - Cadence SKILL (IC/Virtuoso)
-    - Layout Editor
-    - Other Free paltforms
+
+  - Simulation
+    - COMSOL
+    - Lumerical FDTD
+    - Rsoft
+  - EDA/CAD
   - Web Development
-    - Front-end
-    - Back-end
-    - Vitualization 
 
 ### Hobbies
+
   - Cycling 
     - [Strava](https://www.strava.com/athletes/12094067) 
     - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
   - Music 
     -[Netease Music](http://music.163.com/#/user/home?id=34072848)
 
-### Contact
-  - E-mail: fibomat@gmail.com; dpcao@smail.nju.edu.cn
-  - Address: 22 Hankou, Nanjing, Jiangsu, China
 
-<a href="{{ site.url }}/about/zh" class="btn">Chinese About</a>
+<!-- <a href="{{ site.url }}/about/zh" class="btn">Chinese About</a> -->

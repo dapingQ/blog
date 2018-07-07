@@ -1,7 +1,4 @@
 # Site navigation links
 
-# - title: Gallery
-#   url: /gallery/
-
-# - title: Video
-#   url: /video/
+- title: Projects
+  url: /projects/

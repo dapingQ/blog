@@ -1,14 +1,14 @@
 # Site
-title:            'Scio me nihil scire.'
-# bio:                'Scio me nihil scire.'
-# description:        "Dwell in possibility"
+title:              Scio me nihil scire
+# bio:                'Minimal, one column jekyll theme.'
+# description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.JPG'
 background:         'assets/img/background.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                'https://fibomat.github.io/blog'
-
+url:                https://fibomat.github.io/blog
 
 # Jekyll
 permalink:          /:title/
@@ -25,14 +25,6 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
-# Collections
-collections:
-  notes:
-    output: true
-  comments:
-    output: true
-
-
 # Comments
 disqus_shortname:   zhenghaoyin
 
@@ -45,26 +37,32 @@ disqus_shortname:   zhenghaoyin
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email: 		  fibomat@gmail.com	
-#twitter:            username
+#email:
+twitter:            username
+# facebook:           username
 facebook:           zehnhoff
-github:             fibomat
-#stackoverflow:      123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:           username
+# github:             fibomat
+github-url:         https://github.com/fibomat
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
 #xing:              username
-#instagram:          username
-#lastfm:             username
-#tumblr:             username
+# instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-#steam:              username
+# steam:              username
 #dribbble:          username
-#youtube:            username
+#youtube:           username
+#youtube-channel:   channel
 #soundcloud:        username
-# weibo:             cdp1995
+weibo:             cdp1995
 #flickr:            username
 #codepen:           username
 #keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
 
 # Gems
 gems:

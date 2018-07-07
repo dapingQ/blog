@@ -39,6 +39,7 @@ h3.title a {
 
 // post list
 .post-list {
+    text-align: left;
 	ul {
 		list-style: none;
 		padding-left: 0;
@@ -69,8 +70,8 @@ h3.title a {
 blockquote {
 	font-family:$alt-font;
 	font-style:italic;
-	border-left:3px solid $color_tundora;
-	padding-left:25px;
+	border-left:8px solid $color_tundora;
+	padding-left:20px;
 	margin: 0;
 }
 @media only screen and (min-width: 48em) {

@@ -71,7 +71,7 @@ body {
 }
 .container {
 	width: 36rem;
-	max-width: 400px;
+	max-width: 550px;
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
@@ -79,7 +79,7 @@ body {
 	color: $color_shark;
 	z-index: 1;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,4);
+	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 100%;
