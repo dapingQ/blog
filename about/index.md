@@ -17,9 +17,8 @@ comments: false
 ### Reaserch Interests
 
   - Quantum Information Processing
-    - Optical Quantum Computation
-    - Bell States Measurement
-    - Practical Quantum Key Distribution
+    - Linear Optical Quantum Computation
+    - Quantum Simulation
   - Intergrated Photonics Devices
 
 ### Skills
