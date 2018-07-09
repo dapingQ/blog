@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://fibomat.github.io/blog/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://fibomat.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fibomat.github.io/blog/" rel="alternate" type="text/html" /><updated>2018-07-08T02:19:11+09:00</updated><id>https://fibomat.github.io/blog/</id><title type="html">Scio me nihil scire</title><entry><title type="html">Dispersion of the planar waveguide</title><link href="https://fibomat.github.io/blog/dispersion/" rel="alternate" type="text/html" title="Dispersion of the planar waveguide" /><published>2018-06-25T00:00:00+09:00</published><updated>2018-06-25T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/dispersion</id><content type="html" xml:base="https://fibomat.github.io/blog/dispersion/">&lt;h2 id=&quot;emf-propogation-in-homogeneous-media&quot;&gt;EMF propogation in homogeneous media&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://fibomat.github.io/blog/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://fibomat.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fibomat.github.io/blog/" rel="alternate" type="text/html" /><updated>2018-07-09T20:10:49+09:00</updated><id>https://fibomat.github.io/blog/</id><title type="html">Scio me nihil scire</title><entry><title type="html">Dispersion of the planar waveguide</title><link href="https://fibomat.github.io/blog/dispersion/" rel="alternate" type="text/html" title="Dispersion of the planar waveguide" /><published>2018-06-25T00:00:00+09:00</published><updated>2018-06-25T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/dispersion</id><content type="html" xml:base="https://fibomat.github.io/blog/dispersion/">&lt;h2 id=&quot;emf-propogation-in-homogeneous-media&quot;&gt;EMF propogation in homogeneous media&lt;/h2&gt;
 
-&lt;p&gt;In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,&lt;/p&gt;
+&lt;p&gt;In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,
+&lt;!-- more --&gt;&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{E}=E(x,y)\exp{i \beta z}&lt;/script&gt;
 
@@ -9,13 +10,18 @@
 &lt;p&gt;Hence, all the components of EMF oscilate on the z direction at a wave vector $\beta$. 
 Then simple equations of EMF components can be derived from the Maxwell Equations in the homgeneous media.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{array*}
-E_x &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial x} + \omega \mu \frac{\partial H_z}{\partial y}) \\
-E_y &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial y} - \omega \mu \frac{\partial H_z}{\partial y}) \\
-H_x &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial x} - \omega \mu \frac{\partial E_z}{\partial y}) \\
-H_y &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \frac{\partial E_z}{\partial x}) 
-\end{array*} %]]&gt;&lt;/script&gt;
+&lt;div&gt;
+$$
+    \begin{align}
+    E_x &amp;amp;=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial x} + \omega \mu \frac{\partial H_z}{\partial y}) \\
+    E_y &amp;amp;=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial y} - \omega \mu \frac{\partial H_z}{\partial y}) \\
+    H_x &amp;amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial x} - \omega \mu \frac{\partial E_z}{\partial y}) \\
+    H_y &amp;amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \frac{\partial E_z}{\partial x}) 
+    \end{align}
+$$
+&lt;/div&gt;
+
+&lt;p&gt;thus,&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{pmatrix}
@@ -34,13 +40,15 @@ H_y &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \
 
 &lt;p&gt;In the no-charged and non-current surface, the boundary condition on two different media can be listed as&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{array}
-&amp;\mathbf{n_{21}} \cdotp (\mathbf{D_2} - \mathbf{D_1}) = 0 \\
-&amp;\mathbf{n_{21}} \times (\mathbf{E_2} - \mathbf{E_1}) = 0 \\
-&amp;\mathbf{n_{21}} \cdotp (\mathbf{B_2} - \mathbf{B_1}) = 0 \\
-&amp;\mathbf{n_{21}} \times (\mathbf{H_2} - \mathbf{H_1}) = 0 
-\end{array} %]]&gt;&lt;/script&gt;
+&lt;div&gt;$$
+\begin{align}
+&amp;amp;\mathbf{n_{21}} \cdotp (\mathbf{D_2} - \mathbf{D_1}) = 0 \\
+&amp;amp;\mathbf{n_{21}} \times (\mathbf{E_2} - \mathbf{E_1}) = 0 \\
+&amp;amp;\mathbf{n_{21}} \cdotp (\mathbf{B_2} - \mathbf{B_1}) = 0 \\
+&amp;amp;\mathbf{n_{21}} \times (\mathbf{H_2} - \mathbf{H_1}) = 0 
+\end{align}
+$$
+&lt;/div&gt;
 
 &lt;p&gt;Set the normal direction of the surface as the reference, rewrite,&lt;/p&gt;
 
@@ -72,14 +80,15 @@ H_y &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \
 &lt;/ol&gt;
 
 &lt;p&gt;e.x, the EMF of TE modes can be written,&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+&lt;div&gt;
+$$
 \begin{align}
-\mathbf{E} &amp;=(E_x, E_y, 0) \\
-\mathbf{H} &amp;=(H_x, H_y, H_z) \\
-\mathbf{k} &amp;=(k_x, k_y, k_z)
-\end{align} %]]&gt;&lt;/script&gt;
-
+\mathbf{E} &amp;amp;=(E_x, E_y, 0) \\
+\mathbf{H} &amp;amp;=(H_x, H_y, H_z) \\
+\mathbf{k} &amp;amp;=(k_x, k_y, k_z)
+\end{align}
+$$
+&lt;/div&gt;
 &lt;p&gt;devided as the superposition of two EMF, like&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
@@ -110,28 +119,23 @@ H_y &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\kappa = p \tan(pd - m\pi/2)&lt;/script&gt;
 
-&lt;p&gt;Define numerical $NA=\sqrt{n_{co}^2-n_{cld}^2}$, 
-&lt;script type=&quot;math/tex&quot;&gt;v=d\sqrt{p^2+\kappa^2}=k_0 d \sqrt{n_{co}^2-n_{cld}^2}&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Define numerical $NA=\sqrt{n_{co}^2-n_{cld}^2}$,&lt;/p&gt;
 
-&lt;p&gt;is constant and $u = pd$ ,
-&lt;script type=&quot;math/tex&quot;&gt;\sqrt{v^2-u^2}=u\tan(u-m\pi/2)&lt;/script&gt;&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;v=d\sqrt{p^2+\kappa^2}=k_0 d \sqrt{n_{co}^2-n_{cld}^2}&lt;/script&gt;
 
-&lt;p&gt;TM modes eigenvalue equation
-&lt;script type=&quot;math/tex&quot;&gt;2pd=m\pi + \tan^{-1}(\frac{n_c^2\kappa_1}{n_1^2p}) + \tan^{-1}(\frac{n_c^2 \kappa_2}{n_2^2p})&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;is constant and $u = pd$ ,&lt;/p&gt;
 
-&lt;p&gt;The latter two terms are phase shift on the boundary.&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{v^2-u^2}=u\tan(u-m\pi/2)&lt;/script&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;np&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;plt&lt;/span&gt;
+&lt;h2 id=&quot;tm-modes-eigenvalue-equation&quot;&gt;TM modes eigenvalue equation&lt;/h2&gt;
 
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sympy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sympy.plotting&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2pd=m\pi + \tan^{-1}(\frac{n_c^2\kappa_1}{n_1^2p}) + \tan^{-1}(\frac{n_c^2 \kappa_2}{n_2^2p})&lt;/script&gt;
 
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scipy.constants&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><category term="waveguide" /><summary type="html">EMF propogation in homogeneous media</summary></entry><entry><title type="html">Sensors and Touchscreens in Smartphones</title><link href="https://fibomat.github.io/blog/sensor-touchscreen/" rel="alternate" type="text/html" title="Sensors and Touchscreens in Smartphones" /><published>2018-05-31T00:00:00+09:00</published><updated>2018-05-31T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/sensor-touchscreen</id><content type="html" xml:base="https://fibomat.github.io/blog/sensor-touchscreen/">&lt;h2 id=&quot;sensors-in-the-smartphones&quot;&gt;Sensors in the smartphones&lt;/h2&gt;
+&lt;p&gt;The latter two terms are phase shift on the boundary.&lt;/p&gt;</content><category term="waveguide" /><summary type="html">EMF propogation in homogeneous media
 
-&lt;p&gt;From the products website of the Apple, we can find below are totally six kinds of sensors equipped in their latest mobile phones, the iPhone X[^i]. 
+In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,</summary></entry><entry><title type="html">Sensors and Touchscreens in Smartphones</title><link href="https://fibomat.github.io/blog/sensor-touchscreen/" rel="alternate" type="text/html" title="Sensors and Touchscreens in Smartphones" /><published>2018-05-31T00:00:00+09:00</published><updated>2018-05-31T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/sensor-touchscreen</id><content type="html" xml:base="https://fibomat.github.io/blog/sensor-touchscreen/">&lt;h2 id=&quot;sensors-in-the-smartphones&quot;&gt;Sensors in the smartphones&lt;/h2&gt;
+
+&lt;p&gt;From the products website of the Apple, we can find below are totally six kinds of sensors equipped in their latest mobile phones, the iPhone X&lt;sup id=&quot;fnref:i&quot;&gt;&lt;a href=&quot;#fn:i&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. 
 &lt;!-- more --&gt;&lt;/p&gt;
 
 &lt;ol&gt;
@@ -143,27 +147,27 @@ H_y &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \
   &lt;li&gt;barometer&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Except the barometer, which is a novel addition since the products of last generation, the other five are some kind of essential sensors to add rich location and motion capabilities to the applications[^ii] running on the smart phones.&lt;/p&gt;
+&lt;p&gt;Except the barometer, which is a novel addition since the products of last generation, the other five are some kind of essential sensors to add rich location and motion capabilities to the applications&lt;sup id=&quot;fnref:ii&quot;&gt;&lt;a href=&quot;#fn:ii&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; running on the smart phones.&lt;/p&gt;
 
 &lt;h3 id=&quot;gyroscopes&quot;&gt;Gyroscopes&lt;/h3&gt;
 
-&lt;p&gt;Modern gyroscopes used in smartphones and other electronics are typically, Vibrating structure gyroscope, (VGS). It can sense the rate of turn (degree/s) without a fixed point of reference, like conventional gyroscopes while based on microelectromechanical systems. MEMS VSG gyros use a vibrating or resonating ring fabricated using a DRIE (Deep Reactive Ion Etch) bulk silicon process. The annular ring is supported in free-space by eight pairs of ‘dog-leg’ shaped, symmetrical spokes. The bulk silicon etch process and unique patented ring design enable close tolerance geometrical properties for precise balance and thermal stabilityiii.&lt;/p&gt;
+&lt;p&gt;Modern gyroscopes used in smartphones and other electronics are typically, Vibrating structure gyroscope, (VGS). It can sense the rate of turn (degree/s) without a fixed point of reference, like conventional gyroscopes while based on microelectromechanical systems. MEMS VSG gyros use a vibrating or resonating ring fabricated using a DRIE (Deep Reactive Ion Etch) bulk silicon process. The annular ring is supported in free-space by eight pairs of ‘dog-leg’ shaped, symmetrical spokes. The bulk silicon etch process and unique patented ring design enable close tolerance geometrical properties for precise balance and thermal stability&lt;sup id=&quot;fnref:iii&quot;&gt;&lt;a href=&quot;#fn:iii&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;accelerometers&quot;&gt;Accelerometers&lt;/h3&gt;
 
 &lt;p&gt;A dynamic accelerometer measures gravitational pull to determine the angle at which a device is tilted with respect to the Earth. By sensing the amount of acceleration, users analyze how the device is moving.&lt;/p&gt;
 
-&lt;p&gt;The basic principle of operation behind the MEMS accelerometer is the displacement of a small proof mass etched into the silicon surface of the integrated circuit and suspended by small beams. Consistent with Newton’s second law of motion, as an acceleration is applied to the device, a force develops which displaces the massiv. The support beams act as a spring, and the fluid trapped inside the IC acts as a damper, resulting in a second order lumped physical system. This is the source of the limited operational bandwidth and non-uniform frequency response of accelerometers.&lt;/p&gt;
+&lt;p&gt;The basic principle of operation behind the MEMS accelerometer is the displacement of a small proof mass etched into the silicon surface of the integrated circuit and suspended by small beams. Consistent with Newton’s second law of motion, as an acceleration is applied to the device, a force develops which displaces the mass&lt;sup id=&quot;fnref:iv&quot;&gt;&lt;a href=&quot;#fn:iv&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. The support beams act as a spring, and the fluid trapped inside the IC acts as a damper, resulting in a second order lumped physical system. This is the source of the limited operational bandwidth and non-uniform frequency response of accelerometers.&lt;/p&gt;
 
 &lt;h3 id=&quot;ambient-light-sensor&quot;&gt;Ambient light sensor&lt;/h3&gt;
 
 &lt;p&gt;An ambient light sensor (ALS) is a component used for brightness adjustment and widely used in the customer electronics and other devices in order to save the battery lifetime and decrease the power hunger by the display.&lt;/p&gt;
 
-&lt;p&gt;In a cell phone, to enable automatic control of display backlight brightness over a wide range of illumination conditions from a dark environment to direct sunlight, designers use several kinds of photoelectric devices, such photo diodes, CdS photoelectric cells or photo transistors, as the photodetectorsv. With the input electronic signals, micro control units will then increase or decrease the brightness of the display.&lt;/p&gt;
+&lt;p&gt;In a cell phone, to enable automatic control of display backlight brightness over a wide range of illumination conditions from a dark environment to direct sunlight, designers use several kinds of photoelectric devices, such photo diodes, CdS photoelectric cells or photo transistors, as the photodetectors&lt;sup id=&quot;fnref:v&quot;&gt;&lt;a href=&quot;#fn:v&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. With the input electronic signals, micro control units will then increase or decrease the brightness of the display.&lt;/p&gt;
 
 &lt;h3 id=&quot;proximity-sensor&quot;&gt;Proximity sensor&lt;/h3&gt;
 
-&lt;p&gt;The proximity sensor is common on most smartphones. This is because the primary function of a proximity sensor is to disable accidental touch events. Among all the technologies for proximity sensing, most economic choice is the optical sensorvi.&lt;/p&gt;
+&lt;p&gt;The proximity sensor is common on most smartphones. This is because the primary function of a proximity sensor is to disable accidental touch events. Among all the technologies for proximity sensing, most economic choice is the optical sensor&lt;sup id=&quot;fnref:vi&quot;&gt;&lt;a href=&quot;#fn:vi&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;Such a device uses a chip placed close to the speaker facing the user and consists of two IR light transmitter and receiver. Usually, the receiver can only detect part of the light emitted by the chip. When something is closer to the ambient-light around the sensor, the ambient light drops down and the reflected IR light increase. Thus, the controller switches from far to near.&lt;/p&gt;
 
@@ -185,77 +189,35 @@ Usually, the screen includes two layers bending to touch one another. One of tho
 
 &lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
 
-&lt;p&gt;i Technical specification of the iPhone X,  retrieved from https://apple.com/iphone-x/specs/
-ii Sensor Overview, Android developer documents, retrieved from https://developer.android.com/guide/topics/sensors/
-iii MEMS VSG gyros - a short description of their basic construction and operation, retrieved from https://www.siliconsensing.com/technology/mems-gyroscopes/
-iv Principles of Operation, retrieved from http://www.sensorwiki.org/doku.php/sensors/accelerometer#external_links_references
-v Ambient Light Sensor (ALS) Applications in Portable Electronics, White Paper Presented by ROHM Semiconductor
-vi Proximity Sensor on Android Gingerbread, retrieved from http://thecodeartist.blogspot.com/2011/01/proximity-sensor-on-android-gingerbread.html
-vii From touch displays to the Surface: A brief history of touchscreen technology, retrieved from https://arstechnica.com/gadgets/2013/04/from-touch-displays-to-the-surface-a-brief-history-of-touchscreen-technology/2/
-viii Okay, but how do touch screens actually work? retrieved from http://scienceline.org/2012/01/okay-but-how-do-touch-screens-actually-work/&lt;/p&gt;</content><category term="yukohikari" /><category term="MEMS" /><category term="smartphone" /><summary type="html">Sensors in the smartphones
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:i&quot;&gt;
+      &lt;p&gt;Technical specification of the iPhone X,  retrieved from https://apple.com/iphone-x/specs/ &lt;a href=&quot;#fnref:i&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ii&quot;&gt;
+      &lt;p&gt;Sensor Overview, Android developer documents, retrieved from https://developer.android.com/guide/topics/sensors/ &lt;a href=&quot;#fnref:ii&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:iii&quot;&gt;
+      &lt;p&gt;MEMS VSG gyros - a short description of their basic construction and operation, retrieved from https://www.siliconsensing.com/technology/mems-gyroscopes/ &lt;a href=&quot;#fnref:iii&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:iv&quot;&gt;
+      &lt;p&gt;Principles of Operation, retrieved from http://www.sensorwiki.org/doku.php/sensors/accelerometer#external_links_references &lt;a href=&quot;#fnref:iv&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:v&quot;&gt;
+      &lt;p&gt;Ambient Light Sensor (ALS) Applications in Portable Electronics, White Paper Presented by ROHM Semiconductor &lt;a href=&quot;#fnref:v&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:vi&quot;&gt;
+      &lt;p&gt;Proximity Sensor on Android Gingerbread, retrieved from http://thecodeartist.blogspot.com/2011/01/proximity-sensor-on-android-gingerbread.html &lt;a href=&quot;#fnref:vi&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><category term="yukohikari" /><category term="MEMS" /><category term="smartphone" /><summary type="html">Sensors in the smartphones
 
-From the products website of the Apple, we can find below are totally six kinds of sensors equipped in their latest mobile phones, the iPhone X[^i]. 
+From the products website of the Apple, we can find below are totally six kinds of sensors equipped in their latest mobile phones, the iPhone X1.
 
 
-
-  gyroscope
-  accelerometer
-  ambient light sensor
-  proximity sensor
-  hall sensor / magnetometer
-  barometer
-
-
-Except the barometer, which is a novel addition since the products of last generation, the other five are some kind of essential sensors to add rich location and motion capabilities to the applications[^ii] running on the smart phones.
-
-Gyroscopes
-
-Modern gyroscopes used in smartphones and other electronics are typically, Vibrating structure gyroscope, (VGS). It can sense the rate of turn (degree/s) without a fixed point of reference, like conventional gyroscopes while based on microelectromechanical systems. MEMS VSG gyros use a vibrating or resonating ring fabricated using a DRIE (Deep Reactive Ion Etch) bulk silicon process. The annular ring is supported in free-space by eight pairs of ‘dog-leg’ shaped, symmetrical spokes. The bulk silicon etch process and unique patented ring design enable close tolerance geometrical properties for precise balance and thermal stabilityiii.
-
-Accelerometers
-
-A dynamic accelerometer measures gravitational pull to determine the angle at which a device is tilted with respect to the Earth. By sensing the amount of acceleration, users analyze how the device is moving.
-
-The basic principle of operation behind the MEMS accelerometer is the displacement of a small proof mass etched into the silicon surface of the integrated circuit and suspended by small beams. Consistent with Newton’s second law of motion, as an acceleration is applied to the device, a force develops which displaces the massiv. The support beams act as a spring, and the fluid trapped inside the IC acts as a damper, resulting in a second order lumped physical system. This is the source of the limited operational bandwidth and non-uniform frequency response of accelerometers.
-
-Ambient light sensor
-
-An ambient light sensor (ALS) is a component used for brightness adjustment and widely used in the customer electronics and other devices in order to save the battery lifetime and decrease the power hunger by the display.
-
-In a cell phone, to enable automatic control of display backlight brightness over a wide range of illumination conditions from a dark environment to direct sunlight, designers use several kinds of photoelectric devices, such photo diodes, CdS photoelectric cells or photo transistors, as the photodetectorsv. With the input electronic signals, micro control units will then increase or decrease the brightness of the display.
-
-Proximity sensor
-
-The proximity sensor is common on most smartphones. This is because the primary function of a proximity sensor is to disable accidental touch events. Among all the technologies for proximity sensing, most economic choice is the optical sensorvi.
-
-Such a device uses a chip placed close to the speaker facing the user and consists of two IR light transmitter and receiver. Usually, the receiver can only detect part of the light emitted by the chip. When something is closer to the ambient-light around the sensor, the ambient light drops down and the reflected IR light increase. Thus, the controller switches from far to near.
-
-Touchscreens for handed electronic devices
-
-Touchscreens’s main demand is from the growing customer digital devices. And the history of touchscreens began at the 1970s, when Dr. G. Samuel Hurst first invented the first resistive touchscreen while the capacitive touchscreens was put forward by Eric Johnson in 1965.i 
-As we all know, the resistive and capacitive touchscreens are two main categories. However the technology and knowledge is a little different.
-
-Resistive
-
-A typical different feature of the resistive touchscreen it that when you touch the screen, you will find slightly bend of the top layer, which also indicates the principle. 
-Usually, the screen includes two layers bending to touch one another. One of those thin yellow layers is resistive and the other is conductive, separated by a gap of tiny dots called spacers to keep the two layers apart until you touch it. An electrical current runs through those yellow layers at all times, but when your finger hits the screen the two are pressed together and the electrical current changes at the point of contact. The software recognizes a change in the current at these coordinates and carries out the function that corresponds with that spot.
-
-Capacitive
-
-Unlike resistive touch screens, capacitive screens do not use the pressure of your finger to create a change in the flow of electricity. Instead, they work with anything that holds an electrical charge, including human skin. Capacitive touch screens are constructed from materials like copper or indium tin oxide that store electrical charges in an electrostatic grid of tiny wires.
-
-There are two main types of capacitive touchscreens - surface and projective. Surface capacitive uses sensors at the corners and a thin evenly distributed film across the surface, whereas projective capacitive uses a grid of rows and columns with a separate chip for sensingii. When a finger hits the screen, a tiny electrical charge is transferred to the finger to complete the circuit, creating a voltage drop on that point of the screen. The software processes the location of  this voltage drop and orders the ensuing action.
-
-References
-
-i Technical specification of the iPhone X,  retrieved from https://apple.com/iphone-x/specs/
-ii Sensor Overview, Android developer documents, retrieved from https://developer.android.com/guide/topics/sensors/
-iii MEMS VSG gyros - a short description of their basic construction and operation, retrieved from https://www.siliconsensing.com/technology/mems-gyroscopes/
-iv Principles of Operation, retrieved from http://www.sensorwiki.org/doku.php/sensors/accelerometer#external_links_references
-v Ambient Light Sensor (ALS) Applications in Portable Electronics, White Paper Presented by ROHM Semiconductor
-vi Proximity Sensor on Android Gingerbread, retrieved from http://thecodeartist.blogspot.com/2011/01/proximity-sensor-on-android-gingerbread.html
-vii From touch displays to the Surface: A brief history of touchscreen technology, retrieved from https://arstechnica.com/gadgets/2013/04/from-touch-displays-to-the-surface-a-brief-history-of-touchscreen-technology/2/
-viii Okay, but how do touch screens actually work? retrieved from http://scienceline.org/2012/01/okay-but-how-do-touch-screens-actually-work/</summary></entry><entry><title type="html">Diode Laser Sources for Medical and Aesthetic Application</title><link href="https://fibomat.github.io/blog/led/" rel="alternate" type="text/html" title="Diode Laser Sources for Medical and Aesthetic Application" /><published>2018-05-21T00:00:00+09:00</published><updated>2018-05-21T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/led</id><content type="html" xml:base="https://fibomat.github.io/blog/led/">&lt;p&gt;Different from illuminating industry, semiconductor diodes have been limited to professional markets at the market of life science&lt;!-- more --&gt;. It is appealing and potential to facilitate the huge success to customer market like other instances originated from the semiconductor industry.&lt;/p&gt;
+  
+    
+      Technical specification of the iPhone X,  retrieved from https://apple.com/iphone-x/specs/ &amp;#8617;</summary></entry><entry><title type="html">Diode Laser Sources for Medical and Aesthetic Application</title><link href="https://fibomat.github.io/blog/led/" rel="alternate" type="text/html" title="Diode Laser Sources for Medical and Aesthetic Application" /><published>2018-05-21T00:00:00+09:00</published><updated>2018-05-21T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/led</id><content type="html" xml:base="https://fibomat.github.io/blog/led/">&lt;p&gt;Different from illuminating industry, semiconductor diodes have been limited to professional markets at the market of life science&lt;!-- more --&gt;. It is appealing and potential to facilitate the huge success to customer market like other instances originated from the semiconductor industry.&lt;/p&gt;
 
 &lt;h2 id=&quot;selective-photothermolysis&quot;&gt;Selective photothermolysis&lt;/h2&gt;
 &lt;p&gt;By choosing a specific wavelength of light, the tissue can interact with the visible light at the cellular scale. Selectivity is the benefit to utilize laser diode and one can achieve the desired effect easily. This is a kind of photothermolysis. Moreover, chromophores targets in displacement or conformational change of the molecule when hit by the light. Without any change to the neighboring tissue, chromophores is able to damage or alter the targeted molecule in a tiny scale. To differ from the various tissue and protein in our body or skin, the spectrum corresponding is the main reference to adjust the laser energy, wavelength and other degrees of freedom.&lt;/p&gt;
@@ -268,20 +230,10 @@ viii Okay, but how do touch screens actually work? retrieved from http://science
 
 &lt;blockquote&gt;
   &lt;p&gt;Summarized from MEDICAL AND AESTHETIC LASERS: Semiconductor diode laser advances enable medical applications&lt;/p&gt;
-&lt;/blockquote&gt;</content><category term="yukohikari" /><category term="semiconductor" /><category term="illuminating" /><summary type="html">Different from illuminating industry, semiconductor diodes have been limited to professional markets at the market of life science. It is appealing and potential to facilitate the huge success to customer market like other instances originated from the semiconductor industry.
+&lt;/blockquote&gt;</content><category term="yukohikari" /><category term="semiconductor" /><category term="illuminating" /><summary type="html">Different from illuminating industry, semiconductor diodes have been limited to professional markets at the market of life science</summary></entry><entry><title type="html">Quanutm Candidates for Quantum Computation Systems</title><link href="https://fibomat.github.io/blog/candidates/" rel="alternate" type="text/html" title="Quanutm Candidates for Quantum Computation Systems" /><published>2018-05-21T00:00:00+09:00</published><updated>2018-05-21T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/candidates</id><content type="html" xml:base="https://fibomat.github.io/blog/candidates/">&lt;p&gt;Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.&lt;/p&gt;
 
-Selective photothermolysis
-By choosing a specific wavelength of light, the tissue can interact with the visible light at the cellular scale. Selectivity is the benefit to utilize laser diode and one can achieve the desired effect easily. This is a kind of photothermolysis. Moreover, chromophores targets in displacement or conformational change of the molecule when hit by the light. Without any change to the neighboring tissue, chromophores is able to damage or alter the targeted molecule in a tiny scale. To differ from the various tissue and protein in our body or skin, the spectrum corresponding is the main reference to adjust the laser energy, wavelength and other degrees of freedom.
+&lt;!-- more --&gt;
 
-Power consuming and accuracy improvement
-As an economic kind light source, semiconductor is more efficient than the rest alternatives, like the flash lamp. Therefore, with a high power efficiency, the semiconductor light generates less heat, which is essential to integrate an impact system, since there is not enough space for an extra cooling system. Another advantage of laser source is the monochromatic property. Compare with the common source, the ability of laser source to focus on a spot improves the accuracy significantly, especially for the application like tissue cutting and fiber delivery.
-
-Compact configuration
-A key obstructing laser application to customer market is the huge size. In some successful commercial examples, people prefer to choose a tiny and convenient component. The solid-state laser can compensate this drawback. Furthermore, compared with some other conventional aesthetic products, the diode-supplied ones are more quiet and safe to use, due to lower power energy and non-dynamical units.
-
-
-  Summarized from MEDICAL AND AESTHETIC LASERS: Semiconductor diode laser advances enable medical applications</summary></entry><entry><title type="html">Quanutm Candidates for Quantum Computation Systems</title><link href="https://fibomat.github.io/blog/candidates/" rel="alternate" type="text/html" title="Quanutm Candidates for Quantum Computation Systems" /><published>2018-05-21T00:00:00+09:00</published><updated>2018-05-21T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/candidates</id><content type="html" xml:base="https://fibomat.github.io/blog/candidates/">&lt;p&gt;Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.
-&lt;!-- more --&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Robustness against the environment, lifetime&lt;/li&gt;
   &lt;li&gt;Manipulation, to realize quantum gates&lt;/li&gt;
@@ -323,47 +275,7 @@ A key obstructing laser application to customer market is the huge size. In some
       &lt;p&gt;Non-Abelian Discrete Symmetries in Particle Physics. arXiv:1003.3552 [hep-th], doi: 10.1143/PTPS.183.1 &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><category term="quantum computation" /><category term="optics" /><category term="superconducting" /><summary type="html">Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.
-
-
-  Robustness against the environment, lifetime
-  Manipulation, to realize quantum gates
-  Integration possibility
-
-
-Optical System
-Linear Optical quantum computation (LOQC)1, based on the multi-freedom and high robustness of photons is one candidate of future quantum computers beyond solid-state systems. Moreover, as photon travels as the speed of light in space approximately, it is also an outstanding medium to carry information, such as the schema of quantum teleportation and quantum key distribution.
-
-Trapped Ion
-Trapped Ion is another kind of solid-state system for QC2, that is to say, convenient to integrated in a whole chip like superconducting qubit system. First is trapping the ions in separated quantum wells by using Coulomb force. After manipulation by laser, to realize quantum entanglement, we can detune the Coulomb interaction between two neighboring quantum wells.
-
-Nuclear Magnetic Resonance (NMR)
-NMR system has the intrinsic two-level system, the electron spin. Like other systems, RF pulses and delay times is to realize the quantum gates. The most useful advantage of NMR is that it is easy to achieve coherence time around several seconds. To make solid-state NMR devices, people usually turn to electron spin qubits.
-
-Cavity Quantum Electrodynamics (Cavity QED or CQED)
-Cavity QED is the study of the interaction between the light confined in a reflective cavity and atoms or other particles3. Usually, the atoms are in two-level energy systems and interact with the optical modes of the cavity, a basic entanglement state, so-called Bell states, is composed of both the atomic energy level and the cavity mode. Of course, to change the atomic energy system, people will change the oscillation situation between the cavity-atomic systems.
-
-Topological Computation
-Topological Computation is some of the new architecture, which is quite different from the above candidates and still in discussion. As we know from quantum mechanics, the symmetry and principle of identity require that exchanging the particles merely brings the phase difference. As a result, the particles, neither fermionic nor bosonic, are named in non-Abelian particles45. By using non-Abelian particles[], it can achieve both the high robustness and easy manipulation at the same time.
-
-Reference
-
-
-  
-    
-      Kok, P., Munro, W. J., Nemoto, K., Ralph, T. C., Dowling, J. P., &amp;amp; Milburn, G. J. (2007). Linear optical quantum computing with photonic qubits. Reviews of Modern Physics, 79(1), 135–174. https://doi.org/10.1103/RevModPhys.79.135 &amp;#8617;
-    
-    
-      Cirac, J. I. and Zoller, P. (1995). Quantum Computations with Cold Trapped Ions. Phys. Rev. Lett., 74(20), 4091-4094. &amp;#8617;
-    
-    
-      A. Imamog¯lu, D. D. Awschalom, G. Burkard, D. P. DiVincenzo, D. Loss, M. Sherwin, and A. Small. (1999) Quantum Information Processing Using Quantum Dot Spins and Cavity QED. Phys. Rev. Lett. 83, 4204 &amp;#8617;
-    
-    
-      An Introduction to Quantum Computing. arXiv:1210.6512v1 [quant-ph] 8 Oct 2012 &amp;#8617;
-    
-    
-      Non-Abelian Discrete Symmetries in Particle Physics. arXiv:1003.3552 [hep-th], doi: 10.1143/PTPS.183.1 &amp;#8617;</summary></entry><entry><title type="html">A Glance At Autonomous Driving</title><link href="https://fibomat.github.io/blog/a-glance-at-ad/" rel="alternate" type="text/html" title="A Glance At Autonomous Driving" /><published>2018-04-20T00:00:00+09:00</published><updated>2018-04-20T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/a-glance-at-ad</id><content type="html" xml:base="https://fibomat.github.io/blog/a-glance-at-ad/">&lt;p&gt;Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the recent years&lt;sup id=&quot;fnref:eco&quot;&gt;&lt;a href=&quot;#fn:eco&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, both from the famous internet technology companies and correspondingly, the automobile companies. The former team includes Google, Uber, Baidu and perhaps, Tesla&lt;sup id=&quot;fnref:ran&quot;&gt;&lt;a href=&quot;#fn:ran&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.&lt;/p&gt;
+&lt;/div&gt;</content><category term="quantum computation" /><category term="optics" /><category term="superconducting" /><summary type="html">Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.</summary></entry><entry><title type="html">A Glance At Autonomous Driving</title><link href="https://fibomat.github.io/blog/a-glance-at-ad/" rel="alternate" type="text/html" title="A Glance At Autonomous Driving" /><published>2018-04-20T00:00:00+09:00</published><updated>2018-04-20T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/a-glance-at-ad</id><content type="html" xml:base="https://fibomat.github.io/blog/a-glance-at-ad/">&lt;p&gt;Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the&lt;!-- more --&gt; recent years&lt;sup id=&quot;fnref:eco&quot;&gt;&lt;a href=&quot;#fn:eco&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, both from the famous internet technology companies and correspondingly, the automobile companies. The former team includes Google, Uber, Baidu and perhaps, Tesla&lt;sup id=&quot;fnref:ran&quot;&gt;&lt;a href=&quot;#fn:ran&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.&lt;/p&gt;
 
 &lt;h2 id=&quot;perception&quot;&gt;Perception&lt;/h2&gt;
 
@@ -408,49 +320,7 @@ Reference
       &lt;p&gt;Burke, K. (n.d.). Velodyne rolls out smaller, more powerful lidar sensor. Retrieved April 19, 2018, from http://www.autonews.com/article/20171129/MOBILITY/171129761/velodyne-rolls-out-smaller-more-powerful-lidar-sensor &lt;a href=&quot;#fnref:velo2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><category term="autonomous driving" /><summary type="html">Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the recent years1, both from the famous internet technology companies and correspondingly, the automobile companies. The former team includes Google, Uber, Baidu and perhaps, Tesla2. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.
-
-Perception
-
-Ahead of moving forward, absolutely, the vehicle is supposed to know the information about the other vehicles on the same road and to predict how they will move in the last fewer seconds. This is the main task for environment perception.
-
-First key point is to recognize the moving objects nearby, then to determine the fronts, the sides, which is function realized by the Image-processing program. Subsequently, analyze the dynamical parameters, such as position, velocity and acceleration. Once the processor perceived they might appear the driving direction, the vehicle will update their path or just stop to avoid the collision. The solutions are more about computation science, like computer vision and deep learning, somehow is the advantages of technology companies.
-
-Sensor Fusion
-
-The sensors are composed of optical cameras, RADARs, and so-called LiDAR. Cameras are able to identify the near objects but cannot measure the distances, while RADARs are able to calculate the distances but without the ability to figure the outlines. However, the LiDAR is able to detect either the outlines or the distances. In result, almost all the prototype AV cars are equipped with such a system on the roof.
-
-Last November, the most famous LiDAR maker, Velodyne company introduced its latest LiDAR sensor for automated driving, the VLS-128. This palm-sized product integrates 128 channels with the longest range at 200 to 250 meters34. In respect to the microelectronics industry, it is possible to realize a more compact LiDAR system.
-
-Localization and Navigation
-
-Nowadays, the common solution is GPS/IMU. Due to the space industry, now it is easy to master vehicles’ attitude, velocity, angular rate, specific force and sometimes the magnetic field around. By gathering accelerometers, gyroscopes and magnetometers, IMU (Inertial measurement unit) serves as a specific orientation sensor beyond those used for detection and perception.  As to navigation satellite system, besides the GPS, BeiDou (China), GLONASS (Russia), GALILEO (Europe) etc. are some of the alternatives.
-
-Motion planning and trajectory making
-
-Like perception of the around objectives, the planning subsystem is more about software engineering, including the components like path planners, behavioral planners, and route planners.  Two common algorithms are incremental search-based algorithm and sampling based planning algorithm, both serving for the university and industry research groups. To satisfy the urban autonomous driving challenge, lower source consumption and high accuracy algorithms will also make differences.
-
-Control and integration
-
-With help of complex computation algorithm, the autonomous driving is more like the interface between software infrastructure and vehicle controlling system including the throttle, the brake, the steering and the transmission. In respect to electricity consumption, the electoral motors are much preferred since the available voltage and intrinsic electricity supply. As to operation system, due to the public kernel and IoT (Internet of Things) communication, researchers prefer to choose Linux and its various releases as computer systems.
-
-In the term of the interdisciplinary, urban autonomous driving is still challenging and demanding. By interface with IoT, V2V/V2X (Vehicle to Vehicle/ Vehicle to everything) is a future tendency to improve the scalability and enhance the communication with other intelligent tools in modern society. Since that, along with automobile industry and computer science, electronic and electrical subjects are about to contribute to realizing the most compact, reliable and energy-saving components.
-
-Bibliography
-
-
-  
-    
-      Autonomous-vehicle technology is advancing ever faster. (2018, March 01). Retrieved April 19, 2018, from https://www.economist.com/news/special-report/21737420-making-vehicles-drive-themselves-hard-getting-easier-autonomous-vehicle-technology &amp;#8617;
-    
-    
-      Muoio, D. (2017, September 27). RANKED: The 18 companies most likely to get self-driving cars on the road first. Retrieved April 19, 2018, from http://www.businessinsider.com/the-companies-most-likely-to-get-driverless-cars-on-the-road-first-2017-4 &amp;#8617;
-    
-    
-      Velodyne LiDAR Products. Retrieved April 19, 2018, from http://velodynelidar.com/products.html &amp;#8617;
-    
-    
-      Burke, K. (n.d.). Velodyne rolls out smaller, more powerful lidar sensor. Retrieved April 19, 2018, from http://www.autonews.com/article/20171129/MOBILITY/171129761/velodyne-rolls-out-smaller-more-powerful-lidar-sensor &amp;#8617;</summary></entry><entry><title type="html">Notes of Python Toolkits</title><link href="https://fibomat.github.io/blog/python-tools-notes/" rel="alternate" type="text/html" title="Notes of Python Toolkits" /><published>2017-11-20T00:00:00+09:00</published><updated>2017-11-20T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/python-tools-notes</id><content type="html" xml:base="https://fibomat.github.io/blog/python-tools-notes/">&lt;h2 id=&quot;ipython&quot;&gt;iPython&lt;/h2&gt;
+&lt;/div&gt;</content><category term="autonomous driving" /><summary type="html">Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the</summary></entry><entry><title type="html">Notes of Python Toolkits</title><link href="https://fibomat.github.io/blog/python-tools-notes/" rel="alternate" type="text/html" title="Notes of Python Toolkits" /><published>2017-11-20T00:00:00+09:00</published><updated>2017-11-20T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/python-tools-notes</id><content type="html" xml:base="https://fibomat.github.io/blog/python-tools-notes/">&lt;h2 id=&quot;ipython&quot;&gt;iPython&lt;/h2&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi&lt;/script&gt;
 
@@ -630,464 +500,7 @@ x[4,…,5,:] to x[4,:,:,5,:]&lt;/p&gt;
   ?+cmd, just like help()
   %run python_cmd
   %paste &amp;amp; %cpaste
-  shortcuts (like Emacs)
-
-
-
-Magic commands
-
-we have a $1+1=2$ and end.
-
-
-  %timeit
-  %reset
-  %quickref / %magic
-  %hist
-  %debug / %pdb
-  %xdel: del objects
-  %logstart
-
-
-Qt and Pylab
-
-$ ipython qtconsole –pylab=inline # old feature
-
-$ ipython --pylab
-
-
-
-require matplotlib and PyQt for inline images ploting
-
-Command History
-
-
-  Ctrl + P forward matching
-  Ctrl + P backward matching
-  
-    Ctrl + P readline
-  
-  _iX: input in line X
-  _X : output in line X
-
-
-Interacting
-
-
-  %cd / %pwd …
-  %dirs / %alias
-  !cmd
-
-
-Bookmarks
-
-
-  %bookmark markname DIRS
-  %bookmark -l
-
-
-Debug
-
-    %debug
-    u/d
-    %pdb iX (X is variable)
-
-
-
-Tricks
-
-
-  reload after import (dreload: deep reload)
-  import this
-
-
-Numpy
-
-Object
-
-
-  based on ndarrry
-  basicly, type in np is float64
-
-
-
-  new: array(‘list’)/asarray(‘output’)
-  zeros/ones(length): new a list of 0/1
-  zeros/ones_like(list): new a list of 0/1 like given list
-  eye/identity(n): diagonal matrix
-  arange(length): new a number list
-
-
-Type
-
-dtype: variabel type
-
-astype(np.newtype) changing the type to newtype
-
-Para
-
-
-  ndim: dimension of array
-  shape
-
-
-Slice
-
-chaning of slice of an array will be broadcast
-
-for copying, using array[:].copy()
-
-index and slice, array[:,:,:]
-
-x[1,2,…] is equivalent to x[1,2,:,:,:],
-x[…,3] to x[:,:,:,:,3] and
-x[4,…,5,:] to x[4,:,:,5,:]
-
-Boolean index
-
-
-  
-    array ==/!=/ value giving a boolean list with the same length, here the express array |/&amp;amp; value is used as boolean index.
-  
-  
-    array(boolean_list) selecting the true element and broadcasting.
-  
-
-
-data[data&amp;lt;0] = 0 # changing the negative elements to 0s
-
-Fancy index
-
-a([i:],[j:],[]…)
-
-Function
-
-
-  .reshape
-  
-    .T
-  
-  ufunc
-    
-      a
-    
-  
-  2ufunc
-
-
-b = np.fromfunction(f,(5,4),dtype=int)
-
-Shape
-
-Stack
-
-
-  np.vstack/hstack
-  newaxis
-  np.r_
-
-
-Split
-
-
-  No copy
-  Swallow copy
-  Deep copy
-
-
-Linear Algebra</summary></entry><entry><title type="html">A quick demo of Simple Texture theme’s code highlighting features</title><link href="https://fibomat.github.io/blog/code-highlighting/" rel="alternate" type="text/html" title="A quick demo of Simple Texture theme's code highlighting features" /><published>2017-05-27T00:00:00+09:00</published><updated>2017-05-27T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/code-highlighting</id><content type="html" xml:base="https://fibomat.github.io/blog/code-highlighting/">&lt;blockquote&gt;
-  &lt;p&gt;This is code blocks and highlighting test page for &lt;a href=&quot;https://github.com/yizeng/jekyll-theme-simple-texture&quot;&gt;Simple Texture&lt;/a&gt; theme.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul class=&quot;toc&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#code-spans&quot; id=&quot;markdown-toc-code-spans&quot;&gt;Code Spans&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#fenced-code-blocks&quot; id=&quot;markdown-toc-fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#simple-codeblock-with-long-lines&quot; id=&quot;markdown-toc-simple-codeblock-with-long-lines&quot;&gt;Simple codeblock with long lines&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#language-of-code-blocks&quot; id=&quot;markdown-toc-language-of-code-blocks&quot;&gt;Language of Code Blocks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#highlighted&quot; id=&quot;markdown-toc-highlighted&quot;&gt;Highlighted&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#external-gist&quot; id=&quot;markdown-toc-external-gist&quot;&gt;External Gist&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#simple-highlight&quot; id=&quot;markdown-toc-simple-highlight&quot;&gt;Simple Highlight&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#highlight-with-long-lines&quot; id=&quot;markdown-toc-highlight-with-long-lines&quot;&gt;Highlight with long lines&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#highlight-with-line-numbers-and-long-lines&quot; id=&quot;markdown-toc-highlight-with-line-numbers-and-long-lines&quot;&gt;Highlight with line numbers and long lines&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;code-spans&quot;&gt;Code Spans&lt;/h1&gt;
-
-&lt;p&gt;This is a test for inline codeblocks like &lt;code class=&quot;highlighter-rouge&quot;&gt;C:/Ruby23-x64&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT  &quot;offices&quot;.* FROM &quot;offices&quot; &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is a literal &lt;code class=&quot;highlighter-rouge&quot;&gt;`&lt;/code&gt; backtick.
-And here is a Ruby code fragment &lt;code class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/h1&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~~~~~~
-code with tildes
-~~~~~~~~
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;simple-codeblock-with-long-lines&quot;&gt;Simple codeblock with long lines&lt;/h1&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function myFunction() {
-    alert(&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;language-of-code-blocks&quot;&gt;Language of Code Blocks&lt;/h1&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;what?&lt;/span&gt;
-  &lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;highlighted&quot;&gt;Highlighted&lt;/h1&gt;
-
-&lt;h2 id=&quot;external-gist&quot;&gt;External Gist&lt;/h2&gt;
-
-&lt;script src=&quot;https://gist.github.com/yizeng/9b871ad619e6dcdcc0545cac3101f361.js&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;simple-highlight&quot;&gt;Simple Highlight&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;highlight-with-long-lines&quot;&gt;Highlight with long lines&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Hello&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;Console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;WriteLine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;highlight-with-line-numbers-and-long-lines&quot;&gt;Highlight with line numbers and long lines&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><category term="demo" /><category term="jekyll" /><summary type="html">This is code blocks and highlighting test page for Simple Texture theme.</summary></entry><entry><title type="html">Quick kramdown demo</title><link href="https://fibomat.github.io/blog/quick-kramdown-demo/" rel="alternate" type="text/html" title="Quick kramdown demo" /><published>2017-05-25T00:00:00+09:00</published><updated>2017-05-25T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/quick-kramdown-demo</id><content type="html" xml:base="https://fibomat.github.io/blog/quick-kramdown-demo/">&lt;blockquote&gt;
-  &lt;p&gt;This is &lt;a href=&quot;https://kramdown.gettalong.org/&quot;&gt;kramdown&lt;/a&gt; formatting test page for &lt;a href=&quot;https://github.com/yizeng/jekyll-theme-simple-texture&quot;&gt;Simple Texture&lt;/a&gt; theme.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul class=&quot;toc&quot; id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#general-usage&quot; id=&quot;markdown-toc-general-usage&quot;&gt;General Usage&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#blockquotes&quot; id=&quot;markdown-toc-blockquotes&quot;&gt;Blockquotes&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#nested&quot; id=&quot;markdown-toc-nested&quot;&gt;Nested&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#lists-inside&quot; id=&quot;markdown-toc-lists-inside&quot;&gt;Lists inside&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#long-lines&quot; id=&quot;markdown-toc-long-lines&quot;&gt;Long lines&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#lists&quot; id=&quot;markdown-toc-lists&quot;&gt;Lists&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#tables&quot; id=&quot;markdown-toc-tables&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#horizontal-rules&quot; id=&quot;markdown-toc-horizontal-rules&quot;&gt;Horizontal Rules&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#images&quot; id=&quot;markdown-toc-images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;general-usage&quot;&gt;General Usage&lt;/h1&gt;
-
-&lt;p&gt;This is a normal paragraph.&lt;/p&gt;
-
-&lt;p&gt;This is &lt;a href=&quot;https://yizeng.me&quot;&gt;a link&lt;/a&gt; to my homepage.
-A &lt;a href=&quot;https://yizeng.me/blog&quot; title=&quot;Yi Zeng's Blog&quot;&gt;link&lt;/a&gt; can also have a title.&lt;/p&gt;
-
-&lt;p&gt;This is a &lt;strong&gt;&lt;em&gt;text with light and strong emphasis&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This &lt;strong&gt;is &lt;em&gt;emphasized&lt;/em&gt; as well&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This &lt;em&gt;does _not_ work&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;This &lt;strong&gt;does __not__ work either&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is a footnote&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;This scarcely known tag emulates &lt;kbd&gt;keyboard text&lt;/kbd&gt;, which is usually styled like the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
-
-&lt;p&gt;This tag should denote &lt;ins&gt;inserted&lt;/ins&gt; text.&lt;/p&gt;
-
-&lt;p&gt;The emphasize tag should &lt;em&gt;italicize&lt;/em&gt; text.&lt;/p&gt;
-
-&lt;p&gt;This tag will let you &lt;strike&gt;strikeout text&lt;/strike&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;ruby -v&lt;/p&gt;
-
-  &lt;p&gt;tsc -v&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;nested&quot;&gt;Nested&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a paragraph in blockquote.&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;A nested blockquote.&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;lists-inside&quot;&gt;Lists inside&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unordered List&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;lists one&lt;/li&gt;
-    &lt;li&gt;lists two&lt;/li&gt;
-    &lt;li&gt;lists three&lt;/li&gt;
-  &lt;/ul&gt;
-
-  &lt;p&gt;Ordered List&lt;/p&gt;
-  &lt;ol&gt;
-    &lt;li&gt;lists one&lt;/li&gt;
-    &lt;li&gt;lists two&lt;/li&gt;
-    &lt;li&gt;lists three&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;long-lines&quot;&gt;Long lines&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;list 1 item 1
-    &lt;ul&gt;
-      &lt;li&gt;nested list item 1&lt;/li&gt;
-      &lt;li&gt;nested list item 2&lt;/li&gt;
-      &lt;li&gt;nested list item 3 with blockquote
-        &lt;blockquote&gt;
-          &lt;p&gt;ruby -v&lt;/p&gt;
-
-          &lt;p&gt;tsc -v&lt;/p&gt;
-        &lt;/blockquote&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;list 1 item 2&lt;/li&gt;
-  &lt;li&gt;list 1 item 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Table 1&lt;/p&gt;
-
-    &lt;table&gt;
-      &lt;thead&gt;
-        &lt;tr&gt;
-          &lt;th&gt;Default aligned&lt;/th&gt;
-          &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
-          &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
-          &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
-        &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;First body part&lt;/td&gt;
-          &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
-          &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Second line&lt;/td&gt;
-          &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Third line&lt;/td&gt;
-          &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
-          &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Footer row&lt;/td&gt;
-          &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-          &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Table 2&lt;/p&gt;
-
-    &lt;table&gt;
-      &lt;thead&gt;
-        &lt;tr&gt;
-          &lt;th&gt;Default aligned&lt;/th&gt;
-          &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
-          &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
-          &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
-        &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;First body part&lt;/td&gt;
-          &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
-          &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Second line&lt;/td&gt;
-          &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Third line&lt;/td&gt;
-          &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
-          &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Footer row&lt;/td&gt;
-          &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-          &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-          &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;horizontal-rules&quot;&gt;Horizontal Rules&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
-
-&lt;p&gt;Here comes an image!&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;post-image&quot; href=&quot;https://kramdown.gettalong.org/overview.png&quot;&gt;
-&lt;img itemprop=&quot;image&quot; data-src=&quot;https://kramdown.gettalong.org/overview.png&quot; src=&quot;/assets/javascripts/unveil/loader.gif&quot; alt=&quot;Kramdown Overview&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;This is a footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><category term="demo" /><category term="jekyll" /><summary type="html">This is kramdown formatting test page for Simple Texture theme.</summary></entry><entry><title type="html">Explanations of modern quantum theory</title><link href="https://fibomat.github.io/blog/explanations-of-quantum-mechanics/" rel="alternate" type="text/html" title="Explanations of modern quantum theory" /><published>2016-11-10T00:00:00+09:00</published><updated>2016-11-10T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/explanations-of-quantum-mechanics</id><content type="html" xml:base="https://fibomat.github.io/blog/explanations-of-quantum-mechanics/">&lt;p&gt;Since different branches of physics have established during last century, it turns out that quantum physics has become a more and more important tool to solve the various kinds physics problem. However, as Einstein pointed out the photon hypothesis of light, many explanations to quantum mechanics have also been put forward.&lt;/p&gt;
+  shortcuts (like Emacs)</summary></entry><entry><title type="html">Explanations of modern quantum theory</title><link href="https://fibomat.github.io/blog/explanations-of-quantum-mechanics/" rel="alternate" type="text/html" title="Explanations of modern quantum theory" /><published>2016-11-10T00:00:00+09:00</published><updated>2016-11-10T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/explanations-of-quantum-mechanics</id><content type="html" xml:base="https://fibomat.github.io/blog/explanations-of-quantum-mechanics/">&lt;p&gt;Since different branches of physics have established during last century, it turns out that quantum physics has become a more and more important tool to solve the various kinds physics problem. However, as Einstein pointed out the photon hypothesis of light, many explanations to quantum mechanics have also been put forward.&lt;!-- more --&gt;&lt;/p&gt;
 
 &lt;p&gt;First of all is the Schrodinger’s wave function, which is the most popular theory among the earliest quantum physicists. According to this theory, wave and particle are both essential components for the quantum phenomena. When a beam of light emitted from laser cavity, it behaves like plat wave, which takes the form of triangle function multiplied by a time harmonic factor. On contrast with classic assumption, when it comes to split experiment, light can act like particle and it seems that it will follow some certain path, which we call path of particle and the path is the range of the calculation to keep the total possibility that particle will appear, in other words, be measured and collapse to a certain state, is normalized.&lt;/p&gt;
 

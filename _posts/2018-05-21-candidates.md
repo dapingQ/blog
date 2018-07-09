@@ -10,7 +10,9 @@ date: 2018-05-21
 ---
 
 Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.
+
 <!-- more -->
+
 - Robustness against the environment, lifetime
 - Manipulation, to realize quantum gates
 - Integration possibility

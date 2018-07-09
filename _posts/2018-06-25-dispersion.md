@@ -9,7 +9,9 @@ date: 2018-06-25
 
 ## EMF propogation in homogeneous media
 
+
 In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,
+<!-- more -->
 
 $$ \mathbf{E}=E(x,y)\exp{i \beta z} $$
 
@@ -18,14 +20,18 @@ where $A(x,y)$ is field distribution on the propogation plane and $\exp{i \beta 
 Hence, all the components of EMF oscilate on the z direction at a wave vector $\beta$. 
 Then simple equations of EMF components can be derived from the Maxwell Equations in the homgeneous media.
 
+<div>
 $$
-\begin{array*}
-E_x &=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial x} + \omega \mu \frac{\partial H_z}{\partial y}) \\
-E_y &=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial y} - \omega \mu \frac{\partial H_z}{\partial y}) \\
-H_x &=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial x} - \omega \mu \frac{\partial E_z}{\partial y}) \\
-H_y &=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \frac{\partial E_z}{\partial x}) 
-\end{array*}
+    \begin{align}
+    E_x &=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial x} + \omega \mu \frac{\partial H_z}{\partial y}) \\
+    E_y &=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial y} - \omega \mu \frac{\partial H_z}{\partial y}) \\
+    H_x &=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial x} - \omega \mu \frac{\partial E_z}{\partial y}) \\
+    H_y &=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \frac{\partial E_z}{\partial x}) 
+    \end{align}
 $$
+</div>
+
+thus, 
 
 $$
   \begin{pmatrix}
@@ -47,14 +53,15 @@ Here we can see, there are two independent solutions to the above equation, wher
 
 In the no-charged and non-current surface, the boundary condition on two different media can be listed as
 
-$$
-\begin{array}
+<div>$$
+\begin{align}
 &\mathbf{n_{21}} \cdotp (\mathbf{D_2} - \mathbf{D_1}) = 0 \\
 &\mathbf{n_{21}} \times (\mathbf{E_2} - \mathbf{E_1}) = 0 \\
 &\mathbf{n_{21}} \cdotp (\mathbf{B_2} - \mathbf{B_1}) = 0 \\
 &\mathbf{n_{21}} \times (\mathbf{H_2} - \mathbf{H_1}) = 0 
-\end{array}
+\end{align}
 $$
+</div>
 
 Set the normal direction of the surface as the reference, rewrite,
 
@@ -91,7 +98,7 @@ By using Marcatili model, assuming the refractive index of four corners are the 
 2. Assume core-cladding index differences are small on all sides.
 
 e.x, the EMF of TE modes can be written,
-
+<div>
 $$
 \begin{align}
 \mathbf{E} &=(E_x, E_y, 0) \\
@@ -99,7 +106,7 @@ $$
 \mathbf{k} &=(k_x, k_y, k_z)
 \end{align}
 $$
-
+</div>
 devided as the superposition of two EMF, like
 
 $$
@@ -136,29 +143,22 @@ $$
 $$
 
 Define numerical $NA=\sqrt{n_{co}^2-n_{cld}^2}$, 
+
 $$
 v=d\sqrt{p^2+\kappa^2}=k_0 d \sqrt{n_{co}^2-n_{cld}^2}
 $$
 
 is constant and $u = pd$ ,
+
 $$
 \sqrt{v^2-u^2}=u\tan(u-m\pi/2)
 $$
 
 
-TM modes eigenvalue equation
+## TM modes eigenvalue equation
+
 $$
 2pd=m\pi + \tan^{-1}(\frac{n_c^2\kappa_1}{n_1^2p}) + \tan^{-1}(\frac{n_c^2 \kappa_2}{n_2^2p})
 $$
 
 The latter two terms are phase shift on the boundary.
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-from sympy import *
-from sympy.plotting import plot
-
-from scipy.constants import c
-```

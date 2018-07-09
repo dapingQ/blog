@@ -7,7 +7,7 @@ tag: autonomous driving
 ---
 
 
-Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the recent years[^eco], both from the famous internet technology companies and correspondingly, the automobile companies. The former team includes Google, Uber, Baidu and perhaps, Tesla[^ran]. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.
+Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the<!-- more --> recent years[^eco], both from the famous internet technology companies and correspondingly, the automobile companies. The former team includes Google, Uber, Baidu and perhaps, Tesla[^ran]. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.
 
 ## Perception
 
@@ -38,18 +38,11 @@ In the term of the interdisciplinary, urban autonomous driving is still challeng
 ### Bibliography
 
 [^eco]: Autonomous-vehicle technology is advancing ever faster. (2018, March 01). Retrieved April 19, 2018, from https://www.economist.com/news/special-report/21737420-making-vehicles-drive-themselves-hard-getting-easier-autonomous-vehicle-technology
-
 [^ran]: Muoio, D. (2017, September 27). RANKED: The 18 companies most likely to get self-driving cars on the road first. Retrieved April 19, 2018, from http://www.businessinsider.com/the-companies-most-likely-to-get-driverless-cars-on-the-road-first-2017-4
-
 [^velo]: Velodyne LiDAR Products. Retrieved April 19, 2018, from http://velodynelidar.com/products.html
-
 [^velo2]: Burke, K. (n.d.). Velodyne rolls out smaller, more powerful lidar sensor. Retrieved April 19, 2018, from http://www.autonews.com/article/20171129/MOBILITY/171129761/velodyne-rolls-out-smaller-more-powerful-lidar-sensor
-
-
 [^1]: Franke, U., Gavrila, D., Gorzig, S., Lindner, F., Puetzold, F., & Wohler, C. (1998). Autonomous driving goes downtown. IEEE Intelligent Systems, 13(6), 40-48. doi:10.1109/5254.736001
 
 [^2]: Levinson, J., Askeland, J., Becker, J., Dolson, J., Held, D., Kammel, S., . . . Thrun, S. (2011). Towards fully autonomous driving: Systems and algorithms. 2011 IEEE Intelligent Vehicles Symposium (IV). doi:10.1109/ivs.2011.5940562
-
 [^3]: Chris Urmson et al. (2008). Autonomous Driving in UrbanEnvironments: Boss and the Urban Challenge. Journal of Field Robotics 25(8), 425–466.
-
 [^4]: Campbell, M., Egerstedt, M., How, J. P., & Murray, R. M. (2010). Autonomous driving in urban environments: Approaches, lessons and challenges. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 368(1928), 4649-4672. doi:10.1098/rsta.2010.0110
