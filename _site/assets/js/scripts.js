@@ -58,3 +58,12 @@ $(document).ready(function () {
         mainClass: 'mfp-fade'
     });
 });
+
+
+// search
+
+var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: 'search.json'
+    })

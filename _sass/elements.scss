@@ -70,6 +70,18 @@
         color: $info;
       }
     }
+    &.btn-close {
+      background-color: $info;
+      color: $white;
+      border-color: $info;
+      &:visited {
+        color: $white;
+      }
+      &:hover {
+        background-color: $white;
+        color: $info;
+      }
+    }
 }
 .title .btn {
     margin: 10px;
@@ -205,4 +217,14 @@ kbd {
     text-align: center;
     font-weight: 300;
     margin-bottom: 10px;
+}
+
+.search-input{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid;
+  font-size: 2em;
+  background-color: transparent;
+  box-shadow: none;
+  outline: 0px;
 }
