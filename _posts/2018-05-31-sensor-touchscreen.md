@@ -2,7 +2,6 @@
 layout: post
 title: Sensors and Touchscreens in Smartphones
 tag: 
-  - yukohikari
   - MEMS
   - smartphone
 comments: true

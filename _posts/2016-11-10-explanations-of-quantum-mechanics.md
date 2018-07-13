@@ -2,6 +2,7 @@
 layout: post
 tag: 
 - quantum mechanics
+- quantum fundamental
 comments: true
 date: 2016-11-10
 title: Explanations of modern quantum theory

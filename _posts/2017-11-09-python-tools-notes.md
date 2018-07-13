@@ -3,10 +3,12 @@ layout: post
 tag: 
   - python
   - data
+  - numpy
+  - scipy
+  - ipython
 comments: true
 date: 2017-11-20
 title: Notes of Python Toolkits 
-mathjax: true
 ---
 
 ## iPython

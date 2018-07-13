@@ -4,7 +4,9 @@ title: Quanutm Candidates for Quantum Computation Systems
 tag:
   - quantum computation
   - optics
-  - superconducting 
+  - superconducting
+  - NMR
+  - topological computation 
 comments: true
 date: 2018-05-21
 ---
