@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://fibomat.github.io/blog/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://fibomat.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fibomat.github.io/blog/" rel="alternate" type="text/html" /><updated>2018-07-24T00:27:25+09:00</updated><id>https://fibomat.github.io/blog/</id><title type="html">Scio me nihil scire</title><entry><title type="html">A short note on CHSH inequality</title><link href="https://fibomat.github.io/blog/chsh-inequality/" rel="alternate" type="text/html" title="A short note on CHSH inequality" /><published>2018-07-23T00:00:00+09:00</published><updated>2018-07-23T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/chsh-inequality</id><content type="html" xml:base="https://fibomat.github.io/blog/chsh-inequality/">&lt;h2 id=&quot;epr-paradox-and-bells-theorem&quot;&gt;EPR paradox and Bell’s theorem&lt;/h2&gt;
-&lt;p&gt;In 1935, Einstein, Podolsky, and Rosen [@EPR] presented a paradox
-against the quantum mechanics of that time. In the abstract, they wrote&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://fibomat.github.io/blog/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://fibomat.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fibomat.github.io/blog/" rel="alternate" type="text/html" /><updated>2018-07-24T00:54:47+09:00</updated><id>https://fibomat.github.io/blog/</id><title type="html">Scio me nihil scire</title><entry><title type="html">A short note on CHSH inequality</title><link href="https://fibomat.github.io/blog/chsh-inequality/" rel="alternate" type="text/html" title="A short note on CHSH inequality" /><published>2018-07-23T00:00:00+09:00</published><updated>2018-07-23T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/chsh-inequality</id><content type="html" xml:base="https://fibomat.github.io/blog/chsh-inequality/">&lt;h2 id=&quot;epr-paradox-and-bells-theorem&quot;&gt;EPR paradox and Bell’s theorem&lt;/h2&gt;
+
+&lt;p&gt;In 1935, Einstein, Podolsky, and Rosen presented a paradox
+against the quantum mechanics of that time. In the abstract, they wrote
+&lt;!-- more --&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;In quantum mechanics in the case of two physical quantities described
@@ -17,13 +19,13 @@ due to the uncertainty principle, for two particles sharing a same
 quantum state, they should always be exchanging some information to keep
 such a violation, even separated in a far distance. Furthermore, they
 concluded that the quantum mechanics should be supplemented by some
-&quot;hidden variables&quot;.&lt;/p&gt;
+“hidden variables”.&lt;/p&gt;
 
 &lt;h2 id=&quot;bells-theorem&quot;&gt;Bell’s theorem&lt;/h2&gt;
-&lt;p&gt;After the EPR paper, in 1964, John Stewart Bell [@Bell] formulated a
+&lt;p&gt;After the EPR paper, in 1964, John Stewart Bell formulated a
 mathematical theorem &lt;em&gt;shown to be incompatible with the statistical
 prediction of quantum mechanics&lt;/em&gt;, which later named as Bell’ theorem. If
-we presuppose the hidden variables [ \lambda ], with a possibility
+we presuppose the hidden variables $ \lambda$, with a possibility
 distribution $\rho(\lambda)$, consider an ensemble of correlated pairs
 of particles separated from the same source in the past and moving free
 in opposite direction. For example, the spin one-half in the singlet.&lt;/p&gt;
@@ -36,11 +38,13 @@ example, the results in the Stern-Gerlach experiment only have two
 choice, spin-up and spin-down. That is to say, $A(a,\lambda)=\pm 1$ and
 $B(b,\lambda)=\pm 1$.&lt;/p&gt;
 
-&lt;p&gt;Define the correlation function,
-&lt;script type=&quot;math/tex&quot;&gt;P(a,b) = \int d\lambda \rho(\lambda) A(a,\lambda) B(b,\lambda)&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Define the correlation function,&lt;/p&gt;
 
-&lt;p&gt;Then Bell gave a simple inequality requiring that
-&lt;script type=&quot;math/tex&quot;&gt;| P(a,b) - P(a,c) | \leq 1 + P(b,c)&lt;/script&gt;&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(a,b) = \int d\lambda \rho(\lambda) A(a,\lambda) B(b,\lambda)&lt;/script&gt;
+
+&lt;p&gt;Then Bell gave a simple inequality requiring that&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;| P(a,b) - P(a,c) | \leq 1 + P(b,c)&lt;/script&gt;
 
 &lt;p&gt;However, since Bell himself denied the unrealistic relation between the
 side A and side B and later proved the violation of above inequality is
@@ -56,14 +60,18 @@ so that a theory could not be Lorentz invariant.&lt;/p&gt;
 &lt;p&gt;Despite of Bell’s ironical remarks on quantum mechanics, the Bell’s
 theorem is successful to realize a decisive experimental test of the
 hidden variable. Here, a generalization of Bell’s theorem is derived.
-Firstly, note the hidden variable space as $\Gamma$, thus
-&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+Firstly, note the hidden variable space as $\Gamma$, thus&lt;/p&gt;
+
+&lt;div&gt;
+$$
 \begin{split}
-    &amp;| P(a,b) - P(a,c)| 
+    &amp;amp;| P(a,b) - P(a,c)| 
     \leq \int_{\Gamma} \rho(\lambda) d\lambda | A(a,\lambda) B(b,\lambda) - A(a,\lambda) B(c,\lambda) | \\
-    &amp;= \int_{\Gamma} \rho(\lambda) d\lambda | A(a,\lambda) B(b,\lambda)|[1 - B(b,\lambda) B(c,\lambda)]
+    &amp;amp;= \int_{\Gamma} \rho(\lambda) d\lambda | A(a,\lambda) B(b,\lambda)|[1 - B(b,\lambda) B(c,\lambda)]
     = 1 - \int_{\Gamma} \rho(\lambda) d\lambda B(b,\lambda) B(c,\lambda)
-    \end{split}\label{eq1} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+\end{split}
+$$
+&lt;/div&gt;
 
 &lt;p&gt;Therefore, we discuss the relation between the result
 $A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy
@@ -71,36 +79,49 @@ $P(d,b)=1-\delta$ and $\delta$ is close to zero but not equal. And this
 is different from Bell’s unrealistic restriction, $\delta=0$. Moreover,
 dividing the $\Gamma$ space into $\Gamma_\pm$ such that
 $\Gamma_\pm={ \lambda | A(d,\lambda)=\pm B(b,\lambda)  }$, thus the
-results of twos are in positive correlation or in negative correlation.
-&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+results of twos are in positive correlation or in negative correlation.&lt;/p&gt;
+
+&lt;div&gt;
+$$
 \begin{split}
         \int_{\Gamma} \rho(\lambda) d\lambda B(b,\lambda) B(c,\lambda)
-    &amp;= \int_{\Gamma} \rho(\lambda) d\lambda A(d,\lambda) B(c,\lambda)
+    &amp;amp;= \int_{\Gamma} \rho(\lambda) d\lambda A(d,\lambda) B(c,\lambda)
     - 2 \int_{\Gamma_{-}} \rho(\lambda) d\lambda A(d,\lambda) B(c,\lambda) \\
-    &amp;\leq P(d,c) - 2 \int_{\Gamma_{-}} \rho(\lambda) d\lambda |A(d,\lambda) B(c,\lambda)|
+    &amp;amp;\leq P(d,c) - 2 \int_{\Gamma_{-}} \rho(\lambda) d\lambda |A(d,\lambda) B(c,\lambda)|
     = P(d,c) - \delta
-    \end{split}\label{eq2} %]]&gt;&lt;/script&gt; therefore, from
-Eq.&lt;a href=&quot;#eq1&quot;&gt;[eq1]&lt;/a&gt;{reference-type=”ref” reference=”eq1”} and
-Eq.&lt;a href=&quot;#eq2&quot;&gt;[eq2]&lt;/a&gt;{reference-type=”ref” reference=”eq2”}
-&lt;script type=&quot;math/tex&quot;&gt;|P(a,b)-P(a,c)| \leq 2-P(d,b)-P(d,c)
-    \label{chsh}&lt;/script&gt; This the original CHSH inequality, which is a little
+    \end{split}
+$$
+&lt;/div&gt;
+&lt;p&gt;therefore, from
+Eq.and
+Eq.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;|P(a,b)-P(a,c)| \leq 2-P(d,b)-P(d,c)&lt;/script&gt;
+
+&lt;p&gt;This the original CHSH inequality, which is a little
 from the modern version, here we give a short derivation. Let
-$d\rightarrow -d$ and $\Gamma_{-}\rightarrow\Gamma_{+}$, we can get
-&lt;script type=&quot;math/tex&quot;&gt;|P(a,b)-P(a,c)| \leq 2 + P(d,b) + P(d,c)
-    \label{chsh'}&lt;/script&gt; From Eq.&lt;a href=&quot;#chsh&quot;&gt;[chsh]&lt;/a&gt;{reference-type=”ref”
-reference=”chsh”} and Eq.&lt;a href=&quot;#chsh'&quot;&gt;[chsh']&lt;/a&gt;{reference-type=”ref”
-reference=”chsh’”}, hence &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+$d\rightarrow -d$ and $\Gamma_{-}\rightarrow\Gamma_{+}$, we can get&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;|P(a,b)-P(a,c)| \leq 2 + P(d,b) + P(d,c)&lt;/script&gt;
+
+&lt;p&gt;From Eq. and Eq., hence&lt;/p&gt;
+
+&lt;div&gt;
+$$
 \begin{split}
-    &amp; |P(a,b)-P(a,c)| \leq 2 - |P(d,b) + P(d,c)| \\
-    &amp; |P(d,b) - P(d,c)| + |P(a,b) + P(a,c)| \leq 2 \\
-    &amp; |P(d,b) - P(d,c) + P(a,b) + P(a,c)| \leq 2
-\end{split}\label{chsh''} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+    &amp;amp; |P(a,b)-P(a,c)| \leq 2 - |P(d,b) + P(d,c)| \\
+    &amp;amp; |P(d,b) - P(d,c)| + |P(a,b) + P(a,c)| \leq 2 \\
+    &amp;amp; |P(d,b) - P(d,c) + P(a,b) + P(a,c)| \leq 2
+\end{split}
+$$
+&lt;/div&gt;
 
 &lt;h2 id=&quot;experimental-proposal&quot;&gt;Experimental proposal&lt;/h2&gt;
-&lt;p&gt;For any term in Eq.&lt;a href=&quot;#chsh''&quot;&gt;[chsh'']&lt;/a&gt;{reference-type=”ref”
-reference=”chsh’’”}, let $ P(a,b) $ be example,
-&lt;script type=&quot;math/tex&quot;&gt;P(a,b)=w [A(a)_+,B(b)_+]+w [A(a)_-,B(b)_-]-w [A(a)_+,B(b)_-]-w [A(a)_-,B(b)_+]&lt;/script&gt;
-here, $\pm$ means the two basis of measurement apparatus and includes
+&lt;p&gt;For any term in Eq., let $ P(a,b) $ be example,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(a,b)=w [A(a)_+,B(b)_+]+w [A(a)_-,B(b)_-]-w [A(a)_+,B(b)_-]-w [A(a)_-,B(b)_+]&lt;/script&gt;
+
+&lt;p&gt;here, $\pm$ means the two basis of measurement apparatus and includes
 the four choices of parallel or perpendicular polarizers.&lt;/p&gt;
 
 &lt;p&gt;In conclusion, to test if the Bell’s inequality can be violated, we only
@@ -112,8 +133,11 @@ the efficiency is not same for different channels. To demonstrate a
 loop-free Bell inequality experiments, we should take the efficiency of
 detectors into account. Furthermore, we may evaluate the efficiency
 threshold for all the detectors involved in the experiments. Later
-proved in this paper and also widely used in related experiments,
-&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2} F + 1 &gt; 2\eta/(\epsilon_M+\epsilon_m)&lt;/script&gt; where
+proved in this paper and also widely used in related experiments,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{2} F + 1 &gt; 2\eta/(\epsilon_M+\epsilon_m)&lt;/script&gt;
+
+&lt;p&gt;where
 $\epsilon_m,\epsilon_M$ are the efficiency of the polarizers set
 parallel or perpendicular and $\eta$ is the detector efficiency. The
 function $F$ is the visibility of different angles. In the ideal case,
@@ -122,115 +146,10 @@ if only $F&amp;gt;\sqrt{2}/2$, there is a violation of Bell’s inequality.&lt;/
 &lt;p&gt;Another problem comes with localization. If the hidden variable only
 effects the pairs in the past, to make the apparatus separated far away
 enough, usually in space-like separation, which also challenges the
-experimental setups.&lt;/p&gt;
+experimental setups.&lt;/p&gt;</content><category term="Bell's theorem" /><category term="CHSH" /><summary type="html">EPR paradox and Bell’s theorem
 
-&lt;p&gt;\bibliographystyle{plain}&lt;/p&gt;</content><category term="Bell's theorem" /><category term="CHSH" /><summary type="html">EPR paradox and Bell’s theorem
-In 1935, Einstein, Podolsky, and Rosen [@EPR] presented a paradox
-against the quantum mechanics of that time. In the abstract, they wrote
-
-
-  In quantum mechanics in the case of two physical quantities described
-by non-commuting operators, the knowledge of one precludes the
-knowledge of the other. Then either (1) the description of reality
-given by the wave function in quantum mechanics is not complete or (2)
-these two quantities cannot have simultaneous reality.
-
-
-Here, they concluded that the incompleteness of quantum mechanics
-arises from the violation of the physics reality, in particular, to the
-non-commuting operators. A widely used alternative explanation is that,
-due to the uncertainty principle, for two particles sharing a same
-quantum state, they should always be exchanging some information to keep
-such a violation, even separated in a far distance. Furthermore, they
-concluded that the quantum mechanics should be supplemented by some
-&quot;hidden variables&quot;.
-
-Bell’s theorem
-After the EPR paper, in 1964, John Stewart Bell [@Bell] formulated a
-mathematical theorem shown to be incompatible with the statistical
-prediction of quantum mechanics, which later named as Bell’ theorem. If
-we presuppose the hidden variables [ \lambda ], with a possibility
-distribution $\rho(\lambda)$, consider an ensemble of correlated pairs
-of particles separated from the same source in the past and moving free
-in opposite direction. For example, the spin one-half in the singlet.
-
-If we have the suitable apparatus to measure the pairs at side A and
-side B with the adjustable parameters a and b. Due to the hidden theory,
-measurement results should be $A(a,\lambda)$ and $B(b,\lambda)$. For the
-two-level system, we set the measurement channels as +1 and -1. For
-example, the results in the Stern-Gerlach experiment only have two
-choice, spin-up and spin-down. That is to say, $A(a,\lambda)=\pm 1$ and
-$B(b,\lambda)=\pm 1$.
-
-Define the correlation function,
-
-
-Then Bell gave a simple inequality requiring that
-
-
-However, since Bell himself denied the unrealistic relation between the
-side A and side B and later proved the violation of above inequality is
-impossible and commented
-
-
-  there must be a mechanism whereby the setting of the one measuring
-device can influence the reading of another instrument, however
-remote. Moreover, the signal involved must propagate instantaneously,
-so that a theory could not be Lorentz invariant.
-
-
-Despite of Bell’s ironical remarks on quantum mechanics, the Bell’s
-theorem is successful to realize a decisive experimental test of the
-hidden variable. Here, a generalization of Bell’s theorem is derived.
-Firstly, note the hidden variable space as $\Gamma$, thus
-
-
-Therefore, we discuss the relation between the result
-$A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy
-$P(d,b)=1-\delta$ and $\delta$ is close to zero but not equal. And this
-is different from Bell’s unrealistic restriction, $\delta=0$. Moreover,
-dividing the $\Gamma$ space into $\Gamma_\pm$ such that
-$\Gamma_\pm={ \lambda | A(d,\lambda)=\pm B(b,\lambda)  }$, thus the
-results of twos are in positive correlation or in negative correlation.
- therefore, from
-Eq.[eq1]{reference-type=”ref” reference=”eq1”} and
-Eq.[eq2]{reference-type=”ref” reference=”eq2”}
- This the original CHSH inequality, which is a little
-from the modern version, here we give a short derivation. Let
-$d\rightarrow -d$ and $\Gamma_{-}\rightarrow\Gamma_{+}$, we can get
- From Eq.[chsh]{reference-type=”ref”
-reference=”chsh”} and Eq.[chsh']{reference-type=”ref”
-reference=”chsh’”}, hence 
-
-Experimental proposal
-For any term in Eq.[chsh'']{reference-type=”ref”
-reference=”chsh’’”}, let $ P(a,b) $ be example,
-
-here, $\pm$ means the two basis of measurement apparatus and includes
-the four choices of parallel or perpendicular polarizers.
-
-In conclusion, to test if the Bell’s inequality can be violated, we only
-need to change the polarizers and count the correlation rate.
-
-However, the detectors of all the real physics system is not prefect and
-uniform. Firstly, the detector efficiency is not normalized. Secondly,
-the efficiency is not same for different channels. To demonstrate a
-loop-free Bell inequality experiments, we should take the efficiency of
-detectors into account. Furthermore, we may evaluate the efficiency
-threshold for all the detectors involved in the experiments. Later
-proved in this paper and also widely used in related experiments,
- where
-$\epsilon_m,\epsilon_M$ are the efficiency of the polarizers set
-parallel or perpendicular and $\eta$ is the detector efficiency. The
-function $F$ is the visibility of different angles. In the ideal case,
-if only $F&amp;gt;\sqrt{2}/2$, there is a violation of Bell’s inequality.
-
-Another problem comes with localization. If the hidden variable only
-effects the pairs in the past, to make the apparatus separated far away
-enough, usually in space-like separation, which also challenges the
-experimental setups.
-
-\bibliographystyle{plain}</summary></entry><entry><title type="html">Silicon carbide MOSFET</title><link href="https://fibomat.github.io/blog/sic-mosfet/" rel="alternate" type="text/html" title="Silicon carbide MOSFET" /><published>2018-07-06T00:00:00+09:00</published><updated>2018-07-06T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/sic-mosfet</id><content type="html" xml:base="https://fibomat.github.io/blog/sic-mosfet/">&lt;h3 id=&quot;dmos&quot;&gt;DMOS&lt;/h3&gt;
+In 1935, Einstein, Podolsky, and Rosen presented a paradox
+against the quantum mechanics of that time. In the abstract, they wrote</summary></entry><entry><title type="html">Silicon carbide MOSFET</title><link href="https://fibomat.github.io/blog/sic-mosfet/" rel="alternate" type="text/html" title="Silicon carbide MOSFET" /><published>2018-07-06T00:00:00+09:00</published><updated>2018-07-06T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/sic-mosfet</id><content type="html" xml:base="https://fibomat.github.io/blog/sic-mosfet/">&lt;h3 id=&quot;dmos&quot;&gt;DMOS&lt;/h3&gt;
 
 &lt;p&gt;A typical or conventional SiC MOSFET uses the DMOSFET structure, where D means double-diffused. As illustrated in the fig, the two source regions are arranged on the both side of the ground gate, while the drain is set on the backside. 
 &lt;!-- more --&gt;
@@ -256,7 +175,142 @@ Furthermore,  the DMOS structure consists of an n-type substrate on which is gro
   &lt;/ol&gt;
 &lt;/div&gt;</content><category term="MOSFET" /><category term="SiC" /><category term="semiconductor" /><summary type="html">DMOS
 
-A typical or conventional SiC MOSFET uses the DMOSFET structure, where D means double-diffused. As illustrated in the fig, the two source regions are arranged on the both side of the ground gate, while the drain is set on the backside.</summary></entry><entry><title type="html">Dispersion of the planar waveguide</title><link href="https://fibomat.github.io/blog/dispersion/" rel="alternate" type="text/html" title="Dispersion of the planar waveguide" /><published>2018-06-25T00:00:00+09:00</published><updated>2018-06-25T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/dispersion</id><content type="html" xml:base="https://fibomat.github.io/blog/dispersion/">&lt;h2 id=&quot;emf-propogation-in-homogeneous-media&quot;&gt;EMF propogation in homogeneous media&lt;/h2&gt;
+A typical or conventional SiC MOSFET uses the DMOSFET structure, where D means double-diffused. As illustrated in the fig, the two source regions are arranged on the both side of the ground gate, while the drain is set on the backside.</summary></entry><entry><title type="html">Dispersion of the planar waveguide</title><link href="https://fibomat.github.io/blog/test/" rel="alternate" type="text/html" title="Dispersion of the planar waveguide" /><published>2018-06-25T00:00:00+09:00</published><updated>2018-06-25T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/test</id><content type="html" xml:base="https://fibomat.github.io/blog/test/">&lt;h2 id=&quot;emf-propogation-in-homogeneous-media&quot;&gt;EMF propogation in homogeneous media&lt;/h2&gt;
+
+&lt;p&gt;In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{E}=E(x,y)\exp{i \beta z}&lt;/script&gt;
+
+&lt;p&gt;where $A(x,y)$ is field distribution on the propogation plane and $\exp{i \beta z}$ is propogation factor.&lt;/p&gt;
+
+&lt;p&gt;Hence, all the components of EMF oscilate on the z direction at a wave vector $\beta$. 
+Then simple equations of EMF components can be derived from the Maxwell Equations in the homgeneous media.&lt;/p&gt;
+
+&lt;div&gt;
+$$
+    \begin{align}
+    E_x &amp;amp;=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial x} + \omega \mu \frac{\partial H_z}{\partial y}) \\
+    E_y &amp;amp;=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial y} - \omega \mu \frac{\partial H_z}{\partial y}) \\
+    H_x &amp;amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial x} - \omega \mu \frac{\partial E_z}{\partial y}) \\
+    H_y &amp;amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \frac{\partial E_z}{\partial x}) 
+    \end{align}
+$$
+&lt;/div&gt;
+
+&lt;p&gt;thus,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{pmatrix}
+    a &amp; b\\
+    c &amp; d\\
+  \hline
+    1 &amp; 0\\
+    0 &amp; 1
+  \end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;where $ k_c^2 = n^2 k^2 - \beta ^2 $, which is defined as &lt;em&gt;cut-off wave vector&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here we can see, there are two independent solutions to the above equation, where $E_z$ and $H_z$ are two independent variables. In result, these two modes are named &lt;em&gt;TE&lt;/em&gt; and &lt;em&gt;TM&lt;/em&gt; modes. Separately, only $E_z$ or $H_z$ doesn’t equal to zero.&lt;/p&gt;
+
+&lt;h2 id=&quot;boundary-condition&quot;&gt;Boundary condition&lt;/h2&gt;
+
+&lt;p&gt;In the no-charged and non-current surface, the boundary condition on two different media can be listed as&lt;/p&gt;
+
+&lt;div&gt;$$
+\begin{align}
+&amp;amp;\mathbf{n_{21}} \cdotp (\mathbf{D_2} - \mathbf{D_1}) = 0 \\
+&amp;amp;\mathbf{n_{21}} \times (\mathbf{E_2} - \mathbf{E_1}) = 0 \\
+&amp;amp;\mathbf{n_{21}} \cdotp (\mathbf{B_2} - \mathbf{B_1}) = 0 \\
+&amp;amp;\mathbf{n_{21}} \times (\mathbf{H_2} - \mathbf{H_1}) = 0 
+\end{align}
+$$
+&lt;/div&gt;
+
+&lt;p&gt;Set the normal direction of the surface as the reference, rewrite,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\varepsilon_1 E_{1, \bot} = \varepsilon_2 E_{2, \bot} ,
+\mathbf{E}_{1, \|} = \mathbf{E}_{2, \|} \\
+\mu_1 H_{1, \bot} = \mu_2 H_{2, \bot} ,
+\mathbf{H}_{1, \|} = \mathbf{H}_{2, \|}&lt;/script&gt;
+
+&lt;p&gt;where the $\perp, \parallel$ mean the normal and tangential components of EMF.&lt;/p&gt;
+
+&lt;p&gt;e.x, if we study the xz surface (y direction is the normal vector) of the TE mode, for $E_z = 0$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\varepsilon_1 E_{1,y}=\varepsilon_2 E_{2,y} , E_{1,x}=E_{2,x} , E_{1,z}=E_{2,z} =0 \\
+\mu_1 H_{1,y}=\mu_2 H_{2,y} , H_{1,x}=H_{2,x} , H_{1,z}=H_{2,z} \neq 0&lt;/script&gt;
+
+&lt;p&gt;Furthermore, the solution of either TE or TE modes can be transfer as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\nabla^2_{x,y} ~A + n^2 k^2 - \beta^2 A = 0&lt;/script&gt;
+
+&lt;p&gt;and where n is the refractive index of material and $\beta$ is the propagation constant.&lt;/p&gt;
+
+&lt;h2 id=&quot;modes-of-rectangular-waveguides&quot;&gt;Modes of Rectangular Waveguides&lt;/h2&gt;
+
+&lt;p&gt;By using Marcatili model, assuming the refractive index of four corners are the same, $n_c$, &lt;em&gt;see. Marcatili, Bell Syst. Tech. J. 48, 2071 (1969)&lt;/em&gt;, the rectangular waveguides can be calculated like two planar waveguides. Appromaxiation includes two simplifications,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ignore boundary conditions associated with hatched regions.&lt;/li&gt;
+  &lt;li&gt;Assume core-cladding index differences are small on all sides.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;e.x, the EMF of TE modes can be written,&lt;/p&gt;
+&lt;div&gt;
+$$
+\begin{align}
+\mathbf{E} &amp;amp;=(E_x, E_y, 0) \\
+\mathbf{H} &amp;amp;=(H_x, H_y, H_z) \\
+\mathbf{k} &amp;amp;=(k_x, k_y, k_z)
+\end{align}
+$$
+&lt;/div&gt;
+&lt;p&gt;devided as the superposition of two EMF, like&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\mathbf{E_1}&amp;=(E_x, 0, 0) 
+&amp;\mathbf{E_2}&amp;=(0, E_y, 0) \\
+\mathbf{H_1}&amp;=(0, H_{y}, H_{1z}) 
+&amp;\mathbf{H_2}&amp;=(H_{x}, 0, H_{2z}) \\
+\mathbf{k_1}&amp;=(0, k_{y}, k_{1z}) 
+&amp;\mathbf{k_2}&amp;=(k_{x}, 0, k_{2z}) %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;which can satisfy the transverse field condition and energy conservation simultaneously. Hence, the solution truns into solving the planar waveguide field distribution.&lt;/p&gt;
+
+&lt;p&gt;In a passive field, like silicon waveguide, &lt;strong&gt;there is nothing more complex than the Helmholtz equantion in the vector field,&lt;/strong&gt; where the eigen-solution only depends on the boundary condition.&lt;/p&gt;
+
+&lt;p&gt;From the Maxwell equations, all the components can be represented by z-component. Finally, the problem ends up into &lt;strong&gt;only one Helmholtz equation with two groups of boundary conditions&lt;/strong&gt;, on xz surface and yz surface.&lt;/p&gt;
+
+&lt;p&gt;to be added&lt;/p&gt;
+
+&lt;h2 id=&quot;te-modes-eigenvalue-equation&quot;&gt;TE modes eigenvalue equation&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2pd=m\pi + \tan^{-1}(\kappa_1/p) + \tan^{-1}(\kappa_2/p)&lt;/script&gt;
+
+&lt;p&gt;$d$ is half of the thickness and $p$ is the&lt;/p&gt;
+
+&lt;p&gt;The latter two terms are phase shift on the boundary.&lt;/p&gt;
+
+&lt;p&gt;For symmetric waveguides&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\kappa = p \tan(pd - m\pi/2)&lt;/script&gt;
+
+&lt;p&gt;Define numerical $NA=\sqrt{n_{co}^2-n_{cld}^2}$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;v=d\sqrt{p^2+\kappa^2}=k_0 d \sqrt{n_{co}^2-n_{cld}^2}&lt;/script&gt;
+
+&lt;p&gt;is constant and $u = pd$ ,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{v^2-u^2}=u\tan(u-m\pi/2)&lt;/script&gt;
+
+&lt;h2 id=&quot;tm-modes-eigenvalue-equation&quot;&gt;TM modes eigenvalue equation&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2pd=m\pi + \tan^{-1}(\frac{n_c^2\kappa_1}{n_1^2p}) + \tan^{-1}(\frac{n_c^2 \kappa_2}{n_2^2p})&lt;/script&gt;
+
+&lt;p&gt;The latter two terms are phase shift on the boundary.&lt;/p&gt;</content><category term="waveguide" /><summary type="html">EMF propogation in homogeneous media
+
+In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,</summary></entry><entry><title type="html">Dispersion of the planar waveguide</title><link href="https://fibomat.github.io/blog/dispersion/" rel="alternate" type="text/html" title="Dispersion of the planar waveguide" /><published>2018-06-25T00:00:00+09:00</published><updated>2018-06-25T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/dispersion</id><content type="html" xml:base="https://fibomat.github.io/blog/dispersion/">&lt;h2 id=&quot;emf-propogation-in-homogeneous-media&quot;&gt;EMF propogation in homogeneous media&lt;/h2&gt;
 
 &lt;p&gt;In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,
 &lt;!-- more --&gt;&lt;/p&gt;

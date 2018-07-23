@@ -10,8 +10,10 @@ date: 2018-07-23
 
 
 ## EPR paradox and Bell's theorem
-In 1935, Einstein, Podolsky, and Rosen [@EPR] presented a paradox
+
+In 1935, Einstein, Podolsky, and Rosen presented a paradox
 against the quantum mechanics of that time. In the abstract, they wrote
+<!-- more -->
 
 > In quantum mechanics in the case of two physical quantities described
 > by non-commuting operators, the knowledge of one precludes the
@@ -26,14 +28,14 @@ due to the uncertainty principle, for two particles sharing a same
 quantum state, they should always be exchanging some information to keep
 such a violation, even separated in a far distance. Furthermore, they
 concluded that the quantum mechanics should be supplemented by some
-\"hidden variables\".
+"hidden variables".
 
 
 ## Bell's theorem
-After the EPR paper, in 1964, John Stewart Bell [@Bell] formulated a
+After the EPR paper, in 1964, John Stewart Bell formulated a
 mathematical theorem *shown to be incompatible with the statistical
 prediction of quantum mechanics*, which later named as Bell' theorem. If
-we presuppose the hidden variables \[ \lambda \], with a possibility
+we presuppose the hidden variables $ \lambda$, with a possibility
 distribution $\rho(\lambda)$, consider an ensemble of correlated pairs
 of particles separated from the same source in the past and moving free
 in opposite direction. For example, the spin one-half in the singlet.
@@ -47,10 +49,22 @@ choice, spin-up and spin-down. That is to say, $A(a,\lambda)=\pm 1$ and
 $B(b,\lambda)=\pm 1$.
 
 Define the correlation function,
-$$P(a,b) = \int d\lambda \rho(\lambda) A(a,\lambda) B(b,\lambda)$$
+
+$$
+
+P(a,b) = \int d\lambda \rho(\lambda) A(a,\lambda) B(b,\lambda)
+$$
+
+
 
 Then Bell gave a simple inequality requiring that
-$$| P(a,b) - P(a,c) | \leq 1 + P(b,c)$$
+
+$$
+
+| P(a,b) - P(a,c) | \leq 1 + P(b,c)
+$$
+
+
 
 However, since Bell himself denied the unrealistic relation between the
 side A and side B and later proved the violation of above inequality is
@@ -65,12 +79,17 @@ Despite of Bell's ironical remarks on quantum mechanics, the Bell's
 theorem is successful to realize a decisive experimental test of the
 hidden variable. Here, a generalization of Bell's theorem is derived.
 Firstly, note the hidden variable space as $\Gamma$, thus
-$$\begin{split}
+
+<div>
+$$
+\begin{split}
     &| P(a,b) - P(a,c)| 
     \leq \int_{\Gamma} \rho(\lambda) d\lambda | A(a,\lambda) B(b,\lambda) - A(a,\lambda) B(c,\lambda) | \\
     &= \int_{\Gamma} \rho(\lambda) d\lambda | A(a,\lambda) B(b,\lambda)|[1 - B(b,\lambda) B(c,\lambda)]
     = 1 - \int_{\Gamma} \rho(\lambda) d\lambda B(b,\lambda) B(c,\lambda)
-    \end{split}\label{eq1}$$
+\end{split}
+$$
+</div>
 
 Therefore, we discuss the relation between the result
 $A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy
@@ -79,32 +98,63 @@ is different from Bell's unrealistic restriction, $\delta=0$. Moreover,
 dividing the $\Gamma$ space into $\Gamma_\pm$ such that
 $\Gamma_\pm=\{ \lambda | A(d,\lambda)=\pm B(b,\lambda)  \}$, thus the
 results of twos are in positive correlation or in negative correlation.
-$$\begin{split}
+
+<div>
+$$
+\begin{split}
         \int_{\Gamma} \rho(\lambda) d\lambda B(b,\lambda) B(c,\lambda)
     &= \int_{\Gamma} \rho(\lambda) d\lambda A(d,\lambda) B(c,\lambda)
     - 2 \int_{\Gamma_{-}} \rho(\lambda) d\lambda A(d,\lambda) B(c,\lambda) \\
     &\leq P(d,c) - 2 \int_{\Gamma_{-}} \rho(\lambda) d\lambda |A(d,\lambda) B(c,\lambda)|
     = P(d,c) - \delta
-    \end{split}\label{eq2}$$ therefore, from
-Eq.[\[eq1\]](#eq1){reference-type="ref" reference="eq1"} and
-Eq.[\[eq2\]](#eq2){reference-type="ref" reference="eq2"}
-$$|P(a,b)-P(a,c)| \leq 2-P(d,b)-P(d,c)
-    \label{chsh}$$ This the original CHSH inequality, which is a little
+    \end{split}
+$$
+</div>
+ therefore, from
+Eq.and
+Eq.
+
+$$
+
+|P(a,b)-P(a,c)| \leq 2-P(d,b)-P(d,c)
+
+$$
+
+
+    
+This the original CHSH inequality, which is a little
 from the modern version, here we give a short derivation. Let
 $d\rightarrow -d$ and $\Gamma_{-}\rightarrow\Gamma_{+}$, we can get
-$$|P(a,b)-P(a,c)| \leq 2 + P(d,b) + P(d,c)
-    \label{chsh'}$$ From Eq.[\[chsh\]](#chsh){reference-type="ref"
-reference="chsh"} and Eq.[\[chsh\'\]](#chsh'){reference-type="ref"
-reference="chsh'"}, hence $$\begin{split}
+
+$$
+|P(a,b)-P(a,c)| \leq 2 + P(d,b) + P(d,c)
+$$
+
+
+
+From Eq. and Eq., hence 
+
+<div>
+$$
+\begin{split}
     & |P(a,b)-P(a,c)| \leq 2 - |P(d,b) + P(d,c)| \\
     & |P(d,b) - P(d,c)| + |P(a,b) + P(a,c)| \leq 2 \\
     & |P(d,b) - P(d,c) + P(a,b) + P(a,c)| \leq 2
-\end{split}\label{chsh''}$$
+\end{split}
+$$
+</div>
+
+
 
 ## Experimental proposal
-For any term in Eq.[\[chsh\'\'\]](#chsh''){reference-type="ref"
-reference="chsh''"}, let $ P(a,b) $ be example,
-$$P(a,b)=w [A(a)_+,B(b)_+]+w [A(a)_-,B(b)_-]-w [A(a)_+,B(b)_-]-w [A(a)_-,B(b)_+]$$
+For any term in Eq., let $ P(a,b) $ be example,
+
+$$
+
+P(a,b)=w [A(a)_+,B(b)_+]+w [A(a)_-,B(b)_-]-w [A(a)_+,B(b)_-]-w [A(a)_-,B(b)_+]
+$$
+
+
 here, $\pm$ means the two basis of measurement apparatus and includes
 the four choices of parallel or perpendicular polarizers.
 
@@ -118,7 +168,13 @@ loop-free Bell inequality experiments, we should take the efficiency of
 detectors into account. Furthermore, we may evaluate the efficiency
 threshold for all the detectors involved in the experiments. Later
 proved in this paper and also widely used in related experiments,
-$$\sqrt{2} F + 1 > 2\eta/(\epsilon_M+\epsilon_m)$$ where
+
+$$
+
+\sqrt{2} F + 1 > 2\eta/(\epsilon_M+\epsilon_m)
+$$
+
+ where
 $\epsilon_m,\epsilon_M$ are the efficiency of the polarizers set
 parallel or perpendicular and $\eta$ is the detector efficiency. The
 function $F$ is the visibility of different angles. In the ideal case,
@@ -129,4 +185,3 @@ effects the pairs in the past, to make the apparatus separated far away
 enough, usually in space-like separation, which also challenges the
 experimental setups.
 
-\bibliographystyle{plain}
