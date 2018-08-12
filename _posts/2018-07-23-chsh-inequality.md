@@ -3,7 +3,7 @@ layout: post
 title:  A short note on CHSH inequality
 tag: 
   - Bell's theorem
-  - CHSH
+  - CHSH inequality
 comments: true
 date: 2018-07-23
 ---

@@ -4,6 +4,7 @@ date: 2018-07-27
 title: A Quantum Computation Roadmap by the DiVincenzo's Criteria
 tag: 
   - quantum computation
+  - divincenzo criteria
 comments: true
 ---
 
@@ -27,20 +28,19 @@ Here a summary is drawn from the roadmap in 2002[^roadmap], which gives comparis
 
 |candidates		| #1     		|#2     		|#3     		|#4     		|#5     		|#6     		|#7     		|
 |---------    	| -------- 		| -------- 		| -------- 		| -------- 		| -------- 		| -------- 		| -------- 		|
-|Trapped ions	|$\blacksquare$	|$\bullet$		|$\blacksquare$	|$\bullet$		|$\bullet$		|$\blacksquare$	|$\blacksquare$	|
-|Neutral atoms	|$\blacksquare$	|$\bullet$		|$\blacksquare$	|$\blacksquare$	|$\blacksquare$	|$\blacksquare$	|$\blacksquare$	|
-|Photonics		|$\bullet$		|$\blacksquare$	|$\bullet$		|$\blacksquare$	|$\blacksquare$	|$\blacksquare$	|$\bullet$		|
-|Flux qubit 	|$\blacksquare$	|$\bullet$		|$\blacksquare$	|$\blacksquare$	|$\blacksquare$	|$\triangle$	|$\triangle$	|
-|Cavity QED		|$\triangle$	|$\bullet$		|$\blacksquare$	|$\bullet$		|$\bullet$		|$\blacksquare$	|$\blacksquare$	|
-|NMR			|$\triangle$	|$\blacksquare$	|$\blacksquare$	|$\bullet$		|$\blacksquare$	|$\triangle$	|$\triangle$	|
-|Silicon		|$\blacksquare$	|$\blacksquare$	|$\blacksquare$	|$\blacksquare$	|$\blacksquare$	|$\triangle$	|$\triangle$	|
-
+|Trapped ions	|$\star$	|$\bullet$		|$\star$	|$\bullet$		|$\bullet$		|$\star$	|$\star$	|
+|Neutral atoms	|$\star$	|$\bullet$		|$\star$	|$\star$	|$\star$	|$\star$	|$\star$	|
+|Photonics		|$\bullet$		|$\star$	|$\bullet$		|$\star$	|$\star$	|$\star$	|$\bullet$		|
+|Flux qubit 	|$\star$	|$\bullet$		|$\star$	|$\star$	|$\star$	|$\triangle$	|$\triangle$	|
+|Cavity QED		|$\triangle$	|$\bullet$		|$\star$	|$\bullet$		|$\bullet$		|$\star$	|$\star$	|
+|NMR			|$\triangle$	|$\star$	|$\star$	|$\bullet$		|$\star$	|$\triangle$	|$\triangle$	|
+|Silicon		|$\star$	|$\star$	|$\star$	|$\star$	|$\star$	|$\triangle$	|$\triangle$	|
 
 > $\triangle$: no protocol
-> $\blacksquare$: theoretically possible 
+> $\star$: theoretically possible 
 > $\bullet$: realized and verified by experiments
 
-We can see the photonical realization among all the physics system is still possible to demonstrate a quantum computer. But as we all know, it is hard to make photon interact with other photons, i.e, it is still desirable to introduce new mechanics beyond current post-selection protocol.
+We can see the photonical realization among all the physics system  is still possible to demonstrate a quantum computer. But as we all know, it is hard to make photon interact with other photons, i.e, it is still desirable to introduce new mechanics beyond current post-selection protocol.
 
 [^roadmap]: Quantum Computation Roadmap, http://qist.lanl.gov/qcomp_map.shtml
 [^protocol]: DiVincenzo, D. P. (2000), The Physical Implementation of Quantum Computation. Fortschr. Phys., 48: 771-783. doi:10.1002/1521-3978(200009)48:9/11<771::AID-PROP771>3.0.CO;2-E
