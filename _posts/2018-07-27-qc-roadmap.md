@@ -8,6 +8,7 @@ comments: true
 ---
 
 The Divincenzo's criteria is a list of necessary request for constructing a quantum computer which is proposed by Professor David P.DiVincenzo in 2000. During the last nearly two decades, various quantum candidates have being developed or put forward, meet the criteria more or less.
+<!-- more -->
 
 The DiVincenzo criteria consist of 5+2 conditions that an experimental setup must satisfy in order to successfully implement quantum algorithms.
 
