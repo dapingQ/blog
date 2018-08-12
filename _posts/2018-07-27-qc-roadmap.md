@@ -7,7 +7,7 @@ tag:
 comments: true
 ---
 
-The Divincenzo's criteria is a list of necessary request for constructing a quantum computer which is proposed by Professor David P.DiVincenzo in 2000. During the last nearly two decades, various quantum candidates have being developed or put forward, meet the criteria more or less.
+The Divincenzo's criteria is a list of necessary request for constructing a quantum computer, which is proposed by Professor David P.DiVincenzo in 2000[^protocol]. During the last nearly two decades, various quantum candidates have being developed or put forward, meet the criteria more or less.
 <!-- more -->
 
 The DiVincenzo criteria consist of 5+2 conditions that an experimental setup must satisfy in order to successfully implement quantum algorithms.
@@ -40,6 +40,7 @@ Here a summary is drawn from the roadmap in 2002[^roadmap], which gives comparis
 > $\blacksquare$: theoretically possible 
 > $\bullet$: realized and verified by experiments
 
-We can see the photonical realization is still possible to demonstrate a quantum computer. But as we all know, it is hard to make photon interact with other photons, i.e, it is still desirable to introduce new mechanics beyond current post-selection protocol.
+We can see the photonical realization among all the physics system is still possible to demonstrate a quantum computer. But as we all know, it is hard to make photon interact with other photons, i.e, it is still desirable to introduce new mechanics beyond current post-selection protocol.
 
 [^roadmap]: Quantum Computation Roadmap, http://qist.lanl.gov/qcomp_map.shtml
+[^protocol]: DiVincenzo, D. P. (2000), The Physical Implementation of Quantum Computation. Fortschr. Phys., 48: 771-783. doi:10.1002/1521-3978(200009)48:9/11<771::AID-PROP771>3.0.CO;2-E
