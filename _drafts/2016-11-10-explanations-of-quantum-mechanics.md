@@ -7,6 +7,9 @@ date: 2016-11-10
 title: Explanations of modern quantum theory
 ---
 
+In my undergraduate, we learned the qunatum mechanics for at least three times. One strgguled with the Schroedinger equation, one preferred the Dirac notation and the final one was more like field theory. Frankly, I had no idea how much the different those three systems are and the pedagogical reason in our school, until I went to the graduate shcool for the forth time of QM. Here, I noted my memory of the intuitive of the methodlogy of those theories. Hopefully, it might do some fresh man a favor.
+
+The first lessons of our solid physics course and statistical physics were both begun with 
 Since different branches of physics have established during last century, it turns out that quantum physics has become a more and more important tool to solve the various kinds physics problem. However, as Einstein pointed out the photon hypothesis of light, many explanations to quantum mechanics have also been put forward.
 
 First of all is the Schrodinger's wave function, which is the most popular theory among the earliest quantum physicists. According to this theory, wave and particle are both essential components for the quantum phenomena. When a beam of light emitted from laser cavity, it behaves like plat wave, which takes the form of triangle function multiplied by a time harmonic factor. On contrast with classic assumption, when it comes to split experiment, light can act like particle and it seems that it will follow some certain path, which we call path of particle and the path is the range of the calculation to keep the total possibility that particle will appear, in other words, be measured and collapse to a certain state, is normalized.
