@@ -39,9 +39,9 @@ disqus_shortname:   zhenghaoyin
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            fibomat
+# twitter:            fibomat
 # facebook:           username
-facebook:           zehnhoff
+# facebook:           zehnhoff
 # github:             fibomat
 github-url:         fibomat
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
@@ -58,7 +58,7 @@ github-url:         fibomat
 #youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
-weibo:             cdp1995
+# weibo:             cdp1995
 #flickr:            username
 #codepen:           username
 #keybase:           username
