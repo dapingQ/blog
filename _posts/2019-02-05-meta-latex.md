@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Latex Meta
+title: A Simple Latex Template for Scientific Writing
 tag: [latex]
 comments: true
 date: 2019-02-05
@@ -21,6 +21,7 @@ date: 2019-02-05
 	% \geometry{
 	% a4paper,
 	% margin=2in}
+<!-- more -->
 % --------------------------------------------------------
 % for physics and others
 \usepackage{physics}
