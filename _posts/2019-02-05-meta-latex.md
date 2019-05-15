@@ -6,7 +6,15 @@ comments: true
 date: 2019-02-05
 ---
 
+> updating
+## Necessary packages
 
+- tikz & pgfplots
+- physics siunitx mhchem
+- xcolor, fontspec/inputenc
+- ...
+
+<!-- more -->
 ```
 \documentclass[a4paper,10pt]{report}
 % --------------------------------------------------------
@@ -21,7 +29,7 @@ date: 2019-02-05
 	% \geometry{
 	% a4paper,
 	% margin=2in}
-<!-- more -->
+
 % --------------------------------------------------------
 % for physics and others
 \usepackage{physics}
@@ -47,10 +55,15 @@ date: 2019-02-05
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 % \usepackage{tgbonum}
+\usepackage{lipsum}
+
 % --------------------------------------------------------
 % Tex !
 \begin{document}
-Alles Gute.
+\lispsum
+\lispsum
 \end{document}
 
 ```
+
+You can download from [here]({{site.url/assets/files/tex_temp/tex_temp.tex}}).
