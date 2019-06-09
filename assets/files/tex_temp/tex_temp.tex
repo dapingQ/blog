@@ -1,27 +1,38 @@
 \documentclass[a4paper,10pt]{report}
 % --------------------------------------------------------
 % essential
-\usepackage{tikz,pgfplots}
+\usepackage{pgf,tikz,pgfplots}
+%\pgfplotsset{compat=1.15}
 \usepackage{xcolor,graphicx}
 \usepackage{subcaption}
 % --------------------------------------------------------
-% fullpage, change the margin
-\usepackage{fullpage} % note the compatability with fancyhdr
-% \usepackage{geometry}
-    % \geometry{
-    % a4paper,
-    % margin=2in}
-
+% sbg import, invoking inkscape
+\usepackage[inkscape=on]{svg}
+\svgpath{{svg/}}
+%\usepackage[on]{svg-extract}
+\svgsetup{clean=true}
+%\pdfsuppresswarningpagegroup=1
+%\usepackage{relsize}
 % --------------------------------------------------------
-% for physics and others
+% fullpage, or change the margin
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	top=2cm,
+	hmargin=2cm,
+	bottom=2cm
+}
+%\usepackage{fullpage} % note the compatability with fancyhdr
+% --------------------------------------------------------
+% for physics and others academic usage
 \usepackage{physics}
 \usepackage[version=4]{mhchem} % chemical formula, \ce{H2O}
 \usepackage{siunitx} % SI units
+\usepackage{esint} % special integral symbols
 % --------------------------------------------------------
 % optional 
 \usepackage{sectsty} % change section style
-    \sectionfont{\noindent\textsc}
-\usepackage{esint} % special integral
+\sectionfont{\noindent\textsc} % indent setting
 % \usepackage{fancyhdr} % header and footer
 % 	\pagestyle{fancy}
 % 	\fancyhf{}
@@ -31,12 +42,38 @@
 \usepackage{paralist}
 \usepackage{booktabs}
 % --------------------------------------------------------
-% font
-% \usepackage{fontspec}
-% \setmainfont{Calibri}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+% font setting
+% Windows recommendation, need xelatex to use fontspec
+\usepackage{fontspec}
+\setmainfont{Calibri}
+% better for overleaf and other latex complier
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
 % \usepackage{tgbonum}
+% --------------------------------------------------------
+% Tex !
+%\usepackage{import}
+%%\usepackage{xifthen}
+%\usepackage{pdfpages}
+%\usepackage{transparent}
+%
+%\usepackage{mathrsfs}
+%\usetikzlibrary{arrows}
+%\pagestyle{empty}
+%\usepackage{float}
+
+%%\setmainfont{Calibri}
+%\sectionfont{\noindent\textsc}
+\newcommand{\red}[1]{
+	\textcolor{red}{#1}
+}
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{.6\columnwidth}
+	\import{./svg-inkscape/}{#1_svg-tex.pdf_tex}
+}
+
+%\pdfsuppresswarningpagegroup=1
+
 \usepackage{lipsum}
 
 % --------------------------------------------------------
