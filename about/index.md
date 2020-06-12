@@ -47,6 +47,6 @@ comments: false
   - Music
     -[Netease Music](http://music.163.com/#/user/home?id=34072848)
 
-A full CV can be found [here](assets/CV.pdf)
+A full CV can be found [here](CV.pdf)
 
 > updated 2020/06
