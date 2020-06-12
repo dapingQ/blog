@@ -11,8 +11,13 @@ comments: false
 
 ### Education
 
-  - Master of Engineering, Kyoto University (Oct. 2017 - March 2020), Department of Electronic Science and Engineering
-  - Bachelor of Science, Nanjing University (Sept. 2013 - Jun. 2017), School of Physics
+  - Master of Engineering (Oct. 2017 - March 2020) 
+
+    *Department of Electronic Science and Engineering, Kyoto University, Japan*
+  
+  - Bachelor of Science (Sept. 2013 - Jun. 2017)
+    
+    *School of Physics, Nanjing University, China*
 
 ### Reaserch Interests
 
