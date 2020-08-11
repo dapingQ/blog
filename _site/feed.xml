@@ -1,4 +1,209 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://fibomat.github.io/blog/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://fibomat.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fibomat.github.io/blog/" rel="alternate" type="text/html" /><updated>2018-07-24T00:56:01+09:00</updated><id>https://fibomat.github.io/blog/</id><title type="html">Scio me nihil scire</title><entry><title type="html">A short note on CHSH inequality</title><link href="https://fibomat.github.io/blog/chsh-inequality/" rel="alternate" type="text/html" title="A short note on CHSH inequality" /><published>2018-07-23T00:00:00+09:00</published><updated>2018-07-23T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/chsh-inequality</id><content type="html" xml:base="https://fibomat.github.io/blog/chsh-inequality/">&lt;h2 id=&quot;epr-paradox-and-bells-theorem&quot;&gt;EPR paradox and Bell’s theorem&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://fibomat.github.io/blog/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://fibomat.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fibomat.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-08-11T22:45:46+08:00</updated><id>https://fibomat.github.io/blog/</id><title type="html">Scio me nihil scire</title><entry><title type="html">A Simple Latex Template for Scientific Writing</title><link href="https://fibomat.github.io/blog/meta-latex/" rel="alternate" type="text/html" title="A Simple Latex Template for Scientific Writing" /><published>2019-02-05T00:00:00+08:00</published><updated>2019-02-05T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/meta-latex</id><content type="html" xml:base="https://fibomat.github.io/blog/meta-latex/">&lt;blockquote&gt;
+  &lt;p&gt;updating&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;necessary-packages&quot;&gt;Necessary packages&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tikz &amp;amp; pgfplots&lt;/li&gt;
+  &lt;li&gt;physics siunitx mhchem&lt;/li&gt;
+  &lt;li&gt;xcolor, fontspec/inputenc&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- more --&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\documentclass&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[a4paper,10pt]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;report&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% --------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% essential&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;tikz,pgfplots&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;xcolor,graphicx&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;subcaption&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% --------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% fullpage, change the margin&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;fullpage&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;% note the compatability with fancyhdr&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% \usepackage{geometry}&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;% \geometry{&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;% a4paper,&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;% margin=2in}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;% --------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% for physics and others&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;physics&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[version=4]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;mhchem&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;% chemical formula, \ce{H2O}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;siunitx&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;% SI units&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% --------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% optional &lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;sectsty&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;% change section style&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;\sectionfont&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\noindent\textsc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;esint&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;% special integral&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% \usepackage{fancyhdr} % header and footer&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% 	\pagestyle{fancy}&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% 	\fancyhf{}&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% 	\lhead{ \fancyplain{}{Author Name} }&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% 	\rhead{ \fancyplain{}{\today} }&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% 	\rfoot{ \fancyplain{}{\thepage} }&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;paralist&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;booktabs&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% --------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% font&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% \usepackage{fontspec}&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% \setmainfont{Calibri}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[T1]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;fontenc&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[utf8]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;inputenc&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% \usepackage{tgbonum}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;lipsum&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;% --------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;% Tex !&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;\begin{document}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\lispsum&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\lispsum&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;\end{document}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can download from &lt;a href=&quot;https://fibomat.github.io/blog/assets/files/tex_temp/tex_temp.tex&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="latex" /><summary type="html">updating
+
+
+Necessary packages
+
+
+  tikz &amp;amp; pgfplots
+  physics siunitx mhchem
+  xcolor, fontspec/inputenc
+  …</summary></entry><entry><title type="html">A Quantum Computation Roadmap by the DiVincenzo’s Criteria</title><link href="https://fibomat.github.io/blog/qc-roadmap/" rel="alternate" type="text/html" title="A Quantum Computation Roadmap by the DiVincenzo's Criteria" /><published>2018-07-27T00:00:00+08:00</published><updated>2018-07-27T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/qc-roadmap</id><content type="html" xml:base="https://fibomat.github.io/blog/qc-roadmap/">&lt;p&gt;The Divincenzo’s criteria is a list of necessary request for constructing a quantum computer, which is proposed by Professor David P.DiVincenzo in 2000&lt;sup id=&quot;fnref:protocol&quot;&gt;&lt;a href=&quot;#fn:protocol&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. During the last nearly two decades, various quantum candidates have being developed or put forward, meet the criteria more or less.
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;p&gt;The DiVincenzo criteria consist of 5+2 conditions that an experimental setup must satisfy in order to successfully implement quantum algorithms.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A scalable physical system with well characterized qubits.&lt;/li&gt;
+  &lt;li&gt;The ability to initialize the state of the qubits to a simple fiducial state.&lt;/li&gt;
+  &lt;li&gt;Long relevant decoherence times.&lt;/li&gt;
+  &lt;li&gt;A “universal” set of quantum gates.&lt;/li&gt;
+  &lt;li&gt;A qubit-specific measurement capability.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The additional 2 conditions are for quantum network.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The ability to interconvert stationary and flying qubits.&lt;/li&gt;
+  &lt;li&gt;The ability to faithfully transmit flying qubits between specified locations.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here a summary is drawn from the roadmap in 2002&lt;sup id=&quot;fnref:roadmap&quot;&gt;&lt;a href=&quot;#fn:roadmap&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, which gives comparison bwtween all the popular quantum computation candidates.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;candidates&lt;/th&gt;
+      &lt;th&gt;#1&lt;/th&gt;
+      &lt;th&gt;#2&lt;/th&gt;
+      &lt;th&gt;#3&lt;/th&gt;
+      &lt;th&gt;#4&lt;/th&gt;
+      &lt;th&gt;#5&lt;/th&gt;
+      &lt;th&gt;#6&lt;/th&gt;
+      &lt;th&gt;#7&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Trapped ions&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Neutral atoms&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Photonics&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Flux qubit&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\triangle$&lt;/td&gt;
+      &lt;td&gt;$\triangle$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cavity QED&lt;/td&gt;
+      &lt;td&gt;$\triangle$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NMR&lt;/td&gt;
+      &lt;td&gt;$\triangle$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\bullet$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\triangle$&lt;/td&gt;
+      &lt;td&gt;$\triangle$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Silicon&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\star$&lt;/td&gt;
+      &lt;td&gt;$\triangle$&lt;/td&gt;
+      &lt;td&gt;$\triangle$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$\triangle$: no protocol
+$\star$: theoretically possible 
+$\bullet$: realized and verified by experiments&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can see the photonical realization among all the physics system  is still possible to demonstrate a quantum computer. But as we all know, it is hard to make photon interact with other photons, i.e, it is still desirable to introduce new mechanics beyond current post-selection protocol.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:protocol&quot;&gt;
+      &lt;p&gt;DiVincenzo, D. P. (2000), The Physical Implementation of Quantum Computation. Fortschr. Phys., 48: 771-783. doi:10.1002/1521-3978(200009)48:9/11&amp;lt;771::AID-PROP771&amp;gt;3.0.CO;2-E &lt;a href=&quot;#fnref:protocol&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:roadmap&quot;&gt;
+      &lt;p&gt;Quantum Computation Roadmap, http://qist.lanl.gov/qcomp_map.shtml &lt;a href=&quot;#fnref:roadmap&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><category term="quantum computation" /><category term="divincenzo criteria" /><summary type="html">The Divincenzo’s criteria is a list of necessary request for constructing a quantum computer, which is proposed by Professor David P.DiVincenzo in 20001. During the last nearly two decades, various quantum candidates have being developed or put forward, meet the criteria more or less.
+
+
+  
+    
+      DiVincenzo, D. P. (2000), The Physical Implementation of Quantum Computation. Fortschr. Phys., 48: 771-783. doi:10.1002/1521-3978(200009)48:9/11&amp;lt;771::AID-PROP771&amp;gt;3.0.CO;2-E &amp;#8617;</summary></entry><entry><title type="html">A short note on CHSH inequality</title><link href="https://fibomat.github.io/blog/chsh-inequality/" rel="alternate" type="text/html" title="A short note on CHSH inequality" /><published>2018-07-23T00:00:00+08:00</published><updated>2018-07-23T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/chsh-inequality</id><content type="html" xml:base="https://fibomat.github.io/blog/chsh-inequality/">&lt;h2 id=&quot;epr-paradox-and-bells-theorem&quot;&gt;EPR paradox and Bell’s theorem&lt;/h2&gt;
 
 &lt;p&gt;In 1935, Einstein, Podolsky, and Rosen presented a paradox
 against the quantum mechanics of that time. In the abstract, they wrote
@@ -22,21 +227,10 @@ concluded that the quantum mechanics should be supplemented by some
 “hidden variables”.&lt;/p&gt;
 
 &lt;h2 id=&quot;bells-theorem&quot;&gt;Bell’s theorem&lt;/h2&gt;
-&lt;p&gt;After the EPR paper, in 1964, John Stewart Bell formulated a
-mathematical theorem &lt;em&gt;shown to be incompatible with the statistical
-prediction of quantum mechanics&lt;/em&gt;, which later named as Bell’ theorem. If
-we presuppose the hidden variables $ \lambda$, with a possibility
-distribution $\rho(\lambda)$, consider an ensemble of correlated pairs
-of particles separated from the same source in the past and moving free
-in opposite direction. For example, the spin one-half in the singlet.&lt;/p&gt;
 
-&lt;p&gt;If we have the suitable apparatus to measure the pairs at side A and
-side B with the adjustable parameters a and b. Due to the hidden theory,
-measurement results should be $A(a,\lambda)$ and $B(b,\lambda)$. For the
-two-level system, we set the measurement channels as +1 and -1. For
-example, the results in the Stern-Gerlach experiment only have two
-choice, spin-up and spin-down. That is to say, $A(a,\lambda)=\pm 1$ and
-$B(b,\lambda)=\pm 1$.&lt;/p&gt;
+&lt;p&gt;After the EPR paper, in 1964, John Stewart Bell formulated a mathematical theorem &lt;em&gt;shown to be incompatible with the statistical prediction of quantum mechanics&lt;/em&gt;, which later named as Bell’ theorem. If we presuppose the hidden variables $ \lambda$, with a possibility distribution $\rho(\lambda)$, consider an ensemble of correlated pairs of particles separated from the same source in the past and moving free in opposite direction. For example, the spin one-half in the singlet.&lt;/p&gt;
+
+&lt;p&gt;If we have the suitable apparatus to measure the pairs at side A and side B with the adjustable parameters a and b. Due to the hidden theory, measurement results should be $A(a,\lambda)$ and $B(b,\lambda)$. For the two-level system, we set the measurement channels as +1 and -1. For example, the results in the Stern-Gerlach experiment only have two choice, spin-up and spin-down. That is to say, $A(a,\lambda)=\pm 1$ and $B(b,\lambda)=\pm 1$.&lt;/p&gt;
 
 &lt;p&gt;Define the correlation function,&lt;/p&gt;
 
@@ -46,21 +240,16 @@ $B(b,\lambda)=\pm 1$.&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;| P(a,b) - P(a,c) | \leq 1 + P(b,c)&lt;/script&gt;
 
-&lt;p&gt;However, since Bell himself denied the unrealistic relation between the
-side A and side B and later proved the violation of above inequality is
-impossible and commented&lt;/p&gt;
+&lt;p&gt;However, since Bell himself denied the unrealistic relation between the side A and side B and later proved the violation of above inequality is impossible and commented&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;there must be a mechanism whereby the setting of the one measuring
-device can influence the reading of another instrument, however
-remote. Moreover, the signal involved must propagate instantaneously,
-so that a theory could not be Lorentz invariant.&lt;/p&gt;
+  device can influence the reading of another instrument, however
+  remote. Moreover, the signal involved must propagate instantaneously,
+  so that a theory could not be Lorentz invariant.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Despite of Bell’s ironical remarks on quantum mechanics, the Bell’s
-theorem is successful to realize a decisive experimental test of the
-hidden variable. Here, a generalization of Bell’s theorem is derived.
-Firstly, note the hidden variable space as $\Gamma$, thus&lt;/p&gt;
+&lt;p&gt;Despite of Bell’s ironical remarks on quantum mechanics, the Bell’s theorem is successful to realize a decisive experimental test of the hidden variable. Here, a generalization of Bell’s theorem is derived. Firstly, note the hidden variable space as $\Gamma$, thus&lt;/p&gt;
 
 &lt;div&gt;
 $$
@@ -73,13 +262,14 @@ $$
 $$
 &lt;/div&gt;
 
-&lt;p&gt;Therefore, we discuss the relation between the result
-$A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy
-$P(d,b)=1-\delta$ and $\delta$ is close to zero but not equal. And this
-is different from Bell’s unrealistic restriction, $\delta=0$. Moreover,
-dividing the $\Gamma$ space into $\Gamma_\pm$ such that
-$\Gamma_\pm={ \lambda | A(d,\lambda)=\pm B(b,\lambda)  }$, thus the
-results of twos are in positive correlation or in negative correlation.&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Therefore, we discuss the relation between the result $A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy $P(d,b)=1-\delta$ and $\delta$ is close to zero but not equal. And this is different from Bell’s unrealistic restriction, $\delta=0$. Moreover, dividing the $\Gamma$ space into $\Gamma_\pm$ such that $\Gamma_\pm={ \lambda&lt;/td&gt;
+      &lt;td&gt;A(d,\lambda)=\pm B(b,\lambda)  }$, thus the results of twos are in positive correlation or in negative correlation.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;div&gt;
 $$
@@ -92,15 +282,11 @@ $$
     \end{split}
 $$
 &lt;/div&gt;
-&lt;p&gt;therefore, from
-Eq.and
-Eq.&lt;/p&gt;
+&lt;p&gt;therefore, from Eq. and Eq.&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;|P(a,b)-P(a,c)| \leq 2-P(d,b)-P(d,c)&lt;/script&gt;
 
-&lt;p&gt;This the original CHSH inequality, which is a little
-from the modern version, here we give a short derivation. Let
-$d\rightarrow -d$ and $\Gamma_{-}\rightarrow\Gamma_{+}$, we can get&lt;/p&gt;
+&lt;p&gt;This the original CHSH inequality, which is a little from the modern version, here we give a short derivation. Let $d\rightarrow -d$ and $\Gamma_{-}\rightarrow\Gamma_{+}$, we can get&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;|P(a,b)-P(a,c)| \leq 2 + P(d,b) + P(d,c)&lt;/script&gt;
 
@@ -117,39 +303,25 @@ $$
 &lt;/div&gt;
 
 &lt;h2 id=&quot;experimental-proposal&quot;&gt;Experimental proposal&lt;/h2&gt;
+
 &lt;p&gt;For any term in Eq., let $ P(a,b) $ be example,&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;P(a,b)=w [A(a)_+,B(b)_+]+w [A(a)_-,B(b)_-]-w [A(a)_+,B(b)_-]-w [A(a)_-,B(b)_+]&lt;/script&gt;
 
-&lt;p&gt;here, $\pm$ means the two basis of measurement apparatus and includes
-the four choices of parallel or perpendicular polarizers.&lt;/p&gt;
+&lt;p&gt;here, $\pm$ means the two basis of measurement apparatus and includes the four choices of parallel or perpendicular polarizers.&lt;/p&gt;
 
-&lt;p&gt;In conclusion, to test if the Bell’s inequality can be violated, we only
-need to change the polarizers and count the correlation rate.&lt;/p&gt;
+&lt;p&gt;In conclusion, to test if the Bell’s inequality can be violated, we only need to change the polarizers and count the correlation rate.&lt;/p&gt;
 
-&lt;p&gt;However, the detectors of all the real physics system is not prefect and
-uniform. Firstly, the detector efficiency is not normalized. Secondly,
-the efficiency is not same for different channels. To demonstrate a
-loop-free Bell inequality experiments, we should take the efficiency of
-detectors into account. Furthermore, we may evaluate the efficiency
-threshold for all the detectors involved in the experiments. Later
-proved in this paper and also widely used in related experiments,&lt;/p&gt;
+&lt;p&gt;However, the detectors of all the real physics system is not prefect and uniform. Firstly, the detector efficiency is not normalized. Secondly, the efficiency is not same for different channels. To demonstrate a loop-free Bell inequality experiments, we should take the efficiency of detectors into account. Furthermore, we may evaluate the efficiency threshold for all the detectors involved in the experiments. Later proved in this paper and also widely used in related experiments,&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{2} F + 1 &gt; 2\eta/(\epsilon_M+\epsilon_m)&lt;/script&gt;
 
-&lt;p&gt;where
-$\epsilon_m,\epsilon_M$ are the efficiency of the polarizers set
-parallel or perpendicular and $\eta$ is the detector efficiency. The
-function $F$ is the visibility of different angles. In the ideal case,
-if only $F&amp;gt;\sqrt{2}/2$, there is a violation of Bell’s inequality.&lt;/p&gt;
+&lt;p&gt;where $\epsilon_m,\epsilon_M$ are the efficiency of the polarizers set parallel or perpendicular and $\eta$ is the detector efficiency. The function $F$ is the visibility of different angles. In the ideal case, if only $F&amp;gt;\sqrt{2}/2$, there is a violation of Bell’s inequality.&lt;/p&gt;
 
-&lt;p&gt;Another problem comes with localization. If the hidden variable only
-effects the pairs in the past, to make the apparatus separated far away
-enough, usually in space-like separation, which also challenges the
-experimental setups.&lt;/p&gt;</content><category term="Bell's theorem" /><category term="CHSH" /><summary type="html">EPR paradox and Bell’s theorem
+&lt;p&gt;Another problem comes with localization. If the hidden variable only effects the pairs in the past, to make the apparatus separated far away enough, usually in space-like separation, which also challenges the experimental setups.&lt;/p&gt;</content><category term="Bell's theorem" /><category term="CHSH inequality" /><summary type="html">EPR paradox and Bell’s theorem
 
 In 1935, Einstein, Podolsky, and Rosen presented a paradox
-against the quantum mechanics of that time. In the abstract, they wrote</summary></entry><entry><title type="html">Silicon carbide MOSFET</title><link href="https://fibomat.github.io/blog/sic-mosfet/" rel="alternate" type="text/html" title="Silicon carbide MOSFET" /><published>2018-07-06T00:00:00+09:00</published><updated>2018-07-06T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/sic-mosfet</id><content type="html" xml:base="https://fibomat.github.io/blog/sic-mosfet/">&lt;h3 id=&quot;dmos&quot;&gt;DMOS&lt;/h3&gt;
+against the quantum mechanics of that time. In the abstract, they wrote</summary></entry><entry><title type="html">Silicon carbide MOSFET</title><link href="https://fibomat.github.io/blog/sic-mosfet/" rel="alternate" type="text/html" title="Silicon carbide MOSFET" /><published>2018-07-06T00:00:00+08:00</published><updated>2018-07-06T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/sic-mosfet</id><content type="html" xml:base="https://fibomat.github.io/blog/sic-mosfet/">&lt;h3 id=&quot;dmos&quot;&gt;DMOS&lt;/h3&gt;
 
 &lt;p&gt;A typical or conventional SiC MOSFET uses the DMOSFET structure, where D means double-diffused. As illustrated in the fig, the two source regions are arranged on the both side of the ground gate, while the drain is set on the backside. 
 &lt;!-- more --&gt;
@@ -175,7 +347,7 @@ Furthermore,  the DMOS structure consists of an n-type substrate on which is gro
   &lt;/ol&gt;
 &lt;/div&gt;</content><category term="MOSFET" /><category term="SiC" /><category term="semiconductor" /><summary type="html">DMOS
 
-A typical or conventional SiC MOSFET uses the DMOSFET structure, where D means double-diffused. As illustrated in the fig, the two source regions are arranged on the both side of the ground gate, while the drain is set on the backside.</summary></entry><entry><title type="html">Dispersion of the planar waveguide</title><link href="https://fibomat.github.io/blog/test/" rel="alternate" type="text/html" title="Dispersion of the planar waveguide" /><published>2018-06-25T00:00:00+09:00</published><updated>2018-06-25T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/test</id><content type="html" xml:base="https://fibomat.github.io/blog/test/">&lt;h2 id=&quot;emf-propogation-in-homogeneous-media&quot;&gt;EMF propogation in homogeneous media&lt;/h2&gt;
+A typical or conventional SiC MOSFET uses the DMOSFET structure, where D means double-diffused. As illustrated in the fig, the two source regions are arranged on the both side of the ground gate, while the drain is set on the backside.</summary></entry><entry><title type="html">Dispersion of the planar waveguide</title><link href="https://fibomat.github.io/blog/dispersion/" rel="alternate" type="text/html" title="Dispersion of the planar waveguide" /><published>2018-06-25T00:00:00+08:00</published><updated>2018-06-25T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/dispersion</id><content type="html" xml:base="https://fibomat.github.io/blog/dispersion/">&lt;h2 id=&quot;emf-propogation-in-homogeneous-media&quot;&gt;EMF propogation in homogeneous media&lt;/h2&gt;
 
 &lt;p&gt;In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,
 &lt;!-- more --&gt;&lt;/p&gt;
@@ -310,7 +482,7 @@ $$
 
 &lt;p&gt;The latter two terms are phase shift on the boundary.&lt;/p&gt;</content><category term="waveguide" /><summary type="html">EMF propogation in homogeneous media
 
-In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,</summary></entry><entry><title type="html">Sensors and Touchscreens in Smartphones</title><link href="https://fibomat.github.io/blog/sensor-touchscreen/" rel="alternate" type="text/html" title="Sensors and Touchscreens in Smartphones" /><published>2018-05-31T00:00:00+09:00</published><updated>2018-05-31T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/sensor-touchscreen</id><content type="html" xml:base="https://fibomat.github.io/blog/sensor-touchscreen/">&lt;h2 id=&quot;sensors-in-the-smartphones&quot;&gt;Sensors in the smartphones&lt;/h2&gt;
+In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,</summary></entry><entry><title type="html">Sensors and Touchscreens in Smartphones</title><link href="https://fibomat.github.io/blog/sensor-touchscreen/" rel="alternate" type="text/html" title="Sensors and Touchscreens in Smartphones" /><published>2018-05-31T00:00:00+08:00</published><updated>2018-05-31T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/sensor-touchscreen</id><content type="html" xml:base="https://fibomat.github.io/blog/sensor-touchscreen/">&lt;h2 id=&quot;sensors-in-the-smartphones&quot;&gt;Sensors in the smartphones&lt;/h2&gt;
 
 &lt;p&gt;From the products website of the Apple, we can find below are totally six kinds of sensors equipped in their latest mobile phones, the iPhone X&lt;sup id=&quot;fnref:i&quot;&gt;&lt;a href=&quot;#fn:i&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. 
 &lt;!-- more --&gt;&lt;/p&gt;
@@ -394,7 +566,7 @@ From the products website of the Apple, we can find below are totally six kinds 
 
   
     
-      Technical specification of the iPhone X,  retrieved from https://apple.com/iphone-x/specs/ &amp;#8617;</summary></entry><entry><title type="html">Diode Laser Sources for Medical and Aesthetic Application</title><link href="https://fibomat.github.io/blog/led/" rel="alternate" type="text/html" title="Diode Laser Sources for Medical and Aesthetic Application" /><published>2018-05-21T00:00:00+09:00</published><updated>2018-05-21T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/led</id><content type="html" xml:base="https://fibomat.github.io/blog/led/">&lt;p&gt;Different from illuminating industry, semiconductor diodes have been limited to professional markets at the market of life science&lt;!-- more --&gt;. It is appealing and potential to facilitate the huge success to customer market like other instances originated from the semiconductor industry.&lt;/p&gt;
+      Technical specification of the iPhone X,  retrieved from https://apple.com/iphone-x/specs/ &amp;#8617;</summary></entry><entry><title type="html">Diode Laser Sources for Medical and Aesthetic Application</title><link href="https://fibomat.github.io/blog/led/" rel="alternate" type="text/html" title="Diode Laser Sources for Medical and Aesthetic Application" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/led</id><content type="html" xml:base="https://fibomat.github.io/blog/led/">&lt;p&gt;Different from illuminating industry, semiconductor diodes have been limited to professional markets at the market of life science&lt;!-- more --&gt;. It is appealing and potential to facilitate the huge success to customer market like other instances originated from the semiconductor industry.&lt;/p&gt;
 
 &lt;h2 id=&quot;selective-photothermolysis&quot;&gt;Selective photothermolysis&lt;/h2&gt;
 &lt;p&gt;By choosing a specific wavelength of light, the tissue can interact with the visible light at the cellular scale. Selectivity is the benefit to utilize laser diode and one can achieve the desired effect easily. This is a kind of photothermolysis. Moreover, chromophores targets in displacement or conformational change of the molecule when hit by the light. Without any change to the neighboring tissue, chromophores is able to damage or alter the targeted molecule in a tiny scale. To differ from the various tissue and protein in our body or skin, the spectrum corresponding is the main reference to adjust the laser energy, wavelength and other degrees of freedom.&lt;/p&gt;
@@ -407,7 +579,7 @@ From the products website of the Apple, we can find below are totally six kinds 
 
 &lt;blockquote&gt;
   &lt;p&gt;Summarized from MEDICAL AND AESTHETIC LASERS: Semiconductor diode laser advances enable medical applications&lt;/p&gt;
-&lt;/blockquote&gt;</content><category term="semiconductor" /><category term="illuminating" /><summary type="html">Different from illuminating industry, semiconductor diodes have been limited to professional markets at the market of life science</summary></entry><entry><title type="html">Quanutm Candidates for Quantum Computation Systems</title><link href="https://fibomat.github.io/blog/candidates/" rel="alternate" type="text/html" title="Quanutm Candidates for Quantum Computation Systems" /><published>2018-05-21T00:00:00+09:00</published><updated>2018-05-21T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/candidates</id><content type="html" xml:base="https://fibomat.github.io/blog/candidates/">&lt;p&gt;Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="semiconductor" /><category term="illuminating" /><summary type="html">Different from illuminating industry, semiconductor diodes have been limited to professional markets at the market of life science</summary></entry><entry><title type="html">Quanutm Candidates for Quantum Computation Systems</title><link href="https://fibomat.github.io/blog/candidates/" rel="alternate" type="text/html" title="Quanutm Candidates for Quantum Computation Systems" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/candidates</id><content type="html" xml:base="https://fibomat.github.io/blog/candidates/">&lt;p&gt;Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
@@ -452,7 +624,7 @@ From the products website of the Apple, we can find below are totally six kinds 
       &lt;p&gt;Non-Abelian Discrete Symmetries in Particle Physics. arXiv:1003.3552 [hep-th], doi: 10.1143/PTPS.183.1 &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><category term="quantum computation" /><category term="optics" /><category term="superconducting" /><category term="NMR" /><category term="topological computation" /><summary type="html">Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.</summary></entry><entry><title type="html">A Glance At Autonomous Driving</title><link href="https://fibomat.github.io/blog/a-glance-at-ad/" rel="alternate" type="text/html" title="A Glance At Autonomous Driving" /><published>2018-04-20T00:00:00+09:00</published><updated>2018-04-20T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/a-glance-at-ad</id><content type="html" xml:base="https://fibomat.github.io/blog/a-glance-at-ad/">&lt;p&gt;Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the&lt;!-- more --&gt; recent years&lt;sup id=&quot;fnref:eco&quot;&gt;&lt;a href=&quot;#fn:eco&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, both from the famous internet technology companies and correspondingly, the automobile companies. The former team includes Google, Uber, Baidu and perhaps, Tesla&lt;sup id=&quot;fnref:ran&quot;&gt;&lt;a href=&quot;#fn:ran&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.&lt;/p&gt;
+&lt;/div&gt;</content><category term="quantum computation" /><category term="optics" /><category term="superconducting" /><category term="NMR" /><category term="topological computation" /><summary type="html">Here we introduce some potential quantum computation candidates instead of superconducting qubits. In comparison, we focus on the following essential features of quantum computation.</summary></entry><entry><title type="html">A Glance At Autonomous Driving</title><link href="https://fibomat.github.io/blog/a-glance-at-ad/" rel="alternate" type="text/html" title="A Glance At Autonomous Driving" /><published>2018-04-20T00:00:00+08:00</published><updated>2018-04-20T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/a-glance-at-ad</id><content type="html" xml:base="https://fibomat.github.io/blog/a-glance-at-ad/">&lt;p&gt;Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the&lt;!-- more --&gt; recent years&lt;sup id=&quot;fnref:eco&quot;&gt;&lt;a href=&quot;#fn:eco&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, both from the famous internet technology companies and correspondingly, the automobile companies. The former team includes Google, Uber, Baidu and perhaps, Tesla&lt;sup id=&quot;fnref:ran&quot;&gt;&lt;a href=&quot;#fn:ran&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.&lt;/p&gt;
 
 &lt;h2 id=&quot;perception&quot;&gt;Perception&lt;/h2&gt;
 
@@ -497,7 +669,7 @@ From the products website of the Apple, we can find below are totally six kinds 
       &lt;p&gt;Burke, K. (n.d.). Velodyne rolls out smaller, more powerful lidar sensor. Retrieved April 19, 2018, from http://www.autonews.com/article/20171129/MOBILITY/171129761/velodyne-rolls-out-smaller-more-powerful-lidar-sensor &lt;a href=&quot;#fnref:velo2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><category term="autonomous driving" /><summary type="html">Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the</summary></entry><entry><title type="html">Notes of Python Toolkits</title><link href="https://fibomat.github.io/blog/python-tools-notes/" rel="alternate" type="text/html" title="Notes of Python Toolkits" /><published>2017-11-20T00:00:00+09:00</published><updated>2017-11-20T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/python-tools-notes</id><content type="html" xml:base="https://fibomat.github.io/blog/python-tools-notes/">&lt;h2 id=&quot;ipython&quot;&gt;iPython&lt;/h2&gt;
+&lt;/div&gt;</content><category term="autonomous driving" /><summary type="html">Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the</summary></entry><entry><title type="html">Notes of Python Toolkits</title><link href="https://fibomat.github.io/blog/python-tools-notes/" rel="alternate" type="text/html" title="Notes of Python Toolkits" /><published>2017-11-20T00:00:00+08:00</published><updated>2017-11-20T00:00:00+08:00</updated><id>https://fibomat.github.io/blog/python-tools-notes</id><content type="html" xml:base="https://fibomat.github.io/blog/python-tools-notes/">&lt;h2 id=&quot;ipython&quot;&gt;iPython&lt;/h2&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi&lt;/script&gt;
 
@@ -677,12 +849,4 @@ x[4,…,5,:] to x[4,:,:,5,:]&lt;/p&gt;
   ?+cmd, just like help()
   %run python_cmd
   %paste &amp;amp; %cpaste
-  shortcuts (like Emacs)</summary></entry><entry><title type="html">Explanations of modern quantum theory</title><link href="https://fibomat.github.io/blog/explanations-of-quantum-mechanics/" rel="alternate" type="text/html" title="Explanations of modern quantum theory" /><published>2016-11-10T00:00:00+09:00</published><updated>2016-11-10T00:00:00+09:00</updated><id>https://fibomat.github.io/blog/explanations-of-quantum-mechanics</id><content type="html" xml:base="https://fibomat.github.io/blog/explanations-of-quantum-mechanics/">&lt;p&gt;Since different branches of physics have established during last century, it turns out that quantum physics has become a more and more important tool to solve the various kinds physics problem. However, as Einstein pointed out the photon hypothesis of light, many explanations to quantum mechanics have also been put forward.&lt;!-- more --&gt;&lt;/p&gt;
-
-&lt;p&gt;First of all is the Schrodinger’s wave function, which is the most popular theory among the earliest quantum physicists. According to this theory, wave and particle are both essential components for the quantum phenomena. When a beam of light emitted from laser cavity, it behaves like plat wave, which takes the form of triangle function multiplied by a time harmonic factor. On contrast with classic assumption, when it comes to split experiment, light can act like particle and it seems that it will follow some certain path, which we call path of particle and the path is the range of the calculation to keep the total possibility that particle will appear, in other words, be measured and collapse to a certain state, is normalized.&lt;/p&gt;
-
-&lt;p&gt;Another theory was funded by Heisenberg at his twenties. He thought that when we take the measurement of the quantum system, the particle or wave will collapse to a state and the quantum state have the certain amplitudes, which indicates that each received state will be one part of the previous state. However, due to uncertainty law, we have no information on which state we will get from the measurement. After several mathematical abstract summaries, this opinion was developed as matrix theory of quantum physics.&lt;/p&gt;
-
-&lt;p&gt;Last theory may a little later than previous two, it was Feynman’s path calculus theory. As we discussed above, if we consider the quantum state as a particle, only the possible paths will be satisfied and different mechanical and dynamical functions can be expressed by a simple calculus of those paths. This idea is much more modern and sometimes more useful when you handle a complicated physics model.&lt;/p&gt;
-
-&lt;p&gt;In summary, confusion is always coexisting with development, especially topics of modern physics. In order to figure out all the universe mysteries, we are supposed to keep expanding the boundary of physics.&lt;/p&gt;</content><category term="quantum mechanics" /><category term="quantum fundamental" /><summary type="html">Since different branches of physics have established during last century, it turns out that quantum physics has become a more and more important tool to solve the various kinds physics problem. However, as Einstein pointed out the photon hypothesis of light, many explanations to quantum mechanics have also been put forward.</summary></entry></feed>
+  shortcuts (like Emacs)</summary></entry></feed>
