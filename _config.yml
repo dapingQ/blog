@@ -1,6 +1,6 @@
 title: scio me nihil scrie
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fibomat.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: https://github.com/fibomat
 
 paginate: true

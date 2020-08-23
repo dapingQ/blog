@@ -16,7 +16,7 @@ A typical or conventional SiC MOSFET uses the DMOSFET structure, where D means d
 <!-- more -->
 Furthermore,  the DMOS structure consists of an n-type substrate on which is grown an n-epitaxial layer that forms the large drain region. The gate region is formed on the surface that overlies the graded p-type body implantation and diffusion area. The source regions are implanted and diffused on either side of the gate to form two separate transistors with a common drain region. The depletion regions will form around the source and p-body and these depletion regions can be connected by the field induced depletion region formed by the gate. The depletion region connecting the drain and source defines the channel and its dimensions are determined by the source and body doping.
 
-![Cross Section of DMOS](assets/img/sic2e.jpg)
+![Cross Section of DMOS]({{ site.url }}/assets/img/sic2e.jpg)
 
 # Working Principle
 

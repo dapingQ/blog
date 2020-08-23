@@ -8,7 +8,7 @@ date: 2019-02-05
 
 > updating
 
-## Necessary packages
+# Necessary packages
 
 - tikz & pgfplots
 - physics siunitx mhchem

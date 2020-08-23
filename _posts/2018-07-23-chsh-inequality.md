@@ -9,7 +9,7 @@ date: 2018-07-23
 ---
 
 
-## EPR paradox and Bell's theorem
+# EPR paradox and Bell's theorem
 
 In 1935, Einstein, Podolsky, and Rosen presented a paradox
 against the quantum mechanics of that time. In the abstract, they wrote
@@ -30,7 +30,7 @@ such a violation, even separated in a far distance. Furthermore, they
 concluded that the quantum mechanics should be supplemented by some
 "hidden variables".
 
-## Bell's theorem
+# Bell's theorem
 
 After the EPR paper, in 1964, John Stewart Bell formulated a mathematical theorem *shown to be incompatible with the statistical prediction of quantum mechanics*, which later named as Bell' theorem. If we presuppose the hidden variables $ \lambda$, with a possibility distribution $\rho(\lambda)$, consider an ensemble of correlated pairs of particles separated from the same source in the past and moving free in opposite direction. For example, the spin one-half in the singlet.
 
@@ -105,7 +105,7 @@ $$
 $$
 </div>
 
-## Experimental proposal
+# Experimental proposal
 
 For any term in Eq., let $ P(a,b) $ be example,
 
