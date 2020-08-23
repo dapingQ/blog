@@ -11,11 +11,7 @@ date: 2017-11-20
 title: Notes of Python Toolkits 
 ---
 
-## iPython
-
-$$
-f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-$$
+# iPython
 
 - ?+cmd, just like help()
 - %run python_cmd
@@ -23,7 +19,7 @@ $$
 - shortcuts (like Emacs)
 
 <!-- more -->
-### Magic commands
+## Magic commands
 
 we have a $1+1=2$ and end.
 
@@ -35,7 +31,7 @@ we have a $1+1=2$ and end.
 - %xdel: del objects	
 - %logstart
 
-### Qt and Pylab
+## Qt and Pylab
 
   ~~$ ipython qtconsole --pylab=inline # old feature~~
 
@@ -43,7 +39,7 @@ we have a $1+1=2$ and end.
 
 require matplotlib and PyQt for inline images ploting
 
-### Command History
+## Command History
 
 - `Ctrl + P` forward matching
 - `Ctrl + P` backward matching
@@ -52,18 +48,18 @@ require matplotlib and PyQt for inline images ploting
 - `_iX`: input in line X
 - `_X` : output in line X
 
-### Interacting
+## Interacting
 
 - %cd / %pwd ...
 - %dirs / %alias
 - !cmd
 
-### Bookmarks
+## Bookmarks
 
 - %bookmark markname DIRS
 - %bookmark -l
 
-### Debug
+## Debug
 
 ```python
     %debug
@@ -71,15 +67,15 @@ require matplotlib and PyQt for inline images ploting
     %pdb iX (X is variable)
 ```
 
-### Tricks
+## Tricks
 
 - reload after import (dreload: deep reload)
 - import this 
 
 
-## Numpy
+# Numpy
 
-### Object
+## Object
 
 1. based on ndarrry
 2. basicly, type in np is float64
@@ -90,18 +86,18 @@ require matplotlib and PyQt for inline images ploting
 - eye/identity(n): diagonal matrix
 - arange(length): new a number list
 
-### Type
+## Type
 
 dtype: variabel type
 
 `astype(np.newtype)` changing the type to **newtype**
 
-### Para
+## Para
 
 - ndim: dimension of array
 - shape
 
-### Slice
+## Slice
 
 chaning of slice of an array will be *broadcast* 
 
@@ -114,7 +110,7 @@ x[...,3] to x[:,:,:,:,3] and
 x[4,...,5,:] to x[4,:,:,5,:]
 
 
-#### Boolean index
+## Boolean index
 
 1. array ==/!=/ value giving a boolean list with the same length, here the express `array |/& value` is used as boolean index.
 
@@ -122,11 +118,11 @@ x[4,...,5,:] to x[4,:,:,5,:]
 
 `data[data<0] = 0` # changing the negative elements to 0s
 
-#### Fancy index
+## Fancy index
 
 a([i:],[j:],[]...)
 
-### Function
+## Function
 
 - .reshape
 - .T
@@ -137,18 +133,18 @@ a([i:],[j:],[]...)
 
 `b = np.fromfunction(f,(5,4),dtype=int)`
 
-### Shape
+## Shape
 
-#### Stack
+## Stack
 
 - np.vstack/hstack
 - newaxis
 - np.r_
 
-#### Split
+## Split
 
 1. No copy
 2. Swallow copy
 3. Deep copy
 
-### Linear Algebra
+## Linear Algebra

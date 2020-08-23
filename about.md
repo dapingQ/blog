@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Zhenghao Yin
-date: 2017-08-11
+date: 2020-08-20
 permalink: /about/
 ---    
 
@@ -35,12 +35,14 @@ permalink: /about/
     - optical fiber processing
   - Metalworking
 
-**Hobbies**
+# Hobbies
 
   - Cycling 
     - [Strava](https://www.strava.com/athletes/12094067) 
     - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
   - [Music](http://music.163.com/#/user/home?id=34072848)
+
+Please check my full CV [here](/CV)
 
 _updated in {{ page.date }}_
 
@@ -56,4 +58,3 @@ dt { width: 130px; font-family: arial} dd { padding-bottom: 1px }
 .md table {page-break-inside: auto}
 em.asterisk { font-style: normal; font-weight: bold }
 </style>
-<script>markdeepOptions = {definitionStyle:'short', tocStyle:'short'}</script>
