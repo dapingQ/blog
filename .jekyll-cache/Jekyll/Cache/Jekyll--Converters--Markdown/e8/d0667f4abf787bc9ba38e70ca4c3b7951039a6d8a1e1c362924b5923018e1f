@@ -1,0 +1,13 @@
+I"e<p>Full autonomous (FA) driving in the urban area is the ultimate goal for the autonomous vehicle developing teams in the<!-- more --> recent years<sup id="fnref:eco" role="doc-noteref"><a href="#fn:eco" class="footnote">1</a></sup>, both from the famous internet technology companies and correspondingly, the automobile companies. The former team includes Google, Uber, Baidu and perhaps, Tesla<sup id="fnref:ran" role="doc-noteref"><a href="#fn:ran" class="footnote">2</a></sup>. Differing from their advantages of algorithm developing and software solutions, the latter seems more conservative on investments strategies, but they have already succeeded benefitting from their assistant autonomous technology, including General Motors, Ford, and Daimler. Before achieving the goal, FA driving, we shall figure out what is the essential technology and critical algorithms serving for autonomous driving. Furthermore, it is also crucial to discover their relation with electronic science and engineering, both in the term of software and hardware.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:eco" role="doc-endnote">
+      <p>Autonomous-vehicle technology is advancing ever faster. (2018, March 01). Retrieved April 19, 2018, from https://www.economist.com/news/special-report/21737420-making-vehicles-drive-themselves-hard-getting-easier-autonomous-vehicle-technology <a href="#fnref:eco" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:ran" role="doc-endnote">
+      <p>Muoio, D. (2017, September 27). RANKED: The 18 companies most likely to get self-driving cars on the road first. Retrieved April 19, 2018, from http://www.businessinsider.com/the-companies-most-likely-to-get-driverless-cars-on-the-road-first-2017-4 <a href="#fnref:ran" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

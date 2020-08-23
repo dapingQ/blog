@@ -1,0 +1,185 @@
+<meta charset="utf-8" emacsmode="-*- markdown -*-">**Notes of Python Toolkits**
+                                Nov 20, 2017
+    
+<h2>iPython</h2>
+
+\[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]
+
+<ul>
+  <li>?+cmd, just like help()</li>
+  <li>%run python_cmd</li>
+  <li>%paste &amp; %cpaste</li>
+  <li>shortcuts (like Emacs)</li>
+</ul>
+
+<!-- more -->
+<h3>Magic commands</h3>
+
+<p>we have a $1+1=2$ and end.</p>
+
+<ul>
+  <li>%timeit</li>
+  <li>%reset</li>
+  <li>%quickref / %magic</li>
+  <li>%hist</li>
+  <li>%debug / %pdb</li>
+  <li>%xdel: del objects</li>
+  <li>%logstart</li>
+</ul>
+
+<h3>Qt and Pylab</h3>
+
+<p><del>$ ipython qtconsole –pylab=inline # old feature</del></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ipython --pylab
+</code></pre></div></div>
+
+<p>require matplotlib and PyQt for inline images ploting</p>
+
+<h3>Command History</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Ctrl + P</code> forward matching</li>
+  <li><code class="language-plaintext highlighter-rouge">Ctrl + P</code> backward matching</li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Ctrl + P</code> readline</p>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">_iX</code>: input in line X</li>
+  <li><code class="language-plaintext highlighter-rouge">_X</code> : output in line X</li>
+</ul>
+
+<h3>Interacting</h3>
+
+<ul>
+  <li>%cd / %pwd …</li>
+  <li>%dirs / %alias</li>
+  <li>!cmd</li>
+</ul>
+
+<h3>Bookmarks</h3>
+
+<ul>
+  <li>%bookmark markname DIRS</li>
+  <li>%bookmark -l</li>
+</ul>
+
+<h3>Debug</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="o">%</span><span class="n">debug</span>
+    <span class="n">u</span><span class="o">/</span><span class="n">d</span>
+    <span class="o">%</span><span class="n">pdb</span> <span class="n">iX</span> <span class="p">(</span><span class="n">X</span> <span class="ow">is</span> <span class="n">variable</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3>Tricks</h3>
+
+<ul>
+  <li>reload after import (dreload: deep reload)</li>
+  <li>import this</li>
+</ul>
+
+<h2>Numpy</h2>
+
+<h3>Object</h3>
+
+<ol>
+  <li>based on ndarrry</li>
+  <li>basicly, type in np is float64</li>
+</ol>
+
+<ul>
+  <li>new: array(‘list’)/asarray(‘output’)</li>
+  <li>zeros/ones(length): new a list of 0/1</li>
+  <li>zeros/ones_like(list): new a list of 0/1 like given list</li>
+  <li>eye/identity(n): diagonal matrix</li>
+  <li>arange(length): new a number list</li>
+</ul>
+
+<h3>Type</h3>
+
+<p>dtype: variabel type</p>
+
+<p><code class="language-plaintext highlighter-rouge">astype(np.newtype)</code> changing the type to <strong>newtype</strong></p>
+
+<h3>Para</h3>
+
+<ul>
+  <li>ndim: dimension of array</li>
+  <li>shape</li>
+</ul>
+
+<h3>Slice</h3>
+
+<p>chaning of slice of an array will be <em>broadcast</em></p>
+
+<p>for copying, using <code class="language-plaintext highlighter-rouge">array[:].copy()</code></p>
+
+<p>index and slice, <code class="language-plaintext highlighter-rouge">array[:,:,:]</code></p>
+
+<p>x[1,2,…] is equivalent to x[1,2,:,:,:],
+x[…,3] to x[:,:,:,:,3] and
+x[4,…,5,:] to x[4,:,:,5,:]</p>
+
+<h4>Boolean index</h4>
+
+<ol>
+  <li>
+    <p>array ==/!=/ value giving a boolean list with the same length, here the express <code class="language-plaintext highlighter-rouge">array |/&amp; value</code> is used as boolean index.</p>
+  </li>
+  <li>
+    <p>array(boolean_list) selecting the true element and broadcasting.</p>
+  </li>
+</ol>
+
+<p><code class="language-plaintext highlighter-rouge">data[data&lt;0] = 0</code> # changing the negative elements to 0s</p>
+
+<h4>Fancy index</h4>
+
+<p>a([i:],[j:],[]…)</p>
+
+<h3>Function</h3>
+
+<ul>
+  <li>.reshape</li>
+  <li>
+    <p>.T</p>
+  </li>
+  <li>ufunc
+    <ul>
+      <li>a</li>
+    </ul>
+  </li>
+  <li>2ufunc</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b = np.fromfunction(f,(5,4),dtype=int)</code></p>
+
+<h3>Shape</h3>
+
+<h4>Stack</h4>
+
+<ul>
+  <li>np.vstack/hstack</li>
+  <li>newaxis</li>
+  <li>np.r_</li>
+</ul>
+
+<h4>Split</h4>
+
+<ol>
+  <li>No copy</li>
+  <li>Swallow copy</li>
+  <li>Deep copy</li>
+</ol>
+
+<h3>Linear Algebra</h3>
+
+
+**Tags**
+<ul><li> python </li><li> data </li><li> numpy </li><li> scipy </li><li> ipython </li></ul>
+
+<!-- Markdeep: -->
+
+<script>markdeepOptions={tocStyle:'medium'};</script>
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
+

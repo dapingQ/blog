@@ -1,0 +1,146 @@
+<meta charset="utf-8" emacsmode="-*- markdown -*-">**Dispersion of the planar waveguide**
+                                Jun 25, 2018
+    
+<h2>EMF propogation in homogeneous media</h2>
+
+<p>In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,
+<!-- more --></p>
+
+\[\mathbf{E}=E(x,y)\exp{i \beta z}\]
+
+<p>where $A(x,y)$ is field distribution on the propogation plane and $\exp{i \beta z}$ is propogation factor.</p>
+
+<p>Hence, all the components of EMF oscilate on the z direction at a wave vector $\beta$. 
+Then simple equations of EMF components can be derived from the Maxwell Equations in the homgeneous media.</p>
+
+<div>
+$$
+    \begin{align}
+    E_x &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial x} + \omega \mu \frac{\partial H_z}{\partial y}) \\
+    E_y &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial E_z}{\partial y} - \omega \mu \frac{\partial H_z}{\partial y}) \\
+    H_x &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial x} - \omega \mu \frac{\partial E_z}{\partial y}) \\
+    H_y &amp;=  \frac{i}{k_c^2}(\beta \frac{\partial H_z}{\partial y} + \omega \mu \frac{\partial E_z}{\partial x}) 
+    \end{align}
+$$
+</div>
+
+<p>thus,</p>
+
+\[\begin{pmatrix}
+    a &amp; b\\
+    c &amp; d\\
+  \hline
+    1 &amp; 0\\
+    0 &amp; 1
+  \end{pmatrix}\]
+
+<p>where $ k_c^2 = n^2 k^2 - \beta ^2 $, which is defined as <em>cut-off wave vector</em>.</p>
+
+<p>Here we can see, there are two independent solutions to the above equation, where $E_z$ and $H_z$ are two independent variables. In result, these two modes are named <em>TE</em> and <em>TM</em> modes. Separately, only $E_z$ or $H_z$ doesn’t equal to zero.</p>
+
+<h2>Boundary condition</h2>
+
+<p>In the no-charged and non-current surface, the boundary condition on two different media can be listed as</p>
+
+<div>$$
+\begin{align}
+&amp;\mathbf{n_{21}} \cdotp (\mathbf{D_2} - \mathbf{D_1}) = 0 \\
+&amp;\mathbf{n_{21}} \times (\mathbf{E_2} - \mathbf{E_1}) = 0 \\
+&amp;\mathbf{n_{21}} \cdotp (\mathbf{B_2} - \mathbf{B_1}) = 0 \\
+&amp;\mathbf{n_{21}} \times (\mathbf{H_2} - \mathbf{H_1}) = 0 
+\end{align}
+$$
+</div>
+
+<p>Set the normal direction of the surface as the reference, rewrite,</p>
+
+\[\varepsilon_1 E_{1, \bot} = \varepsilon_2 E_{2, \bot} ,
+\mathbf{E}_{1, \|} = \mathbf{E}_{2, \|} \\
+\mu_1 H_{1, \bot} = \mu_2 H_{2, \bot} ,
+\mathbf{H}_{1, \|} = \mathbf{H}_{2, \|}\]
+
+<p>where the $\perp, \parallel$ mean the normal and tangential components of EMF.</p>
+
+<p>e.x, if we study the xz surface (y direction is the normal vector) of the TE mode, for $E_z = 0$,</p>
+
+\[\varepsilon_1 E_{1,y}=\varepsilon_2 E_{2,y} , E_{1,x}=E_{2,x} , E_{1,z}=E_{2,z} =0 \\
+\mu_1 H_{1,y}=\mu_2 H_{2,y} , H_{1,x}=H_{2,x} , H_{1,z}=H_{2,z} \neq 0\]
+
+<p>Furthermore, the solution of either TE or TE modes can be transfer as</p>
+
+\[\nabla^2_{x,y} ~A + n^2 k^2 - \beta^2 A = 0\]
+
+<p>and where n is the refractive index of material and $\beta$ is the propagation constant.</p>
+
+<h2>Modes of Rectangular Waveguides</h2>
+
+<p>By using Marcatili model, assuming the refractive index of four corners are the same, $n_c$, <em>see. Marcatili, Bell Syst. Tech. J. 48, 2071 (1969)</em>, the rectangular waveguides can be calculated like two planar waveguides. Appromaxiation includes two simplifications,</p>
+
+<ol>
+  <li>Ignore boundary conditions associated with hatched regions.</li>
+  <li>Assume core-cladding index differences are small on all sides.</li>
+</ol>
+
+<p>e.x, the EMF of TE modes can be written,</p>
+<div>
+$$
+\begin{align}
+\mathbf{E} &amp;=(E_x, E_y, 0) \\
+\mathbf{H} &amp;=(H_x, H_y, H_z) \\
+\mathbf{k} &amp;=(k_x, k_y, k_z)
+\end{align}
+$$
+</div>
+<p>devided as the superposition of two EMF, like</p>
+
+\[\mathbf{E_1}&amp;=(E_x, 0, 0) 
+&amp;\mathbf{E_2}&amp;=(0, E_y, 0) \\
+\mathbf{H_1}&amp;=(0, H_{y}, H_{1z}) 
+&amp;\mathbf{H_2}&amp;=(H_{x}, 0, H_{2z}) \\
+\mathbf{k_1}&amp;=(0, k_{y}, k_{1z}) 
+&amp;\mathbf{k_2}&amp;=(k_{x}, 0, k_{2z})\]
+
+<p>which can satisfy the transverse field condition and energy conservation simultaneously. Hence, the solution truns into solving the planar waveguide field distribution.</p>
+
+<p>In a passive field, like silicon waveguide, <strong>there is nothing more complex than the Helmholtz equantion in the vector field,</strong> where the eigen-solution only depends on the boundary condition.</p>
+
+<p>From the Maxwell equations, all the components can be represented by z-component. Finally, the problem ends up into <strong>only one Helmholtz equation with two groups of boundary conditions</strong>, on xz surface and yz surface.</p>
+
+<p>to be added</p>
+
+<h2>TE modes eigenvalue equation</h2>
+
+\[2pd=m\pi + \tan^{-1}(\kappa_1/p) + \tan^{-1}(\kappa_2/p)\]
+
+<p>$d$ is half of the thickness and $p$ is the</p>
+
+<p>The latter two terms are phase shift on the boundary.</p>
+
+<p>For symmetric waveguides</p>
+
+\[\kappa = p \tan(pd - m\pi/2)\]
+
+<p>Define numerical $NA=\sqrt{n_{co}^2-n_{cld}^2}$,</p>
+
+\[v=d\sqrt{p^2+\kappa^2}=k_0 d \sqrt{n_{co}^2-n_{cld}^2}\]
+
+<p>is constant and $u = pd$ ,</p>
+
+\[\sqrt{v^2-u^2}=u\tan(u-m\pi/2)\]
+
+<h2>TM modes eigenvalue equation</h2>
+
+\[2pd=m\pi + \tan^{-1}(\frac{n_c^2\kappa_1}{n_1^2p}) + \tan^{-1}(\frac{n_c^2 \kappa_2}{n_2^2p})\]
+
+<p>The latter two terms are phase shift on the boundary.</p>
+
+
+**Tags**
+<ul><li> waveguide </li></ul>
+
+<!-- Markdeep: -->
+
+<script>markdeepOptions={tocStyle:'medium'};</script>
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
+

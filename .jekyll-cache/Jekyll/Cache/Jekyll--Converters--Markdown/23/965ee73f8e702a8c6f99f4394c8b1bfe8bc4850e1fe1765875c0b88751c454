@@ -1,0 +1,128 @@
+I"<p>The Divincenzo’s criteria is a list of necessary request for constructing a quantum computer, which is proposed by Professor David P.DiVincenzo in 2000<sup id="fnref:protocol" role="doc-noteref"><a href="#fn:protocol" class="footnote">1</a></sup>. During the last nearly two decades, various quantum candidates have being developed or put forward, meet the criteria more or less.
+<!-- more --></p>
+
+<p>The DiVincenzo criteria consist of 5+2 conditions that an experimental setup must satisfy in order to successfully implement quantum algorithms.</p>
+
+<ol>
+  <li>A scalable physical system with well characterized qubits.</li>
+  <li>The ability to initialize the state of the qubits to a simple fiducial state.</li>
+  <li>Long relevant decoherence times.</li>
+  <li>A “universal” set of quantum gates.</li>
+  <li>A qubit-specific measurement capability.</li>
+</ol>
+
+<p>The additional 2 conditions are for quantum network.</p>
+
+<ol>
+  <li>The ability to interconvert stationary and flying qubits.</li>
+  <li>The ability to faithfully transmit flying qubits between specified locations.</li>
+</ol>
+
+<p>Here a summary is drawn from the roadmap in 2002<sup id="fnref:roadmap" role="doc-noteref"><a href="#fn:roadmap" class="footnote">2</a></sup>, which gives comparison bwtween all the popular quantum computation candidates.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>candidates</th>
+      <th>#1</th>
+      <th>#2</th>
+      <th>#3</th>
+      <th>#4</th>
+      <th>#5</th>
+      <th>#6</th>
+      <th>#7</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trapped ions</td>
+      <td>$\star$</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\bullet$</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+    </tr>
+    <tr>
+      <td>Neutral atoms</td>
+      <td>$\star$</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+    </tr>
+    <tr>
+      <td>Photonics</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\bullet$</td>
+    </tr>
+    <tr>
+      <td>Flux qubit</td>
+      <td>$\star$</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\triangle$</td>
+      <td>$\triangle$</td>
+    </tr>
+    <tr>
+      <td>Cavity QED</td>
+      <td>$\triangle$</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\bullet$</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+    </tr>
+    <tr>
+      <td>NMR</td>
+      <td>$\triangle$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\bullet$</td>
+      <td>$\star$</td>
+      <td>$\triangle$</td>
+      <td>$\triangle$</td>
+    </tr>
+    <tr>
+      <td>Silicon</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\star$</td>
+      <td>$\triangle$</td>
+      <td>$\triangle$</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>$\triangle$: no protocol
+$\star$: theoretically possible 
+$\bullet$: realized and verified by experiments</p>
+</blockquote>
+
+<p>We can see the photonical realization among all the physics system  is still possible to demonstrate a quantum computer. But as we all know, it is hard to make photon interact with other photons, i.e, it is still desirable to introduce new mechanics beyond current post-selection protocol.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:protocol" role="doc-endnote">
+      <p>DiVincenzo, D. P. (2000), The Physical Implementation of Quantum Computation. Fortschr. Phys., 48: 771-783. doi:10.1002/1521-3978(200009)48:9/11&lt;771::AID-PROP771&gt;3.0.CO;2-E <a href="#fnref:protocol" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:roadmap" role="doc-endnote">
+      <p>Quantum Computation Roadmap, http://qist.lanl.gov/qcomp_map.shtml <a href="#fnref:roadmap" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

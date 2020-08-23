@@ -1,0 +1,79 @@
+<meta charset="utf-8" emacsmode="-*- markdown -*-">**A Simple Latex Template for Scientific Writing**
+                                Feb 5, 2019
+    
+<blockquote>
+  <p>updating</p>
+</blockquote>
+
+<h2>Necessary packages</h2>
+
+<ul>
+  <li>tikz &amp; pgfplots</li>
+  <li>physics siunitx mhchem</li>
+  <li>xcolor, fontspec/inputenc</li>
+  <li>…</li>
+</ul>
+
+<!-- more -->
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\documentclass[a4paper,10pt]{report}
+% --------------------------------------------------------
+% essential
+\usepackage{tikz,pgfplots}
+\usepackage{xcolor,graphicx}
+\usepackage{subcaption}
+% --------------------------------------------------------
+% fullpage, change the margin
+\usepackage{fullpage} % note the compatability with fancyhdr
+% \usepackage{geometry}
+	% \geometry{
+	% a4paper,
+	% margin=2in}
+
+% --------------------------------------------------------
+% for physics and others
+\usepackage{physics}
+\usepackage[version=4]{mhchem} % chemical formula, \ce{H2O}
+\usepackage{siunitx} % SI units
+% --------------------------------------------------------
+% optional 
+\usepackage{sectsty} % change section style
+	\sectionfont{\noindent\textsc}
+\usepackage{esint} % special integral
+% \usepackage{fancyhdr} % header and footer
+% 	\pagestyle{fancy}
+% 	\fancyhf{}
+% 	\lhead{ \fancyplain{}{Author Name} }
+% 	\rhead{ \fancyplain{}{\today} }
+% 	\rfoot{ \fancyplain{}{\thepage} }
+\usepackage{paralist}
+\usepackage{booktabs}
+% --------------------------------------------------------
+% font
+% \usepackage{fontspec}
+% \setmainfont{Calibri}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% \usepackage{tgbonum}
+\usepackage{lipsum}
+
+% --------------------------------------------------------
+% Tex !
+\begin{document}
+\lispsum
+\lispsum
+\end{document}
+
+</code></pre></div></div>
+
+<p>You can download from <a href="http://localhost:4000/assets/files/tex_temp/tex_temp.tex">here</a>.</p>
+
+
+**Tags**
+<ul><li> latex </li></ul>
+
+<!-- Markdeep: -->
+
+<script>markdeepOptions={tocStyle:'medium'};</script>
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
+

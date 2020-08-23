@@ -1,0 +1,79 @@
+I"�<h2>Sensors in the smartphones</h2>
+
+<p>From the products website of the Apple, we can find below are totally six kinds of sensors equipped in their latest mobile phones, the iPhone X<sup id="fnref:i" role="doc-noteref"><a href="#fn:i" class="footnote">1</a></sup>. 
+<!-- more --></p>
+
+<ol>
+  <li>gyroscope</li>
+  <li>accelerometer</li>
+  <li>ambient light sensor</li>
+  <li>proximity sensor</li>
+  <li>hall sensor / magnetometer</li>
+  <li>barometer</li>
+</ol>
+
+<p>Except the barometer, which is a novel addition since the products of last generation, the other five are some kind of essential sensors to add rich location and motion capabilities to the applications<sup id="fnref:ii" role="doc-noteref"><a href="#fn:ii" class="footnote">2</a></sup> running on the smart phones.</p>
+
+<h3>Gyroscopes</h3>
+
+<p>Modern gyroscopes used in smartphones and other electronics are typically, Vibrating structure gyroscope, (VGS). It can sense the rate of turn (degree/s) without a fixed point of reference, like conventional gyroscopes while based on microelectromechanical systems. MEMS VSG gyros use a vibrating or resonating ring fabricated using a DRIE (Deep Reactive Ion Etch) bulk silicon process. The annular ring is supported in free-space by eight pairs of ‘dog-leg’ shaped, symmetrical spokes. The bulk silicon etch process and unique patented ring design enable close tolerance geometrical properties for precise balance and thermal stability<sup id="fnref:iii" role="doc-noteref"><a href="#fn:iii" class="footnote">3</a></sup>.</p>
+
+<h3>Accelerometers</h3>
+
+<p>A dynamic accelerometer measures gravitational pull to determine the angle at which a device is tilted with respect to the Earth. By sensing the amount of acceleration, users analyze how the device is moving.</p>
+
+<p>The basic principle of operation behind the MEMS accelerometer is the displacement of a small proof mass etched into the silicon surface of the integrated circuit and suspended by small beams. Consistent with Newton’s second law of motion, as an acceleration is applied to the device, a force develops which displaces the mass<sup id="fnref:iv" role="doc-noteref"><a href="#fn:iv" class="footnote">4</a></sup>. The support beams act as a spring, and the fluid trapped inside the IC acts as a damper, resulting in a second order lumped physical system. This is the source of the limited operational bandwidth and non-uniform frequency response of accelerometers.</p>
+
+<h3>Ambient light sensor</h3>
+
+<p>An ambient light sensor (ALS) is a component used for brightness adjustment and widely used in the customer electronics and other devices in order to save the battery lifetime and decrease the power hunger by the display.</p>
+
+<p>In a cell phone, to enable automatic control of display backlight brightness over a wide range of illumination conditions from a dark environment to direct sunlight, designers use several kinds of photoelectric devices, such photo diodes, CdS photoelectric cells or photo transistors, as the photodetectors<sup id="fnref:v" role="doc-noteref"><a href="#fn:v" class="footnote">5</a></sup>. With the input electronic signals, micro control units will then increase or decrease the brightness of the display.</p>
+
+<h3>Proximity sensor</h3>
+
+<p>The proximity sensor is common on most smartphones. This is because the primary function of a proximity sensor is to disable accidental touch events. Among all the technologies for proximity sensing, most economic choice is the optical sensor<sup id="fnref:vi" role="doc-noteref"><a href="#fn:vi" class="footnote">6</a></sup>.</p>
+
+<p>Such a device uses a chip placed close to the speaker facing the user and consists of two IR light transmitter and receiver. Usually, the receiver can only detect part of the light emitted by the chip. When something is closer to the ambient-light around the sensor, the ambient light drops down and the reflected IR light increase. Thus, the controller switches from far to near.</p>
+
+<h2>Touchscreens for handed electronic devices</h2>
+
+<p>Touchscreens’s main demand is from the growing customer digital devices. And the history of touchscreens began at the 1970s, when Dr. G. Samuel Hurst first invented the first resistive touchscreen while the capacitive touchscreens was put forward by Eric Johnson in 1965.i 
+As we all know, the resistive and capacitive touchscreens are two main categories. However the technology and knowledge is a little different.</p>
+
+<h3>Resistive</h3>
+
+<p>A typical different feature of the resistive touchscreen it that when you touch the screen, you will find slightly bend of the top layer, which also indicates the principle. 
+Usually, the screen includes two layers bending to touch one another. One of those thin yellow layers is resistive and the other is conductive, separated by a gap of tiny dots called spacers to keep the two layers apart until you touch it. An electrical current runs through those yellow layers at all times, but when your finger hits the screen the two are pressed together and the electrical current changes at the point of contact. The software recognizes a change in the current at these coordinates and carries out the function that corresponds with that spot.</p>
+
+<h3>Capacitive</h3>
+
+<p>Unlike resistive touch screens, capacitive screens do not use the pressure of your finger to create a change in the flow of electricity. Instead, they work with anything that holds an electrical charge, including human skin. Capacitive touch screens are constructed from materials like copper or indium tin oxide that store electrical charges in an electrostatic grid of tiny wires.</p>
+
+<p>There are two main types of capacitive touchscreens - surface and projective. Surface capacitive uses sensors at the corners and a thin evenly distributed film across the surface, whereas projective capacitive uses a grid of rows and columns with a separate chip for sensingii. When a finger hits the screen, a tiny electrical charge is transferred to the finger to complete the circuit, creating a voltage drop on that point of the screen. The software processes the location of  this voltage drop and orders the ensuing action.</p>
+
+<h1>References</h1>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:i" role="doc-endnote">
+      <p>Technical specification of the iPhone X,  retrieved from https://apple.com/iphone-x/specs/ <a href="#fnref:i" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:ii" role="doc-endnote">
+      <p>Sensor Overview, Android developer documents, retrieved from https://developer.android.com/guide/topics/sensors/ <a href="#fnref:ii" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:iii" role="doc-endnote">
+      <p>MEMS VSG gyros - a short description of their basic construction and operation, retrieved from https://www.siliconsensing.com/technology/mems-gyroscopes/ <a href="#fnref:iii" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:iv" role="doc-endnote">
+      <p>Principles of Operation, retrieved from http://www.sensorwiki.org/doku.php/sensors/accelerometer#external_links_references <a href="#fnref:iv" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:v" role="doc-endnote">
+      <p>Ambient Light Sensor (ALS) Applications in Portable Electronics, White Paper Presented by ROHM Semiconductor <a href="#fnref:v" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:vi" role="doc-endnote">
+      <p>Proximity Sensor on Android Gingerbread, retrieved from http://thecodeartist.blogspot.com/2011/01/proximity-sensor-on-android-gingerbread.html <a href="#fnref:vi" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
