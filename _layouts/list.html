@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+                                **{{ page.title }}**
+
+{{ content }}
+
+{% for tag in site.tags %}
+  <h1>{{ tag[0] }}</h1>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<script>markdeepOptions={tocStyle:'none'};</script>
+<style>.md h1:before, .md h2:before { content: none }</style>

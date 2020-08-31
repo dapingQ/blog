@@ -2,13 +2,14 @@
 layout: post
 title: A Simple Latex Template for Scientific Writing
 tag: [latex]
-comments: true
+# comments: true
+# toc: false
 date: 2019-02-05
 ---
 
 > updating
 
-# Necessary packages
+# Recommended packages
 
 - tikz & pgfplots
 - physics siunitx mhchem

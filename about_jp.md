@@ -46,18 +46,7 @@ permalink: /about_jp/
 
 _updated in {{ page.date }}_
 
-
 <style>
 body {
-    font-family: "-apple-system", BlinkMacSystemFont, "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "メイリオ", "Hiragino Kaku Gothic ProN", "MS PGothic", Osaka, "sans-serif";
-}dt { width: 130px; font-family: arial} dd { padding-bottom: 1px } 
-.md h1:before, .md h2:before { content: none }
-.md ul li.plus { list-style-type: none; margin-left: -40px; padding-bottom: 10px}
-.md table.table { margin-left: -15px; padding-bottom: 20px }
-.md table.table tr { vertical-align: top }
-.md table.table th { color: #000; background: none; border: none; padding-bottom: 2px }
-.md table.table tr:nth-child(even) { background: none }
-.md table.table td { background: none; border: none; padding-bottom: 0px; padding-top: 2px }
-.md table {page-break-inside: auto}
-em.asterisk { font-style: normal; font-weight: bold }
+    font-family: "-apple-system", BlinkMacSystemFont, "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "メイリオ", "Hiragino Kaku Gothic ProN", "MS PGothic", Osaka, "sans-serif";}
 </style>
