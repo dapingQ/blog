@@ -1,7 +1,6 @@
 title: scio me nihil scrie
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://fibomat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: https://github.com/fibomat
 
 paginate: false
 kramdown:
