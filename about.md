@@ -49,7 +49,7 @@ permalink: /about/
     - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
   - [Music](http://music.163.com/#/user/home?id=34072848)
 
-Please check my full CV [here]({{ site.url }}{{ site.baseurl }}/cv.md)
+Please check my full CV [here]({{ site.url }}{{ site.baseurl }}/cv/)
 
 _updated in {{ page.date }}_
 
