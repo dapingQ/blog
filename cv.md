@@ -9,6 +9,9 @@ title: Zhenghao Yin
 Research Experience
 ===================================================
 
+2021.01-Present
+: *Quantum optics and quantum information*, Wien AT
+
 2017.10–2020.03
 : *Quantum information processing*, Kyoto JP
 : <br>We collaborated with [Prof. Shiyoshi Yokoyama][yok-lab] at Kyushu University, and focusing on realization of on-chip high-intensity broadband entangled photon sources based on SiNx and other material platforms.
@@ -65,12 +68,12 @@ Conferences & Workshops
 
 Journal Articles
 ---------------------------------------------------------------------
++ *Frequency correlated photon generation at telecom band using silicon nitride ring cavities*
+   <br> <u> Zhenghao Yin </u>, Kenta Sugiura, Hideaki Takashima, Ryo Okamoto, Feng Qiu, Shiyoshi Yokoyama, and Shigeki Takeuchi
+   <br> Opt. Express 29, 4821 (2021).
 + *Broadband generation of photon-pairs from a CMOS compatible device*
    <br> Sugiura K. <u>Yin, Z.</u> Okamoto, R. Zhang, L. Kang, L. Chen, J. Wu, P. Chu, S. T. Little, B E Takeuchi, S.
    <br> Applied Physics Letters 116, 224001 (2020)
-+ *Frequency entangled photon generation over 100nm at telecom band using silicon nitride ring cavities* (to submit)
-   <br> 
-
 
 Others
 ===================================================================

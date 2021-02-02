@@ -1,11 +1,14 @@
 ---
 layout: page
 title: Zhenghao Yin
-date: 2020-08-20
+date: 2021-01-21
 permalink: /about/
 ---    
 
 # Education
+  - PhD ( Jan. 2021 - Present ) 
+
+    *Faculty of Physics, University of Vienna, Austria*
 
   - Master of Engineering (Oct. 2017 - March 2020) 
 
@@ -17,19 +20,23 @@ permalink: /about/
 
 # Reaserch Interests
 
-  - Quantum Optics
+  - Quantum Optics & Quantum Information
     - Linear optical quantum computation
     - Quantum interference
-  - Intergrated Photonics Devices
+  - Intergrated Photonics
+  - Nonlinear Optics
+  - Semiconductors
 
 # Skills
-
+  - Numerical computation
+    - Python
+    - MATLAB
   - Nano-optics simulation
     - COMSOL
     - Lumerical FDTD
   - Nanofabrication
-	- Photonics layour design (My gds repo on [GitHub](https://github.com/fibomat/gds))
-	- CVD/ICP/RIE etc.
+	  - Photonic GDS design (My gds repo on [GitHub](https://github.com/fibomat/gds))
+	  - CVD/ICP/RIE etc.
   - Optical Testing
     - LabVIEW, NI-VISA, DAQ etc.
     - optical fiber processing
@@ -42,7 +49,7 @@ permalink: /about/
     - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
   - [Music](http://music.163.com/#/user/home?id=34072848)
 
-Please check my full CV [here]({{ site.url }}{{ site.baseurl }}/CV)
+Please check my full CV [here]({{ site.url }}{{ site.baseurl }}/cv.md)
 
 _updated in {{ page.date }}_
 
