@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Zhenghao Yin
+permalink: /cv/
 ---
               zhenghao.yin@outlook.com
               https://fibomat.github.io/blog
