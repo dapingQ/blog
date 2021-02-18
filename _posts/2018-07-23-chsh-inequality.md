@@ -108,11 +108,9 @@ $$
 # Experimental proposal
 
 For any term in Eq., let $ P(a,b) $ be example,
-
 $$
 P(a,b)=w [A(a)_+,B(b)_+]+w [A(a)_-,B(b)_-]-w [A(a)_+,B(b)_-]-w [A(a)_-,B(b)_+]
 $$
-
 
 here, $\pm$ means the two basis of measurement apparatus and includes the four choices of parallel or perpendicular polarizers.
 

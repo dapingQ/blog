@@ -83,9 +83,9 @@ Journal Articles
 ---------------------------------------------------------------------
 + *Frequency correlated photon generation at telecom band using silicon nitride ring cavities*
    <br> <u> Zhenghao Yin </u>, Kenta Sugiura, Hideaki Takashima, Ryo Okamoto, Feng Qiu, Shiyoshi Yokoyama, and Shigeki Takeuchi
-   <br> Opt. Express 29, 4821 (2021).
+   <br> Opt. Express 29, 4821 (2021)
 + *Broadband generation of photon-pairs from a CMOS compatible device*
-   <br> Sugiura K. <u>Yin, Z.</u> Okamoto, R. Zhang, L. Kang, L. Chen, J. Wu, P. Chu, S. T. Little, B E Takeuchi, S.
+   <br> Sugiura Kenta <u>Zhenghao Yin</u> Ryo Okamoto, Labao Zhang, Lin Kang, Jian Chen, Pei-heng Wu, Sai Tak Chu, Brent E. Little, Shigeki Takeuchi
    <br> Applied Physics Letters 116, 224001 (2020)
 
 Others
