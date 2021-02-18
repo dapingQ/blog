@@ -76,16 +76,16 @@ Conferences & Workshops
   <br>The 38th Electronic Materials Symposium (2019)
   
 + *On-chip broadband entangled photon sources using HICDG and SiN waveguide devices* (Poster)
-  <br>Kenta Sugiura, <u>Zhenghao Yin</u>, et al.
+  <br> Sugiura Kenta, <u>Zhenghao Yin</u>, Ryo Okamoto, Labao Zhang, Lin Kang, Jian Chen, Pei-heng Wu, Sai Tak Chu, Brent E. Little, Shigeki Takeuchi
   <br>EU-USA-Japan International Symposium on Quantum Technology (2019)
 
 Journal Articles
 ---------------------------------------------------------------------
 + *Frequency correlated photon generation at telecom band using silicon nitride ring cavities*
-   <br> <u> Zhenghao Yin </u>, Kenta Sugiura, Hideaki Takashima, Ryo Okamoto, Feng Qiu, Shiyoshi Yokoyama, and Shigeki Takeuchi
+   <br> <u>Zhenghao Yin</u>, Kenta Sugiura, Hideaki Takashima, Ryo Okamoto, Feng Qiu, Shiyoshi Yokoyama, and Shigeki Takeuchi
    <br> Opt. Express 29, 4821 (2021)
 + *Broadband generation of photon-pairs from a CMOS compatible device*
-   <br> Sugiura Kenta <u>Zhenghao Yin</u> Ryo Okamoto, Labao Zhang, Lin Kang, Jian Chen, Pei-heng Wu, Sai Tak Chu, Brent E. Little, Shigeki Takeuchi
+   <br> Sugiura Kenta, <u>Zhenghao Yin</u>, Ryo Okamoto, Labao Zhang, Lin Kang, Jian Chen, Pei-heng Wu, Sai Tak Chu, Brent E. Little, Shigeki Takeuchi
    <br> Applied Physics Letters 116, 224001 (2020)
 
 Others
