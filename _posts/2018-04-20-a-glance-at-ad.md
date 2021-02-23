@@ -2,6 +2,7 @@
 layout: post
 comments: true
 date: 2018-04-20
+categories: yogohikri
 title: A Glance At Autonomous Driving
 tag: 
 - autonomous driving

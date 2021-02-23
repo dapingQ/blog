@@ -7,6 +7,7 @@ tag:
  - SiC
  - semiconductor
 comment: true
+categories: yogohikri
 toc: true
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 date: 2018-07-27
 title: A Quantum Computation Roadmap by the DiVincenzo's Criteria
+categories: quantum_information
 tag: 
   - quantum computation
   - divincenzo criteria

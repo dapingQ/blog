@@ -2,14 +2,14 @@
 layout: default
 ---
                                 **{{ site.title }}**
-                                [About](about) / [Github](site.github_usernmae) / [Posts](#posts) / [Tags](tags)
+                                [About](about) / [Github](site.github_usernmae) / [Posts](#posts) / [Categories](categories) / [Tags](tags)
 
 # Posts
 <ul>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in site.posts -%}
     <li>
-    <span>{{ post.date | date: date_format }}</span>
+    <span>{{ post.date | date: date_format }} | </span>
         <a href="{{ post.url | relative_url }}">
         {{ post.title }}
         </a>

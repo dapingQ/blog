@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<div class="title"> Tags </div>
+<div class="title"> Categories </div>
 
 <div>
-{%- for tag in site.tags -%}
-  <h1>{{ tag[0] }}</h1>
+{%- for cat in site.categories -%}
+  <h1>{{ cat[0] }}</h1>
   <ul>
-    {%- for post in tag[1] -%}
+    {%- for post in cat[1] -%}
       <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {%- endfor -%}
   </ul>

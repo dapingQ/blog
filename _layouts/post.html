@@ -4,6 +4,8 @@ layout: default
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                                 **{{ page.title }}**
                                 {{ page.date | date:date_format}}
+                                                                
+Back to <a href="{{ site.url }}{{ site.baseurl }}/">Home ></a> <a href="{{ site.url }}{{ site.baseurl }}/categories#{{page.categories}}">{{page.categories}}</a>
 {{ content }}
 
 ------------------------------------------

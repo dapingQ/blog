@@ -4,6 +4,7 @@ title: Sensors and Touchscreens in Smartphones
 tag: 
   - MEMS
   - smartphone
+categories: yogohikri
 comments: true
 date: 2018-05-31
 ---
