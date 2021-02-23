@@ -7,7 +7,6 @@ tag:
   - superconducting
   - NMR
   - topological computation 
-comments: true
 date: 2018-05-21
 ---
 
