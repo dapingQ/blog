@@ -5,13 +5,17 @@ layout: default
                                 **{{ page.title }}**
                                 {{ page.date | date:date_format}}
                                                                 
-Back to <a href="{{ site.url }}{{ site.baseurl }}/">Home ></a> <a href="{{ site.url }}{{ site.baseurl }}/categories#{{page.categories}}">{{page.categories}}</a>
+Back to <a href="{{ site.url }}{{ site.baseurl }}/">Home ></a>
+<br> 
 {{ content }}
 
 ------------------------------------------
 
+**Category**
+<a href="{{ site.url }}{{ site.baseurl }}/categories#{{page.categories}}">{{page.categories}}</a>
+
 **Tags**
-<ul>
+<ul float="right">
     {%- for tag in page.tags -%}
     <li><a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a> </li>
     {%- endfor -%}    
