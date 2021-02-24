@@ -5,21 +5,26 @@ layout: default
                                 **{{ page.title }}**
                                 {{ page.date | date:date_format}}
                                                                 
-Back to <a href="{{ site.url }}{{ site.baseurl }}/">Home ></a>
+Back to 
+<a href="{{ site.url }}{{ site.baseurl }}/">Home ></a> 
+<a href="{{ site.url }}{{ site.baseurl }}/categories/"> Categories ></a>
+{%- if page.categories  != empty -%}
+<a href="{{ site.url }}{{ site.baseurl }}/categories#{{page.categories}}"> {{page.categories}}</a>
+{%- endif -%}
+
 <br> 
 {{ content }}
 
+
+{%- if page.tags  != empty -%}
 ------------------------------------------
-
-**Category**
-<a href="{{ site.url }}{{ site.baseurl }}/categories#{{page.categories}}">{{page.categories}}</a>
-
 **Tags**
 <ul float="right">
     {%- for tag in page.tags -%}
     <li><a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a> </li>
     {%- endfor -%}    
 </ul>
+{%- endif -%}
 
 <!-- Markdeep: -->
 {%- if page.toc != false -%}

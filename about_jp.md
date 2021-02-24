@@ -3,6 +3,7 @@ layout: page
 date: 2020-08-11
 title: 殷　政浩
 permalink: /about_jp/
+language: jp
 ---    
 
 # 学歴

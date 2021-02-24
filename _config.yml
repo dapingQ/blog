@@ -5,3 +5,8 @@ url: "https://fibomat.github.io" # the base hostname & protocol for your site, e
 paginate: false
 kramdown:
   auto_ids: false
+
+language: 
+  - en
+  - zh
+  - jp
