@@ -7,7 +7,7 @@ layout: default
                                                                 
 Back to 
 <a href="{{ site.url }}{{ site.baseurl }}/">Home ></a> 
-<a href="{{ site.url }}{{ site.baseurl }}/categories/"> Categories ></a>
+<a href="{{ site.url }}{{ site.baseurl }}/categories"> Categories ></a>
 {%- if page.categories  != empty -%}
 <a href="{{ site.url }}{{ site.baseurl }}/categories#{{page.categories}}"> {{page.categories}}</a>
 {%- endif -%}
@@ -43,6 +43,7 @@ figcaption {
 }}
 </style>
 
+{% comment %}
 {%- if page.comments -%}
 <div id="disqus_thread"></div>
 <script>
@@ -63,3 +64,4 @@ figcaption {
     })();
 </script>
 {%- endif -%}
+{% endcomment %}
