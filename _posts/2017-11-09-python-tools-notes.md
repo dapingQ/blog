@@ -1,50 +1,36 @@
 ---
 layout: post
+date: 2017-11-20
+title: Memos on Python Scientific Computing 
 tag: 
   - python
-  - data
-  - numpy
-  - scipy
-  - ipython
-comments: true
-date: 2017-11-20
-title: Notes of Python Toolkits 
+categories: others
 ---
+A cheating sheet on Scipy, etc.
 
 # iPython
 
-- ?+cmd, just like help()
-- %run python_cmd
-- %paste & %cpaste
-- shortcuts (like Emacs)
-
-<!-- more -->
-## Magic commands
-
-we have a $1+1=2$ and end.
-
-- %timeit 
+- ?+cmd = help(), help command
+- %run _python_cmd_, run command externally
+- %paste & %cpaste, block paste
+- %timeit
 - %reset
-- %quickref / %magic
-- %hist
-- %debug / %pdb
-- %xdel: del objects	
+- %quickref / %magic, find all the magic cmd
+- %hist, show cmd history
+- %debug / %pdb, debug the code
+- %xdel, del objects
 - %logstart
 
 ## Qt and Pylab
+~~$ ipython qtconsole --pylab=inline # old feature~~
+$ ipython --pylab
+requires `matplotlib` and `PyQt` for inline ploting
 
-  ~~$ ipython qtconsole --pylab=inline # old feature~~
-
-	$ ipython --pylab
-
-require matplotlib and PyQt for inline images ploting
-
-## Command History
+## shortcuts of command history
 
 - `Ctrl + P` forward matching
 - `Ctrl + P` backward matching
 - `Ctrl + P` readline
-
 - `_iX`: input in line X
 - `_X` : output in line X
 
@@ -61,11 +47,11 @@ require matplotlib and PyQt for inline images ploting
 
 ## Debug
 
-```python
+````````````````````````````````````
     %debug
     u/d
     %pdb iX (X is variable)
-```
+````````````````````````````````````
 
 ## Tricks
 
@@ -147,4 +133,4 @@ a([i:],[j:],[]...)
 2. Swallow copy
 3. Deep copy
 
-## Linear Algebra
+TBD

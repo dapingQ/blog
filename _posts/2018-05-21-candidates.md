@@ -2,11 +2,11 @@
 layout: post
 title: Quanutm Candidates for Quantum Computation Systems
 tag:
-  - quantum computation
+  - quantum_computation
   - optics
   - superconducting
   - NMR
-  - topological computation 
+  - topological_computation 
 date: 2018-05-21
 ---
 
