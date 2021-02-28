@@ -134,7 +134,7 @@ PS. 学生宿舍的床宽基本都在 90cm，介意者慎入
 其中除了 S-Bahn 由奥地利国铁(ÖBB)运营之外，后三者均由维也纳轨道交通公司(Wiener Linien)运营。
 平时活动范围不出市区的话，地铁、电车和巴士肯定够用了。
 
-![维也纳行政分区]({{site.url}}{{site.baseurl}}/assets/img/wien-tram-centre.png)
+{% include image.html url="assets/img/wien-tram-centre.png" description="维也纳公共交通线路图" width="300px" %}
 
 一般生活在维也纳，都会购买年卡，只能在官网上注册申请[^app]。
 付费后年卡大约两周内寄到，可将乘客号码绑定在手机应用上，外出时便无需携带实体卡片。
@@ -203,7 +203,8 @@ Coco Asian 等本地亚超，虽然不是主要面向华人顾客，贵在店面
 21与22区，为多瑙河北岸的两个区，也属于城郊过渡区。
 23区非常靠南，基本不觉得是维也纳的一部分。
 
-![维也纳行政分区]({{site.url}}{{site.baseurl}}/assets/img/bezirke-wien.png)
+{% include image.html url="assets/img/bezirke-wien.png" description="维也纳行政分区" width="300px" %}
+
 
 ## 多瑙
 多瑙河在中欧地区的地位相当于母亲河。

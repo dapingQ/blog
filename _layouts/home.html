@@ -5,18 +5,20 @@ layout: default
                                 [About](about) / [Github](site.github_usernmae) / [Posts](#posts) / [Categories](categories) / [Tags](tags)
 
 
-![光を信じなさい](assets\video\ultraman.mp4)
+<!-- ![光を信じなさい](assets\video\ultraman.mp4) -->
 
 # Posts
 <ul>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in site.posts -%}
+    {%- if post.language != "zh" -%}
     <li>
     <span>{{ post.date | date: date_format }} | </span>
         <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
+        {{ post.title }} 
         </a>
     </li>
+    {%- endif -%}
     {%- endfor -%}
 </ul>
 
