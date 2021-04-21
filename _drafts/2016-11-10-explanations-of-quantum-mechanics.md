@@ -4,10 +4,18 @@ tag:
 - quantum mechanics
 comments: true
 date: 2016-11-10
-title: Three basic mathematic approaches in basic quantum mechanics
+title: Three basic mathematical descriptions in primary quantum mechanics
 ---
 
-Since different branches of physics have established during last century, it turns out that quantum physics has become a more important tool to solve the various kinds physics problem. However, as Einstein pointed out the photon hypothesis of light, many explanations to quantum mechanics have also been put forward.
+Quantum physics is fundamental for almost all the modern physics fields in this centry, but during the last decades, physcists haven't even found the only true explanation of quantum theory, which is usually not acceptable for the physical science. Yes, 
+Widely accepeted is so-called *Copenhagen interpretation*, but it hasn't convinced every physcist especially the most weird part *measurement*, it simply ignores the relation between observor and the quantum state, saying it is one of the principles of quantum mechanics. Things should not go like that and some scientists believe that there should be some theory deeper to the nature and answers the *measurement loophole* better than *Copenhagen interpretation*. But first, let us talk about the *Copenhagen interpretation*.
+
+It usually include the below three *principles*.
+
+- identity, the particles in the nanoscale world are classifyed into several categories, and in each category, they are totally same from each other. For instance, an electron existing somewhere in your body is *identical to* an electron on the Mars. And by any method, you can not tell the differences between two identical particles which is named as *indistinguishbility*.
+- superpostion, quantum state is not classical object which follows the single worldline, which is an aspect in the theoretical mechanics. It is somehow closer to a spining coin and you never know which side it may finally flip into.
+
+- measurement 
 
 First of all is the Schrodinger's wave function, which is the most popular theory among the earliest quantum physicists. 
 According to this theory, wave and particle are both essential properties for the quanta. For example, as a light beam emit from laser cavity, it behaves like plat wave. On contrast with classic assumption, when it comes to split experiment, light can act like particle and it seems that it will follow some certain path, which we call path of particle, and the path is the range of the calculation to keep the total possibility that particle will appear, in other words, be measured and collapse to a certain state, is normalized.
@@ -17,6 +25,3 @@ Another theory was funded by Heisenberg at his twenties. He thought that when we
 Last theory may a little later than previous two, it was Feynman's path calculus theory. As we discussed above, if we consider the quantum state as a particle, only the possible paths will be satisfied and different mechanical and dynamical functions can be expressed by a simple calculus of those paths. This idea is much more modern and sometimes more useful when you handle a complicated physics model.
 
 In summary, confusion is always coexisting with development, especially topics of modern physics. In order to figure out all the universe mysteries, we are supposed to keep expanding the boundary of physics.
-
-
-
