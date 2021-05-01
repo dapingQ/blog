@@ -7,7 +7,6 @@ permalink: /cv/
 Contact
 ===================================================
 
-
 - E-mail: zhenghao.yin@outlook.com
 - Personal site: https://fibomat.github.io/blog
 
