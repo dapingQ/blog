@@ -12,10 +12,9 @@ Widely accepeted is so-called *Copenhagen interpretation*, but it hasn't convinc
 
 It usually include the below three *principles*.
 
-- identity, the particles in the nanoscale world are classifyed into several categories, and in each category, they are totally same from each other. For instance, an electron existing somewhere in your body is *identical to* an electron on the Mars. And by any method, you can not tell the differences between two identical particles which is named as *indistinguishbility*.
+- identicality, the particles in the nanoscale world are classifyed into several categories, and in each category, they are totally same from each other. For instance, an electron existing somewhere in your body is *identical to* an electron on the Mars. And by any method, you can not tell the differences between two identical particles which is named as *indistinguishbility*.
 - superpostion, quantum state is not classical object which follows the single worldline, which is an aspect in the theoretical mechanics. It is somehow closer to a spining coin and you never know which side it may finally flip into.
-
-- measurement 
+- measurement, once the observor *measures* the quantum state, it collapses into one of the eigenstate.
 
 First of all is the Schrodinger's wave function, which is the most popular theory among the earliest quantum physicists. 
 According to this theory, wave and particle are both essential properties for the quanta. For example, as a light beam emit from laser cavity, it behaves like plat wave. On contrast with classic assumption, when it comes to split experiment, light can act like particle and it seems that it will follow some certain path, which we call path of particle, and the path is the range of the calculation to keep the total possibility that particle will appear, in other words, be measured and collapse to a certain state, is normalized.
