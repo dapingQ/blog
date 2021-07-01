@@ -6,7 +6,7 @@ categories: others
 language: zh
 ---
 
-**updating**
+**updating in 2021.07.01**
 
 自巴本堡王朝(Babenberg)建立以来，维也纳一直是奥地利地区的首都，其历史自利奥波德一世建城起，已经持续千年以上。
 神罗晚期，更是在哈布斯堡家族的统治下，一度成为帝国的中心，乃至德意志人真正的首都。
@@ -33,26 +33,33 @@ language: zh
 学生宿舍一般是刚来维也纳时的首选。因为都是线上申请签约，可以在抵达维也纳前拿到合同，并在第一时间报户口(Meldezettel)或者根据租房合同申请签证。
 并且入住手续简单，还配有基本家具和电器，可以直接拎包入住。
 
-较之于其他国家，维也纳的学生公寓或半私立或完全私立。因为没有来自政府或大学的补助，所以单从租金来看，有时相同的价格可以在外面租到相当不错的公寓。
+较之于欧陆其他国家，维也纳的学生公寓，或半私立或完全私立。因为没有来自政府或大学的补助，所以单从租金来看，有时相同的价格可以在外面租到相当不错的公寓。
 而且由于面积普遍较小，单位面积性价比不高。
 
-由于是宿舍，大多数情况下，共享厨房和客厅是不可避免的，但一般都有独卫。
-如果不常做饭，还是很舒适的。
-另外，如果不排斥社交，希望认识新朋友或练习德语，学生宿舍也提供了很好的机会，比如一起做饭，玩玩桌游。
+由于是宿舍，大多数情况下，共享厨房和客厅是不可避免的，但一般都有独立卫浴。
+假如不常做饭，还是很舒适的。
+另外，如果不排斥社交，在学生宿舍可以认识新的朋友以及练习德语，或者一起做饭，玩玩桌游。
 
-PS. 学生宿舍的床宽基本都在 90cm，介意者慎入
+PS. 学生宿舍的床，宽度基本都在 90cm，介意者慎入
 
 - [OEAD](https://housing.oead.at/) 
-<br>房源较多，部分房源有单独厨房
+<br>房源较多，部分房源有单独厨房或者独立卫浴，租金300-500欧
+- [STUWO](https://www.stuwo.at/en/dormitories/vienna/)
+<br>单价便宜，基本无独立卫浴与单独厨房
 - [wihast](https://www.wihast.at/)
-<br>单价较为便宜，房源偏老旧
+<br>单价便宜，房源偏老旧
 - [home4students](https://www.home4students.at/)
 <br>维也纳市内房源6-7家，基本没有独立厨房
+- [akademikerhilfe](https://www.akademikerhilfe.at/en/vienna)
+<br>维也纳市内房源18家，其中Muthgasse有很多中国留学生
+- [oejab](https://www.oejab.at/studierende-jugend)
+<br>维也纳市内房源14家
+- [housingvienna](http://www.housingvienna.com/)
+<br>应该只是代理，和上述网站有重叠
 - [Fizz](https://www.the-fizz.com/)
 <br>市内共两处，月租600欧上下，房源很新，公共空间大，娱乐设施多，床宽 120cm
-- [STUWO](https://www.stuwo.at/en/dormitories/vienna/)
 - [The Student Hotel](https://www.thestudenthotel.com/vienna/)
-<br>严格来说不算学生宿舍，但笔者有一位日本同事长居于此，月租570欧。
+<br>严格来说不算学生宿舍，但笔者有一位同事长居于此，月租570欧。
 特点在于，既可当作酒店入住若干天，也可长租，但要3个月起步。
 
 ## 出租公寓(Mietwohungen)
@@ -180,12 +187,11 @@ Coco Asian 等本地亚超，虽然不是主要面向华人顾客，贵在店面
 上面的SPAR等超市，严格上说只是grocery，其他日常百货需前往大型超市购买。
 
 - INTERSPAR 大而全，门店定位偏市郊
-- MERKUR Hoher Markt 
+- Billa Plus
 
 ## 露天集市
 
 维也纳有许多露天集市[^markt]，以6区的Naschmarkt最为有名，类似于国内菜市场。
-
 [^markt]:https://www.wien.gv.at/freizeit/einkaufen/maerkte/lebensmittel/
 
 ## 家居店
@@ -193,6 +199,7 @@ Coco Asian 等本地亚超，虽然不是主要面向华人顾客，贵在店面
 - IKEA
 - Kik
 - XXXLutz
+- Leiner
 
 # 常识
 
@@ -215,8 +222,6 @@ Coco Asian 等本地亚超，虽然不是主要面向华人顾客，贵在店面
 - 新多瑙 (Neue Donau)
 - 多瑙运河 (Donaukanal)
 - 维也纳河 (Wienfluss)
-
-待续
 
 # 来源参考
 
