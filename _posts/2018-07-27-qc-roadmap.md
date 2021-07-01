@@ -41,7 +41,7 @@ Here a summary is drawn from the roadmap in 2002[^roadmap], which gives comparis
 > $\star$: theoretically possible 
 > $\bullet$: realized and verified by experiments
 
-We can see the photonical realization among all the physics system  is still possible to demonstrate a quantum computer. But as we all know, it is hard to make photon interact with other photons, i.e, it is still desirable to introduce new mechanics beyond current post-selection protocol.
+We can see the photonic realization among all the physics system  is still possible to demonstrate a quantum computer. But as we all know, it is hard to make photon interact with other photons, i.e, it is still desirable to introduce new mechanics beyond current post-selection protocol.
 
 [^roadmap]: Quantum Computation Roadmap, http://qist.lanl.gov/qcomp_map.shtml
 [^protocol]: DiVincenzo, D. P. (2000), The Physical Implementation of Quantum Computation. Fortschr. Phys., 48: 771-783. doi:10.1002/1521-3978(200009)48:9/11<771::AID-PROP771>3.0.CO;2-E

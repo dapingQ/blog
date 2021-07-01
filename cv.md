@@ -96,7 +96,7 @@ Skills
 - Experimental
 
   + Nano-fabrication, film deposition, lithography and selective dry etching
-  + Optical experiments, nonliear optics, laser optics and photonic Integrated circuits
+  + Optical experiments, nonlinear optics, laser optics and photonic Integrated circuits
 
 - Programming & Softwares
 

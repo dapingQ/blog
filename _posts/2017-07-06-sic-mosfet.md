@@ -22,6 +22,6 @@ In a result, the current flowing between drain and source terminals have both ve
 
 Firstly, silicon carbide devices can exhibit simultaneously high electro-thermal conductivity and extremely fast switching. This happens because SiC components are capable of handling high energy levels while operating at much higher switching frequencies. While, silicon carbide exhibits an operating temperature of at least 200°C, i.e. 50°C higher than the absolute maximum rating of silicon MOS devices, which allows SiC power devices to work well in a hot and hostile environment, enabling the appreciable gains in quality and reliability without performance de-rating.[^bene]
 
-However, the high interface trap density reduces the utility of SiC. Aditionally, compared with other novel design, the conventinal design, DMOS is weak at broken isolation value, which may explain the price and market share of current SiC power devices.
+However, the high interface trap density reduces the utility of SiC. Additionally, compared with other novel design, the conventional design, DMOS is weak at broken isolation value, which may explain the price and market share of current SiC power devices.
 
 [^bene]: Benefits and advantages of silicon carbide power devices over their silicon counterparts, Semiconductor Today

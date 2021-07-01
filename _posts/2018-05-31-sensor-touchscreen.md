@@ -45,7 +45,7 @@ Such a device uses a chip placed close to the speaker facing the user and consis
 
 # Touchscreens for handed electronic devices
 
-Touchscreens's main demand is from the growing customer digital devices. And the history of touchscreens began at the 1970s, when Dr. G. Samuel Hurst first invented the first resistive touchscreen while the capacitive touchscreens was put forward by Eric Johnson in 1965.i 
+Touchscreens's main demand is from the growing customer digital devices. And the history of touchscreens began at the 1970s, when Dr. G. Samuel Hurst first invented the first resistive touchscreen while the capacitive touchscreens was put forward by Eric Johnson in 1965[^i] 
 As we all know, the resistive and capacitive touchscreens are two main categories. However the technology and knowledge is a little different.
 
 ## Resistive 
@@ -57,7 +57,7 @@ Usually, the screen includes two layers bending to touch one another. One of tho
 
 Unlike resistive touch screens, capacitive screens do not use the pressure of your finger to create a change in the flow of electricity. Instead, they work with anything that holds an electrical charge, including human skin. Capacitive touch screens are constructed from materials like copper or indium tin oxide that store electrical charges in an electrostatic grid of tiny wires.
 
-There are two main types of capacitive touchscreens - surface and projective. Surface capacitive uses sensors at the corners and a thin evenly distributed film across the surface, whereas projective capacitive uses a grid of rows and columns with a separate chip for sensingii. When a finger hits the screen, a tiny electrical charge is transferred to the finger to complete the circuit, creating a voltage drop on that point of the screen. The software processes the location of  this voltage drop and orders the ensuing action.
+There are two main types of capacitive touchscreens - surface and projective. Surface capacitive uses sensors at the corners and a thin evenly distributed film across the surface, whereas projective capacitive uses a grid of rows and columns with a separate chip for sensing[^ii]. When a finger hits the screen, a tiny electrical charge is transferred to the finger to complete the circuit, creating a voltage drop on that point of the screen. The software processes the location of  this voltage drop and orders the ensuing action.
 
 # References
 

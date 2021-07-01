@@ -18,12 +18,12 @@ permalink: /about/
     
     *School of Physics, Nanjing University, China*
 
-# Reaserch Interests
+# Research Interests
 
   - Quantum Optics & Quantum Information
     - Linear optical quantum computation
     - Quantum interference
-  - Intergrated Photonics
+  - Integrated Photonics
   - Nonlinear Optics
   - Semiconductors
 

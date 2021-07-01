@@ -7,8 +7,10 @@ date: 2016-11-10
 title: Three basic mathematical descriptions in primary quantum mechanics
 ---
 
-Quantum physics is fundamental for almost all the modern physics fields in this centry, but during the last decades, physcists haven't even found the only true explanation of quantum theory, which is usually not acceptable for the physical science. Yes, 
-Widely accepeted is so-called *Copenhagen interpretation*, but it hasn't convinced every physcist especially the most weird part *measurement*, it simply ignores the relation between observor and the quantum state, saying it is one of the principles of quantum mechanics. Things should not go like that and some scientists believe that there should be some theory deeper to the nature and answers the *measurement loophole* better than *Copenhagen interpretation*. But first, let us talk about the *Copenhagen interpretation*.
+Quantum physics is fundamental for almost all the modern physics fields in this centry, but during the last decades, physcists haven't even found the only true explanation of quantum theory, which is usually not acceptable for the physical science. 
+
+## Copenhagen interpretation
+Widely accepted is so-called *Copenhagen interpretation*, but it hasn't convinced every physcist especially the most weird part *measurement*, it simply ignores the relation between observor and the quantum state, saying it is one of the principles of quantum mechanics. Things should not go like that and some scientists believe that there should be some theory deeper to the nature and answers the *measurement loophole* better than *Copenhagen interpretation*. But first, let us talk about the *Copenhagen interpretation*.
 
 It usually include the below three *principles*.
 

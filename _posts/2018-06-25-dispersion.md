@@ -7,17 +7,17 @@ comments: true
 date: 2018-06-25
 ---
 
-<!-- EMF propogation in homogeneous media -->
+<!-- EMF propagation in homogeneous media -->
 
 In any propagation wave functions, the propagation factor can also be set as on the z direction. Thus we assume the electric field is given,
 <!-- more -->
 
 \begin{equation} \mathbf{E}=E(x,y)\exp{i \beta z} \end{equation}
 
-where $A(x,y)$ is field distribution on the propogation plane and $\exp{i \beta z}$ is propogation factor.
+where $A(x,y)$ is field distribution on the propagation plane and $\exp{i \beta z}$ is propagation factor.
 
-Hence, all the components of EMF oscilate on the z direction at a wave vector $\beta$. 
-Then simple equations of EMF components can be derived from the Maxwell Equations in the homgeneous media.
+Hence, all the components of EMF oscillate on the z direction at a wave vector $\beta$. 
+Then simple equations of EMF components can be derived from the Maxwell Equations in the homogeneous media.
 
 $$
 \begin{eqnarray}
@@ -84,7 +84,7 @@ and where n is the refractive index of material and $\beta$ is the propagation c
 
 # Modes of Rectangular Waveguides
 
-By using Marcatili model, assuming the refractive index of four corners are the same, $n_c$, *see. Marcatili, Bell Syst. Tech. J. 48, 2071 (1969)*, the rectangular waveguides can be calculated like two planar waveguides. Appromaxiation includes two simplifications,
+By using Marcatili model, assuming the refractive index of four corners are the same, $n_c$, *see. Marcatili, Bell Syst. Tech. J. 48, 2071 (1969)*, the rectangular waveguides can be calculated like two planar waveguides. Approximation includes two simplifications,
 
 1. Ignore boundary conditions associated with hatched regions. 
 2. Assume core-cladding index differences are small on all sides.
@@ -97,7 +97,7 @@ $$
 \mathbf{k} =(k_x, k_y, k_z)
 \end{eqnarray}
 $$
-devided as the superposition of two EMF, like
+divided as the superposition of two EMF, like
 
 $$
 \begin{eqnarray}
@@ -111,9 +111,9 @@ $$
 $$
 
 
-which can satisfy the transverse field condition and energy conservation simultaneously. Hence, the solution truns into solving the planar waveguide field distribution.
+which can satisfy the transverse field condition and energy conservation simultaneously. Hence, the solution turns into solving the planar waveguide field distribution.
 
-In a passive field, like silicon waveguide, **there is nothing more complex than the Helmholtz equantion in the vector field,** where the eigen-solution only depends on the boundary condition.
+In a passive field, like silicon waveguide, **there is nothing more complex than the Helmholtz equation in the vector field,** where the eigen-solution only depends on the boundary condition.
 
 From the Maxwell equations, all the components can be represented by z-component. Finally, the problem ends up into **only one Helmholtz equation with two groups of boundary conditions**, on xz surface and yz surface.
 
