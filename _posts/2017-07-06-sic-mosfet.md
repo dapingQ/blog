@@ -8,7 +8,7 @@ tag:
 categories: yogohikri
 ---
 
-A typical or conventional SiC MOSFET uses the DMOSFET structure, where DD means double-diffused. As illustrated in the fig, the two source regions are arranged on the both side of the ground gate, while the drain is set on the backside. 
+A typical or conventional SiC MOSFET uses the DMOSFET structure, here DD means double-diffused. As illustrated in the fig, the two source regions are arranged on the both side of the ground gate, while the drain is set on the backside. 
 <!-- more -->
 Furthermore,  the DMOS structure consists of an n-type substrate on which is grown an n-epitaxial layer that forms the large drain region. The gate region is formed on the surface that overlies the graded p-type body implantation and diffusion area. The source regions are implanted and diffused on either side of the gate to form two separate transistors with a common drain region. The depletion regions will form around the source and p-body and these depletion regions can be connected by the field induced depletion region formed by the gate. The depletion region connecting the drain and source defines the channel and its dimensions are determined by the source and body doping.
 
