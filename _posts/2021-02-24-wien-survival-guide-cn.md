@@ -8,13 +8,11 @@ language: zh
 
 **updating in 2021.07.01**
 
-自巴本堡王朝(Babenberg)建立以来，维也纳一直是奥地利地区的首都，其历史自利奥波德一世建城起，已经持续千年以上。
-神罗晚期，更是在哈布斯堡家族的统治下，一度成为帝国的中心，乃至德意志人真正的首都。
-类比于中国的都市，十分接近南京或者西安的发展史。
+维也纳一直是奥地利地区的首都，其历史自利奥波德一世建城起，已经持续千年以上。 神罗晚期，更是在哈布斯堡家族的统治下，一度成为帝国的中心，乃至德意志人真正的首都。 类比于中国的都市，十分接近南京或者西安的发展史。
 
 除了作为闻名世界的音乐之都，
 维也纳在官方宣传口径上，时常标榜所谓世界最宜居城市之一[^livable]。
-就中欧地区而言，的确是数一数二的大臣城市。
+就中欧地区而言，的确是数一数二的大城市。
 人口和规模上，和国内普通省会城市相当。
 
 仅以此指南，略供读者参考。
@@ -43,7 +41,7 @@ language: zh
 PS. 学生宿舍的床，宽度基本都在 90cm，介意者慎入
 
 - [OEAD](https://housing.oead.at/) 
-<br>房源较多，部分房源有单独厨房或者独立卫浴，租金300-500欧
+<br>房源较多，部分房源有单独厨房或者独立卫浴，租金300-500欧，很多留学生的首选
 - [STUWO](https://www.stuwo.at/en/dormitories/vienna/)
 <br>单价便宜，基本无独立卫浴与单独厨房
 - [wihast](https://www.wihast.at/)
@@ -139,6 +137,8 @@ PS. 学生宿舍的床，宽度基本都在 90cm，介意者慎入
 - 地面电车 (Straßenbahn, Tram)
 - 巴士 
 其中除了 S-Bahn 由奥地利国铁(ÖBB)运营之外，后三者均由维也纳轨道交通公司(Wiener Linien)运营。
+
+
 平时活动范围不出市区的话，地铁、电车和巴士肯定够用了。
 
 {% include image.html url="assets/img/wien-tram-centre.png" description="维也纳公共交通线路图" width="300px" %}
@@ -158,10 +158,11 @@ PS. 学生宿舍的床，宽度基本都在 90cm，介意者慎入
 以中日韩商品为主。
 
 - Lili Markt
+- Sino Asiashop
+- HUAN YU
 - Chao Yang Asia Shop
 
-Coco Asian 等本地亚超，虽然不是主要面向华人顾客，贵在店面较多，而且涵盖南亚和东南亚的商品，也可一逛。
-此外还有土耳其或俄罗斯超市，笔者尚未涉足，不谈。
+Coco Asian 等本地亚超，虽然不是主要面向华人顾客，但是涵盖南亚和东南亚的商品，也可一逛。 土耳其超市有 ETSAN，可以购买牛羊肉。
 
 值得一提，普通超市一般亦有日本龟甲万(kikkoma )的酱油出售。
 醋的话，意大利醋(Balsamico)也可代替基本烹调，仅供参考。
@@ -175,31 +176,44 @@ Coco Asian 等本地亚超，虽然不是主要面向华人顾客，贵在店面
 - Hofer
 <br> 德国aldi在奥地利的品牌，主打廉价与打折商品
 - Penny
+<br> 类似 Hofer, 同属BILLA集团
 - Lidl
+<br> 德系廉价超市，在维也纳门店不多
 
 ## 药妆
 
 - dm
-- BIPA
+- BIPA: BILLA 旗下药妆品牌
 
 ## 大型超市
 
 上面的SPAR等超市，严格上说只是grocery，其他日常百货需前往大型超市购买。
 
-- INTERSPAR 大而全，门店定位偏市郊
-- Billa Plus
+- INTERSPAR 
+<br> 大而全，门店定位偏市郊
+- Billa Plus 
+<br> BILLA 收购 Merkur 后，在Merkur 门店基础上新成立的大型超市
+
+超市节假日与周日不开放，但是一部分火车站附近的超市全年开放，比如 Wien Mitte 附近的 INTERSPAR，Franz-Josef Bahnhof 和 Praterstern 附近的 BILLA。
 
 ## 露天集市
 
-维也纳有许多露天集市[^markt]，以6区的Naschmarkt最为有名，类似于国内菜市场。
+维也纳有许多露天集市，类似于国内菜市场。以6区的 Naschmarkt 最为有名，其余的分布于各区，可以参见维也纳政府网站，[Lebensmittelmrkte][^markt]。个人推荐 Brunnenmarkt，U6 Josefstdter Strae 或者 Thaliastrae 下车即可。农产品种类丰富，价格便宜。
+
 [^markt]:https://www.wien.gv.at/freizeit/einkaufen/maerkte/lebensmittel/
 
 ## 家居店
 
 - IKEA
+<br>宜家在22区多瑙城有一个卖场，2021前后会在Westbahnhof新开业一个卖场。其余还有若干提货站。
 - Kik
+<br>一个类似义乌小商品市场的廉价百货店
 - XXXLutz
+<br>老牌家居商城
 - Leiner
+<br>奥地利版宜家
+- H&M Home
+<br>H&M 的家居品牌，以纺织品为主
 
 # 常识
 
