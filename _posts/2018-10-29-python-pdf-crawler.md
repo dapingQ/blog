@@ -1,10 +1,12 @@
 ---
 layout: post
 date: 2018-10-29
-title: 
+title: Simple python online PDF crawler 
+tag:
+  - python
 ---
 
-This a script I used quite a lot to download PDF files online, usually lecture notes or open-free texbook chapters.
+This is a script I used quite a lot to download PDF files online, usually lecture notes or open-free texbook chapters.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Python linenumbers
 from urllib import request
