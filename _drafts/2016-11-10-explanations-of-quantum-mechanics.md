@@ -26,3 +26,4 @@ Another theory was funded by Heisenberg at his twenties. He thought that when we
 Last theory may a little later than previous two, it was Feynman's path calculus theory. As we discussed above, if we consider the quantum state as a particle, only the possible paths will be satisfied and different mechanical and dynamical functions can be expressed by a simple calculus of those paths. This idea is much more modern and sometimes more useful when you handle a complicated physics model.
 
 In summary, confusion is always coexisting with development, especially topics of modern physics. In order to figure out all the universe mysteries, we are supposed to keep expanding the boundary of physics.
+

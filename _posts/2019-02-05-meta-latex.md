@@ -7,16 +7,17 @@ date: 2019-02-05
 toc: false
 ---
 
-> updating
+## Features
+- `xelatex`
+- magic commands
+- biber engien for UTF-8 support, usually to handle the software generated `.bib` file
 
-Recommended packages
+## Recommended packages
 
-- tikz & pgfplots
-- physics siunitx mhchem
-- xcolor, fontspec/inputenc
-- ...
+- `tikz` & `pgfplots` for organized pics
+- `physics` for physics formular, vectors, tensor etc.
+- `mhchem` for chemical formular and equations
 
-<!-- more -->
 <div>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Python linenumbers
 
@@ -71,5 +72,5 @@ Recommended packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 </div>
 
-You can download from [here]({{ site.url }}/assets/files/tex_temp/tex_temp.tex ).
+<!-- You can download from [here]({{ site.url }}/assets/files/tex_temp/tex_temp.tex ). -->
 
