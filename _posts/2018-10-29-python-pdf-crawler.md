@@ -4,10 +4,15 @@ date: 2018-10-29
 title: Simple python online PDF crawler 
 tag:
   - python
+toc: false
 ---
 
-This is a script I used quite a lot to download PDF files online, usually lecture notes or open-free texbook chapters.
+This is a script I used quite a lot to catch PDF files online, usually lecture notes or open-free texbook chapters.
 
+<br>
+
+
+<div>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Python linenumbers
 from urllib import request
 
@@ -26,3 +31,6 @@ for i in range(1,12):
 	except:
 		print("No access...")
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</div>
+
+

@@ -1,15 +1,15 @@
 ---
 layout: post
 title: A Simple Latex Template for Scientific Writing
-tag: [latex]
-# comments: true
-# toc: false
+tag: 
+  - latex
 date: 2019-02-05
+toc: false
 ---
 
 > updating
 
-# Recommended packages
+Recommended packages
 
 - tikz & pgfplots
 - physics siunitx mhchem
@@ -17,7 +17,9 @@ date: 2019-02-05
 - ...
 
 <!-- more -->
-```
+<div>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Python linenumbers
+
 \documentclass[a4paper,10pt]{report}
 % --------------------------------------------------------
 % essential
@@ -66,6 +68,8 @@ date: 2019-02-05
 \lispsum
 \end{document}
 
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+</div>
 
 You can download from [here]({{ site.url }}/assets/files/tex_temp/tex_temp.tex ).
+
