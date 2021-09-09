@@ -6,10 +6,11 @@ permalink: /about/
 ---
 
 # Recent Research 
+
 Quantum machine learning using photonic integrated circuits
 
 # Skills
-  - Numerical computation
+  - Programming
     - Python
     - MATLAB
   - Nano-optics simulation
@@ -17,14 +18,13 @@ Quantum machine learning using photonic integrated circuits
     - Lumerical FDTD
   - Nanofabrication
 	  - Photonic GDS design (My gds repo on [GitHub](https://github.com/fibomat/gds))
-	  - CVD/ICP/RIE etc.
-  - Optical Testing
+	  - silicon family material processing 
+  - Optical Exp. & Testing
     - LabVIEW, NI-VISA, DAQ etc.
     - optical fiber processing
   - Metalworking
 
 # SNS
-
   - Cycling 
     - [Strava](https://www.strava.com/athletes/12094067) 
     - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
