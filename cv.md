@@ -16,6 +16,7 @@ Research Experience
 2021.01-Present
 
 : *Quantum optics and quantum information*, Wien AT
+: Quantum machine learning using photonic integrated circuits
 
 2017.10–2020.03
 
