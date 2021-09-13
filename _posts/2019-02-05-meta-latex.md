@@ -1,22 +1,28 @@
 ---
 layout: post
-title: A Simple Latex Template for Scientific Writing
+title: To Build A Modern Latex Template for Scientific Writing
 tag: 
   - latex
 date: 2019-02-05
 toc: false
 ---
 
-## Features
-- `xelatex`
+# Features
+- `xelatex` complier
 - magic commands
 - biber engien for UTF-8 support, usually to handle the software generated `.bib` file
 
-## Recommended packages
+# Recommended packages
 
 - `tikz` & `pgfplots` for organized pics
 - `physics` for physics formular, vectors, tensor etc.
 - `mhchem` for chemical formular and equations
+
+# To use Overleaf or not
+
+[Overleaf](https://www.overleaf.com/) is so popular that even no one uses the office compiler right one. Despite that the full installation like Texlive costs at least 3GB, it always takes some time when you need to use common TeX editor like texstudio. So the best for a Tex beginner is doubtless Overleaf.
+But the drawbacks of overleaf are also oblivious. 
+Its file system doesn't allow to export anyfile automatically. For example, exporting tikz image to `.svg` or `.svg` to `.pdf`. 
 
 <div>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Python linenumbers
