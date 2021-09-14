@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'tex_temp.blg'
+[156] biber-MSWIN32:322> INFO - === 
+[194] Biber.pm:415> INFO - Reading 'tex_temp.bcf'
+[411] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[423] Utils.pm:304> WARN - The file 'tex_temp.bcf' does not contain any citations!
+[446] bbl.pm:652> INFO - Writing 'tex_temp.bbl' with encoding 'UTF-8'
+[446] bbl.pm:755> INFO - Output to tex_temp.bbl
+[447] Biber.pm:128> INFO - WARNINGS: 1
