@@ -3,56 +3,87 @@
 % !BIB program = biber
 % !TEX encoding = UTF-8 Unicode
 % !TEX options = --shell-escape -synctex=1 -interaction=nonstopmode -file-line-error "%DOC%"
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,10pt]{article}
 % --------------------------------------------------------
 % essential
-\usepackage{tikz,pgfplots}
-\usepackage{xcolor,graphicx}
+\usepackage{tikz,pgfplots,xcolor,graphicx}
 \usepackage{subcaption}
-
+% citation
 \usepackage[sorting=none,
 backend=biber,
 bibencoding=utf8,
-%citestyle=nature,
+bibstyle=nature,
+citestyle=numeric-comp,
 doi=false,
 isbn=false,
 url=false,
 eprint=false]{biblatex}
-\bibliography{library} % rename .bib file here
+\bibliography{library} % rename *.bib file here
+% ignore non-unicode in bib file
+\DeclareSourcemap{
+	\maps[datatype=bibtex]{
+		\map{
+			\step[fieldset=abstract, null]
+		}
+	}
+}
 % --------------------------------------------------------
 % for physics and others
 \usepackage{physics}
 \usepackage[version=4]{mhchem} % chemical formula, \ce{H2O}
 \usepackage{siunitx} % SI units
 % --------------------------------------------------------
-% optional 
-\usepackage{sectsty} % change section style
+% paragraph styles 
+% change section style
+\usepackage{sectsty} 
 \sectionfont{\noindent\textsc}
-
-\usepackage{fancyhdr} % header and footer
+% margins
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+% header and footer
+\usepackage{fancyhdr} 
  	\pagestyle{fancy}
  	\fancyhf{}
  	\lhead{ \fancyplain{}{Author Name} }
  	\rhead{ \fancyplain{}{\today} }
  	\rfoot{ \fancyplain{}{\thepage} }
-
+% extended list env
 \usepackage{paralist}
+% quality tables
 \usepackage{booktabs}
+\usepackage{multicol}
+% set line spacing here, if you want change the line number per page
+\usepackage{setspace}
+\setstretch{1.2} % 36 lines per page
 % --------------------------------------------------------
-% font
+% to specify the local font
 % \usepackage{fontspec}
 % \setmainfont{Calibri}
-%\usepackage[T1]{fontenc}
-%\usepackage[utf8]{inputenc}
-\usepackage{tgbonum}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% font from a package
+%\usepackage{tgbonum}
+% --------------------------------------------------------
+\usepackage{xeCJK}
+\setCJKmainfont{IPAMincho}
+%\setCJKsansfont{IPAGothic}
+%\setCJKmonofont{IPAGothic}
+% --------------------------------------------------------
+% dummy packages
 \usepackage{lipsum}
 \usepackage{blindtext}
-
 % --------------------------------------------------------
 % Tex !
 \begin{document}
-\lipsum
-
-\lipsum
-
+	\title{Lorem ipsum}
+	\maketitle
+\begin{multicols}{2}
+\lipsum[1-20]
+\end{multicols}
+\printbibliography
 \end{document}

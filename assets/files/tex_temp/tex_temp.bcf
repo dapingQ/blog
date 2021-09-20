@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -195,7 +195,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useprefix</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useafterword</bcf:key>
@@ -413,6 +413,8 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">articletitle</bcf:option>
+    <bcf:option datatype="boolean">intitle</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -637,6 +639,11 @@
   </bcf:datafieldset>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
+    <bcf:maps datatype="bibtex" level="user">
+      <bcf:map>
+        <bcf:map_step map_field_set="abstract" map_null="1"/>
+      </bcf:map>
+    </bcf:maps>
     <bcf:maps datatype="bibtex" level="driver">
       <bcf:map>
         <bcf:map_step map_field_set="day" map_null="1"/>
@@ -2190,4 +2197,13 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>
