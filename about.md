@@ -17,7 +17,7 @@ Quantum machine learning using photonic integrated circuits
     - COMSOL
     - Lumerical FDTD
   - Nanofabrication
-	  - Photonic GDS design (My gds repo on [GitHub](https://github.com/fibomat/gds))
+	  - Photonic GDS design (My gds repo on [GitHub](https://github.com/dapingq/gds))
 	  - silicon family material processing 
   - Optical Exp. & Testing
     - LabVIEW, NI-VISA, DAQ etc.

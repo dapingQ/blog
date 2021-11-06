@@ -8,7 +8,7 @@ Contact
 ===================================================
 
 - E-mail: zhenghao.yin@outlook.com
-- Personal site: https://fibomat.github.io/blog
+- Personal site: https://dapingq.github.io/blog
 
 Research Experience
 ===================================================
@@ -53,7 +53,7 @@ M.Eng. (2020)
 : Thesis: _[Broadband frequency entangled photon generation using silicon nitride ring cavities][thesis]_
 : Advisor: Prof. Shigeki Takeuchi
 
-[thesis]: https://github.com/fibomat/master-thesis/blob/master/main.pdf
+[thesis]: https://github.com/dapingq/master-thesis/blob/master/main.pdf
 
 B.S. (2017)
 
@@ -115,11 +115,11 @@ Skills
 Open Source
 ---------------------------------------------------------------------
 
-[KUEE TeX template](https://github.com/fibomat/kuee) 
+[KUEE TeX template](https://github.com/dapingq/kuee) 
 
 : An English LaTeX Template for KUEE based on Japanese `.platex` template.
 
-[Photonic GDS](https://github.com/fibomat/gds)
+[Photonic GDS](https://github.com/dapingq/gds)
 
 : My `.gds` repo using [phidl](https://github.com/amccaugh/phidl)
 

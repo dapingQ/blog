@@ -1,7 +1,7 @@
 #title: scio me nihil scrie
 title: Mehr Licht!
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://fibomat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dapingq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 paginate: false
 kramdown:

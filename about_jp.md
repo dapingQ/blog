@@ -10,7 +10,7 @@ language: jp
   - 2021年　ウィーン大学大学院物理学系　博士課程
   - 2020年  京都大学大学院工学研究科電子工学専攻　工学修士
     <br>
-    修論題目 <a href="https://github.com/fibomat/master-thesis">窒化シリコンリング共振器を用いた周波数もつれ光子対の発生</a>
+    修論題目 <a href="https://github.com/dapingq/master-thesis">窒化シリコンリング共振器を用いた周波数もつれ光子対の発生</a>
   - 2017年  南京大学物理学院物理学系  理学学士
 
 
@@ -28,7 +28,7 @@ language: jp
   - 数値シミュレーション
     - COMSOL　(有限要素法)
     - Lumerical FDTD　(FDTD法)
-  - 光導波路設計 (pythonを用いた光導波路素子などのGDS設計ツール [GitHub](https://github.com/fibomat/gds))
+  - 光導波路設計 (pythonを用いた光導波路素子などのGDS設計ツール [GitHub](https://github.com/dapingq/gds))
   - 微細加工
     - パターン形成
     - エッチング

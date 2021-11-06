@@ -1,13 +1,38 @@
 % !TeX root = ./tex_temp.tex
-% !TEX program = xelatex
+% !TeX root = ./photonic_QNLP.tex
+% !TeX program = xelatex
 % !BIB program = biber
-% !TEX encoding = UTF-8 Unicode
-% !TEX options = --shell-escape -synctex=1 -interaction=nonstopmode -file-line-error "%DOC%"
+% !TeX encoding = UTF-8 Unicode
+% !TeX options = --shell-escape -synctex=1 -interaction=nonstopmode -file-line-error "%DOC%"
 \documentclass[a4paper,10pt]{article}
 % --------------------------------------------------------
 % essential
-\usepackage{tikz,pgfplots,xcolor,graphicx}
+\usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{amsmath, amssymb, amsfonts}
+% tikz
+\usepackage{color, transparent}
+\usepackage{tikz,pgfplots}
+\usetikzlibrary{calc}
+\usetikzlibrary{math,matrix}
+% pseudocode
+\usepackage{algorithm2e}
+% --------------------------------------------------------
+% svg insert
+\usepackage{svg}
+\svgpath{{svg/}}
+\usepackage[off]{svg-extract}
+\svgsetup{%
+	%	extractpath=./svg-extract/,
+	%	inkscapepath=./svg-inkscape, 
+	%	clean=true,
+	inkscapeversion=1,
+	%	inkscapeexe=C:\\Program\ Files\\Inkscape\\bin\\inkscape.exe,
+	%	convertformat={png},
+	convertdpi={png=600},
+	convertdpi=300}
+% --------------------------------------------------------
 % citation
 \usepackage[sorting=none,
 backend=biber,
@@ -27,6 +52,8 @@ eprint=false]{biblatex}
 		}
 	}
 }
+\usepackage[final,breaklinks=true]{hyperref}
+
 % --------------------------------------------------------
 % for physics and others
 \usepackage{physics}
@@ -37,6 +64,8 @@ eprint=false]{biblatex}
 % change section style
 \usepackage{sectsty} 
 \sectionfont{\noindent\textsc}
+% float env
+\usepackage{float}
 % margins
 \usepackage{geometry}
 \geometry{
@@ -47,25 +76,26 @@ eprint=false]{biblatex}
 }
 % header and footer
 \usepackage{fancyhdr} 
- 	\pagestyle{fancy}
- 	\fancyhf{}
- 	\lhead{ \fancyplain{}{Author Name} }
- 	\rhead{ \fancyplain{}{\today} }
- 	\rfoot{ \fancyplain{}{\thepage} }
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{ \fancyplain{}{\author} }
+\rhead{ \fancyplain{}{\today} }
+\rfoot{ \fancyplain{}{\thepage} }
 % extended list env
 \usepackage{paralist}
 % quality tables
 \usepackage{booktabs}
+% multi columns
 \usepackage{multicol}
 % set line spacing here, if you want change the line number per page
 \usepackage{setspace}
 \setstretch{1.2} % 36 lines per page
 % --------------------------------------------------------
 % to specify the local font
-% \usepackage{fontspec}
-% \setmainfont{Calibri}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\setmainfont{Calibri}
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
 % font from a package
 %\usepackage{tgbonum}
 % --------------------------------------------------------

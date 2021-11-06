@@ -68,7 +68,9 @@ $$
 $$
 </div>
 
-Therefore, we discuss the relation between the result $A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy $P(d,b)=1-\delta$ and $\delta$ is close to zero but not equal. And this is different from Bell's unrealistic restriction, $\delta=0$. Moreover, dividing the $\Gamma$ space into $\Gamma_\pm$ such that $\Gamma_\pm=\{ \lambda | A(d,\lambda)=\pm B(b,\lambda)  \}$, thus the results of twos are in positive correlation or in negative correlation.
+Therefore, we discuss the relation between the result $A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy $P(d,b)=1-\delta$ and $\delta$ is close to zero but not equal. 
+And this is different from Bell's unrealistic restriction, $\delta=0$. 
+Moreover, dividing the $\Gamma$ space into $\Gamma_\pm$ such that $\Gamma_\pm=[ \lambda | A(d,\lambda)=\pm B(b,\lambda)  ]$, thus the results of twos are in positive correlation or in negative correlation.
 
 <div>
 $$
