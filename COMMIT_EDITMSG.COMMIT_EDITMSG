@@ -1,0 +1,205 @@
+change github id
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/_config.yml b/_config.yml
+index e522760..8f7375a 100755
+--- a/_config.yml
++++ b/_config.yml
+@@ -1,7 +1,7 @@
+ #title: scio me nihil scrie
+ title: Mehr Licht!
+ baseurl: "/blog" # the subpath of your site, e.g. /blog
+-url: "https://fibomat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
++url: "https://dapingq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+ 
+ paginate: false
+ kramdown:
+diff --git a/_posts/2018-07-23-chsh-inequality.md b/_posts/2018-07-23-chsh-inequality.md
+index c2d39d3..b52c4d9 100644
+--- a/_posts/2018-07-23-chsh-inequality.md
++++ b/_posts/2018-07-23-chsh-inequality.md
+@@ -68,7 +68,9 @@ $$
+ $$
+ </div>
+ 
+-Therefore, we discuss the relation between the result $A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy $P(d,b)=1-\delta$ and $\delta$ is close to zero but not equal. And this is different from Bell's unrealistic restriction, $\delta=0$. Moreover, dividing the $\Gamma$ space into $\Gamma_\pm$ such that $\Gamma_\pm=\{ \lambda | A(d,\lambda)=\pm B(b,\lambda)  \}$, thus the results of twos are in positive correlation or in negative correlation.
++Therefore, we discuss the relation between the result $A(a, \lambda), B(b, \lambda)$. Suppose some $d$ and b satisfy $P(d,b)=1-\delta$ and $\delta$ is close to zero but not equal. 
++And this is different from Bell's unrealistic restriction, $\delta=0$. 
++Moreover, dividing the $\Gamma$ space into $\Gamma_\pm$ such that $\Gamma_\pm=[ \lambda | A(d,\lambda)=\pm B(b,\lambda)  ]$, thus the results of twos are in positive correlation or in negative correlation.
+ 
+ <div>
+ $$
+diff --git a/about.md b/about.md
+index 5f1e8ae..c669284 100644
+--- a/about.md
++++ b/about.md
+@@ -17,7 +17,7 @@ Quantum machine learning using photonic integrated circuits
+     - COMSOL
+     - Lumerical FDTD
+   - Nanofabrication
+-	  - Photonic GDS design (My gds repo on [GitHub](https://github.com/fibomat/gds))
++	  - Photonic GDS design (My gds repo on [GitHub](https://github.com/dapingq/gds))
+ 	  - silicon family material processing 
+   - Optical Exp. & Testing
+     - LabVIEW, NI-VISA, DAQ etc.
+diff --git a/about_jp.md b/about_jp.md
+index 953aefa..01079eb 100644
+--- a/about_jp.md
++++ b/about_jp.md
+@@ -10,7 +10,7 @@ language: jp
+   - 2021年　ウィーン大学大学院物理学系　博士課程
+   - 2020年  京都大学大学院工学研究科電子工学専攻　工学修士
+     <br>
+-    修論題目 <a href="https://github.com/fibomat/master-thesis">窒化シリコンリング共振器を用いた周波数もつれ光子対の発生</a>
++    修論題目 <a href="https://github.com/dapingq/master-thesis">窒化シリコンリング共振器を用いた周波数もつれ光子対の発生</a>
+   - 2017年  南京大学物理学院物理学系  理学学士
+ 
+ 
+@@ -28,7 +28,7 @@ language: jp
+   - 数値シミュレーション
+     - COMSOL　(有限要素法)
+     - Lumerical FDTD　(FDTD法)
+-  - 光導波路設計 (pythonを用いた光導波路素子などのGDS設計ツール [GitHub](https://github.com/fibomat/gds))
++  - 光導波路設計 (pythonを用いた光導波路素子などのGDS設計ツール [GitHub](https://github.com/dapingq/gds))
+   - 微細加工
+     - パターン形成
+     - エッチング
+diff --git a/assets/files/tex_temp/tex_temp.tex b/assets/files/tex_temp/tex_temp.tex
+index 540a6a3..5dcef62 100644
+--- a/assets/files/tex_temp/tex_temp.tex
++++ b/assets/files/tex_temp/tex_temp.tex
+@@ -1,13 +1,38 @@
+ % !TeX root = ./tex_temp.tex
+-% !TEX program = xelatex
++% !TeX root = ./photonic_QNLP.tex
++% !TeX program = xelatex
+ % !BIB program = biber
+-% !TEX encoding = UTF-8 Unicode
+-% !TEX options = --shell-escape -synctex=1 -interaction=nonstopmode -file-line-error "%DOC%"
++% !TeX encoding = UTF-8 Unicode
++% !TeX options = --shell-escape -synctex=1 -interaction=nonstopmode -file-line-error "%DOC%"
+ \documentclass[a4paper,10pt]{article}
+ % --------------------------------------------------------
+ % essential
+-\usepackage{tikz,pgfplots,xcolor,graphicx}
++\usepackage{graphicx}
+ \usepackage{subcaption}
++\usepackage[table,xcdraw]{xcolor}
++\usepackage{amsmath, amssymb, amsfonts}
++% tikz
++\usepackage{color, transparent}
++\usepackage{tikz,pgfplots}
++\usetikzlibrary{calc}
++\usetikzlibrary{math,matrix}
++% pseudocode
++\usepackage{algorithm2e}
++% --------------------------------------------------------
++% svg insert
++\usepackage{svg}
++\svgpath{{svg/}}
++\usepackage[off]{svg-extract}
++\svgsetup{%
++	%	extractpath=./svg-extract/,
++	%	inkscapepath=./svg-inkscape, 
++	%	clean=true,
++	inkscapeversion=1,
++	%	inkscapeexe=C:\\Program\ Files\\Inkscape\\bin\\inkscape.exe,
++	%	convertformat={png},
++	convertdpi={png=600},
++	convertdpi=300}
++% --------------------------------------------------------
+ % citation
+ \usepackage[sorting=none,
+ backend=biber,
+@@ -27,6 +52,8 @@ eprint=false]{biblatex}
+ 		}
+ 	}
+ }
++\usepackage[final,breaklinks=true]{hyperref}
++
+ % --------------------------------------------------------
+ % for physics and others
+ \usepackage{physics}
+@@ -37,6 +64,8 @@ eprint=false]{biblatex}
+ % change section style
+ \usepackage{sectsty} 
+ \sectionfont{\noindent\textsc}
++% float env
++\usepackage{float}
+ % margins
+ \usepackage{geometry}
+ \geometry{
+@@ -47,25 +76,26 @@ eprint=false]{biblatex}
+ }
+ % header and footer
+ \usepackage{fancyhdr} 
+- 	\pagestyle{fancy}
+- 	\fancyhf{}
+- 	\lhead{ \fancyplain{}{Author Name} }
+- 	\rhead{ \fancyplain{}{\today} }
+- 	\rfoot{ \fancyplain{}{\thepage} }
++\pagestyle{fancy}
++\fancyhf{}
++\lhead{ \fancyplain{}{\author} }
++\rhead{ \fancyplain{}{\today} }
++\rfoot{ \fancyplain{}{\thepage} }
+ % extended list env
+ \usepackage{paralist}
+ % quality tables
+ \usepackage{booktabs}
++% multi columns
+ \usepackage{multicol}
+ % set line spacing here, if you want change the line number per page
+ \usepackage{setspace}
+ \setstretch{1.2} % 36 lines per page
+ % --------------------------------------------------------
+ % to specify the local font
+-% \usepackage{fontspec}
+-% \setmainfont{Calibri}
+-\usepackage[T1]{fontenc}
+-\usepackage[utf8]{inputenc}
++\usepackage{fontspec}
++\setmainfont{Calibri}
++%\usepackage[T1]{fontenc}
++%\usepackage[utf8]{inputenc}
+ % font from a package
+ %\usepackage{tgbonum}
+ % --------------------------------------------------------
+diff --git a/cv.md b/cv.md
+index 52b06cf..d2f4dca 100644
+--- a/cv.md
++++ b/cv.md
+@@ -8,7 +8,7 @@ Contact
+ ===================================================
+ 
+ - E-mail: zhenghao.yin@outlook.com
+-- Personal site: https://fibomat.github.io/blog
++- Personal site: https://dapingq.github.io/blog
+ 
+ Research Experience
+ ===================================================
+@@ -53,7 +53,7 @@ M.Eng. (2020)
+ : Thesis: _[Broadband frequency entangled photon generation using silicon nitride ring cavities][thesis]_
+ : Advisor: Prof. Shigeki Takeuchi
+ 
+-[thesis]: https://github.com/fibomat/master-thesis/blob/master/main.pdf
++[thesis]: https://github.com/dapingq/master-thesis/blob/master/main.pdf
+ 
+ B.S. (2017)
+ 
+@@ -115,11 +115,11 @@ Skills
+ Open Source
+ ---------------------------------------------------------------------
+ 
+-[KUEE TeX template](https://github.com/fibomat/kuee) 
++[KUEE TeX template](https://github.com/dapingq/kuee) 
+ 
+ : An English LaTeX Template for KUEE based on Japanese `.platex` template.
+ 
+-[Photonic GDS](https://github.com/fibomat/gds)
++[Photonic GDS](https://github.com/dapingq/gds)
+ 
+ : My `.gds` repo using [phidl](https://github.com/amccaugh/phidl)
