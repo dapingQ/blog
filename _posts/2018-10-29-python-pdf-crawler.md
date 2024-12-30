@@ -1,7 +1,8 @@
 ---
 layout: post
 date: 2018-10-29
-title: Simple python online PDF crawler 
+title: Simple python online PDF crawler
+category: programming
 tag:
   - python
 toc: false

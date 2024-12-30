@@ -7,7 +7,7 @@ permalink: /about/
 
 # Recent Research 
 
-Quantum machine learning using photonic integrated circuits
+- Quantum machine learning using photonic integrated circuits
 
 # Skills
   - Programming
@@ -23,14 +23,6 @@ Quantum machine learning using photonic integrated circuits
     - LabVIEW, NI-VISA, DAQ etc.
     - optical fiber processing
   - Metalworking
-
-# SNS
-  - Cycling 
-    - [Strava](https://www.strava.com/athletes/12094067) 
-    - [Xingzhe](http://www.imxingzhe.com/im/iZm1KJmXedm/)
-  - [NetEase Music](http://music.163.com/#/user/home?id=34072848)
-  - [LinkedIn](https://www.linkedin.com/in/zhenghao-yin/)
-  - [Douban](https://www.douban.com/people/cdp/)
 
 Please check my full CV [here]({{ site.url }}{{ site.baseurl }}/cv/)
 

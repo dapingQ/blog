@@ -4,6 +4,7 @@ title:  A short note on CHSH inequality
 tag: 
   - Bell's theorem
   - CHSH inequality
+categories: quantum
 comments: true
 date: 2018-07-23
 ---

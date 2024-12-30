@@ -4,6 +4,7 @@ tag:
 - quantum mechanics
 comments: true
 date: 2016-11-10
+categories: quantum
 title: Three basic mathematical descriptions in primary quantum mechanics
 ---
 

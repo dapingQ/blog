@@ -4,7 +4,7 @@ date: 2017-11-20
 title: Memos on Python Scientific Computing 
 tag: 
   - python
-categories: others
+categories: programming
 ---
 
 A cheating sheet on Scipy, etc.
@@ -48,11 +48,11 @@ requires `matplotlib` and `PyQt` for inline ploting
 
 ## Debug
 
-````````````````````````````````````
+`````````````````````````````````````
     %debug
     u/d
     %pdb iX (X is variable)
-````````````````````````````````````
+`````````````````````````````````````
 
 ## Tricks
 
