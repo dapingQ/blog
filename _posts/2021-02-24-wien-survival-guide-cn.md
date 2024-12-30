@@ -138,7 +138,6 @@ PS. 学生宿舍的床，宽度基本都在 90cm，介意者慎入
 - 巴士 
 其中除了 S-Bahn 由奥地利国铁(ÖBB)运营之外，后三者均由维也纳轨道交通公司(Wiener Linien)运营。
 
-
 平时活动范围不出市区的话，地铁、电车和巴士肯定够用了。
 
 {% include image.html url="assets/img/wien-tram-centre.png" description="维也纳公共交通线路图" width="300px" %}
@@ -225,7 +224,6 @@ Coco Asian 等本地亚超，虽然不是主要面向华人顾客，但是涵盖
 23区非常靠南，基本不觉得是维也纳的一部分。
 
 {% include image.html url="assets/img/bezirke-wien.png" description="维也纳行政分区" width="300px" %}
-
 
 ## 多瑙
 多瑙河在中欧地区的地位相当于母亲河。

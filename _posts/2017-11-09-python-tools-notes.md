@@ -25,7 +25,7 @@ A cheating sheet on Scipy, etc.
 ## Qt and Pylab
 ~~$ ipython qtconsole --pylab=inline # old feature~~
 $ ipython --pylab
-requires `matplotlib` and `PyQt` for inline ploting
+requires `matplotlib` and `PyQt` for inline plotting
 
 ## shortcuts of command history
 
@@ -64,8 +64,8 @@ requires `matplotlib` and `PyQt` for inline ploting
 
 ## Object
 
-1. based on ndarrry
-2. basicly, type in np is float64
+1. based on ndarray
+2. basically, type in np is float64
 
 - new: array('list')/asarray('output')
 - zeros/ones(length): new a list of 0/1
@@ -75,7 +75,7 @@ requires `matplotlib` and `PyQt` for inline ploting
 
 ## Type
 
-dtype: variabel type
+dtype: variable type
 
 `astype(np.newtype)` changing the type to **newtype**
 
@@ -86,7 +86,7 @@ dtype: variabel type
 
 ## Slice
 
-chaning of slice of an array will be *broadcast* 
+changing of slice of an array will be *broadcast* 
 
 for copying, using `array[:].copy()`
 
@@ -131,7 +131,8 @@ a([i:],[j:],[]...)
 ## Split
 
 1. No copy
-2. Swallow copy
+2. Shallow copy
 3. Deep copy
 
 TBD
+`````````````````````````````````````

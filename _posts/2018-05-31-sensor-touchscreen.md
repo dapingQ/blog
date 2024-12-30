@@ -19,7 +19,7 @@ From the products website of the Apple, we can find below are totally six kinds 
 5. hall sensor / magnetometer
 6. barometer
 
-Except the barometer, which is a novel addition since the products of last generation, the other five are some kind of essential sensors to add rich location and motion capabilities to the applications[^ii] running on the smart phones. 
+Except the barometer, which is a novel addition since the products of last generation, the other five are some kind of essential sensors to add rich location and motion capabilities to the applications[^ii] running on the smartphones. 
 
 # Gyroscopes
 
@@ -43,9 +43,9 @@ The proximity sensor is common on most smartphones. This is because the primary 
 
 Such a device uses a chip placed close to the speaker facing the user and consists of two IR light transmitter and receiver. Usually, the receiver can only detect part of the light emitted by the chip. When something is closer to the ambient-light around the sensor, the ambient light drops down and the reflected IR light increase. Thus, the controller switches from far to near. 
 
-# Touchscreens for handed electronic devices
+# Touchscreens for handheld electronic devices
 
-Touchscreens's main demand is from the growing customer digital devices. And the history of touchscreens began at the 1970s, when Dr. G. Samuel Hurst first invented the first resistive touchscreen while the capacitive touchscreens was put forward by Eric Johnson in 1965[^i] 
+Touchscreens' main demand is from the growing customer digital devices. And the history of touchscreens began at the 1970s, when Dr. G. Samuel Hurst first invented the first resistive touchscreen while the capacitive touchscreens was put forward by Eric Johnson in 1965[^i] 
 As we all know, the resistive and capacitive touchscreens are two main categories. However the technology and knowledge is a little different.
 
 ## Resistive 
@@ -57,7 +57,7 @@ Usually, the screen includes two layers bending to touch one another. One of tho
 
 Unlike resistive touch screens, capacitive screens do not use the pressure of your finger to create a change in the flow of electricity. Instead, they work with anything that holds an electrical charge, including human skin. Capacitive touch screens are constructed from materials like copper or indium tin oxide that store electrical charges in an electrostatic grid of tiny wires.
 
-There are two main types of capacitive touchscreens - surface and projective. Surface capacitive uses sensors at the corners and a thin evenly distributed film across the surface, whereas projective capacitive uses a grid of rows and columns with a separate chip for sensing[^ii]. When a finger hits the screen, a tiny electrical charge is transferred to the finger to complete the circuit, creating a voltage drop on that point of the screen. The software processes the location of  this voltage drop and orders the ensuing action.
+There are two main types of capacitive touchscreens - surface and projective. Surface capacitive uses sensors at the corners and a thin evenly distributed film across the surface, whereas projective capacitive uses a grid of rows and columns with a separate chip for sensing[^ii]. When a finger hits the screen, a tiny electrical charge is transferred to the finger to complete the circuit, creating a voltage drop on that point of the screen. The software processes the location of this voltage drop and orders the ensuing action.
 
 # References
 

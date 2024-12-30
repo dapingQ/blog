@@ -35,7 +35,7 @@ concluded that the quantum mechanics should be supplemented by some
 
 After the EPR paper, in 1964, John Stewart Bell formulated a mathematical theorem *shown to be incompatible with the statistical prediction of quantum mechanics*, which later named as Bell' theorem. If we presuppose the hidden variables $ \lambda$, with a possibility distribution $\rho(\lambda)$, consider an ensemble of correlated pairs of particles separated from the same source in the past and moving free in opposite direction. For example, the spin one-half in the singlet.
 
-If we have the suitable apparatus to measure the pairs at side A and side B with the adjustable parameters a and b. Due to the hidden theory, measurement results should be $A(a,\lambda)$ and $B(b,\lambda)$. For the two-level system, we set the measurement channels as +1 and -1. For example, the results in the Stern-Gerlach experiment only have two choice, spin-up and spin-down. That is to say, $A(a,\lambda)=\pm 1$ and $B(b,\lambda)=\pm 1$.
+If we have the suitable apparatus to measure the pairs at side A and side B with the adjustable parameters a and b. Due to the hidden theory, measurement results should be $A(a,\lambda)$ and $B(b,\lambda)$. For the two-level system, we set the measurement channels as +1 and -1. For example, the results in the Stern-Gerlach experiment only have two choices, spin-up and spin-down. That is to say, $A(a,\lambda)=\pm 1$ and $B(b,\lambda)=\pm 1$.
 
 Define the correlation function,
 
@@ -119,7 +119,7 @@ here, $\pm$ means the two basis of measurement apparatus and includes the four c
 
 In conclusion, to test if the Bell's inequality can be violated, we only need to change the polarizers and count the correlation rate.
 
-However, the detectors of all the real physics system is not prefect and uniform. Firstly, the detector efficiency is not normalized. Secondly, the efficiency is not same for different channels. To demonstrate a loop-free Bell inequality experiments, we should take the efficiency of detectors into account. Furthermore, we may evaluate the efficiency threshold for all the detectors involved in the experiments. Later proved in this paper and also widely used in related experiments,
+However, the detectors of all the real physics system is not perfect and uniform. Firstly, the detector efficiency is not normalized. Secondly, the efficiency is not same for different channels. To demonstrate a loop-free Bell inequality experiments, we should take the efficiency of detectors into account. Furthermore, we may evaluate the efficiency threshold for all the detectors involved in the experiments. Later proved in this paper and also widely used in related experiments,
 
 $$
 \sqrt{2} F + 1 > 2\eta/(\epsilon_M+\epsilon_m)
@@ -127,5 +127,5 @@ $$
 
 where $\epsilon_m,\epsilon_M$ are the efficiency of the polarizers set parallel or perpendicular and $\eta$ is the detector efficiency. The function $F$ is the visibility of different angles. In the ideal case, if only $F>\sqrt{2}/2$, there is a violation of Bell's inequality.
 
-Another problem comes with localization. If the hidden variable only effects the pairs in the past, to make the apparatus separated far away enough, usually in space-like separation, which also challenges the experimental setups.
+Another problem comes with localization. If the hidden variable only affects the pairs in the past, to make the apparatus separated far away enough, usually in space-like separation, which also challenges the experimental setups.
 
