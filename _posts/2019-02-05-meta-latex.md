@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To Build A Modern Latex Template for Scientific Writing
-category: programming
+categories: programming
 tag: 
   - latex
 date: 2019-02-05

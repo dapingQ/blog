@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dispersion of the planar waveguide
+categories: integrated photonics
 tag: 
   - waveguide
 comments: true
