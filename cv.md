@@ -7,22 +7,40 @@ permalink: /cv/
 Contact
 ===================================================
 
-- E-mail: zhenghao.yin@outlook.com
-- Personal site: https://dapingq.github.io/blog
+- Email: zhenghao.yin@univie.ac.at
+- Tel: +43-1-4277-72555
+Faculty of Physics, University of Vienna
+Boltzmanngasse 5, 1090 Vienna, Austria
+
+Education
+===================================================================
+
+Ph.D (2021/01 – Present)
+
+: Faculty of Physics, University of Vienna, Austria
+
+M.Eng. (2017/10 – 2020/03)
+
+: Department of Electronic Science and Engineering, Graduate School of Engineering, Kyoto University, Japan
+: Thesis: _[Broadband frequency entangled photon generation using silicon nitride ring cavities][thesis]_
+[thesis]: https://github.com/dapingq/master-thesis/blob/master/main.pdf
+
+B.S. (2013/09 – 2017/06)
+
+: Department of Physics, School of Physics, Nanjing University, China
 
 Research Experience
 ===================================================
 
 2021.01-Present
 
-: MSCA doctoral network fellow
-: *Quantum optics and quantum information*, Wien AT
-: Photonic quantum machine learning 
-: Integrated photonic circuits
+: *Photonic quantum machine learning*
+: with Prof. Philip Walther, University of Vienna, Austria
 
 2017.10–2020.03
 
-: *Quantum information processing*, Kyoto JP
+: *Quantum information processing*
+: with Prof. Shigeki Takeuchi, Kyoto University, Japan
 : We collaborated with [Prof. Shiyoshi Yokoyama][yok-lab] at Kyushu University, and focusing on realization of on-chip high-intensity broadband entangled photon sources based on SiNx and other material platforms.
 1. study of phase matching condition for entangled photon source
 2. optical device nano-fabrication, especially high quality factor micro-ring resonators
@@ -32,7 +50,8 @@ Research Experience
 
 2015.09-2020.06
 
-: *Integrated quantum photonics*, Nanjing CN
+: *Integrated quantum photonics*
+: with Prof. Xiaosong Ma, Nanjing University, China
 :  My initial research interest in MaLab was QKD and Bell states measurement and finally turned into the integration of quantum optical devices.
 1. nano-fabrication based on commercial SOI/SiNOI wafers
 2. demonstration and automation of the integration photonics test system
@@ -40,36 +59,21 @@ Research Experience
 Other Experience
 ===================================================
 
-2020.06–2020.11
+2023.09–2023.10
 
-: *CMOS Image sensor optical design & simulation*
-: Pixel evaluation engineer, SmartSens Technology Co., Ltd., Shanghai CN
+: *Ph.D. Secondment*
+: Hosted by Prof Ian Walmsley and Dr. Raj Patel at Imperial College London, London, UK
 
 
-Education
-===================================================================
 
-Ph.D (Present)
+AWARDS & HONORS
+===================================================
+2021/03 – 2024/02		
 
-: *University of Vienna* Faculty of Physics
-: Supervisor: Prof. Philip Walther 
-
-M.Eng. (2020)
-
-: *Kyoto University* Department of Electronic Science and Engineering
-: Thesis: _[Broadband frequency entangled photon generation using silicon nitride ring cavities][thesis]_
-: Supervisor: Prof. Shigeki Takeuchi
-
-[thesis]: https://github.com/dapingq/master-thesis/blob/master/main.pdf
-
-B.S. (2017)
-
-: *Nanjing University* Department of Physics
-: Supervisor: Prof. Xiaosong Ma
-
+: Marie Skłodowska-Curie Action Early-Stage Researcher
 
 Publications
-===============================================================
+===================================================
 
 Journal Articles and Preprintts
 ---------------------------------------------------------------------
