@@ -24,7 +24,6 @@ permalink: /about/
     - optical fiber processing
   - Metalworking
 
-Please check my full CV [here]({{ site.url }}{{ site.baseurl }}/cv/)
 
 _updated in {{ page.date }}_
 
